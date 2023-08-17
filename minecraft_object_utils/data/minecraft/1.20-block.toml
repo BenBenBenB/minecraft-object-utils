@@ -1,0 +1,23 @@
+
+[air]
+[dirt]
+[note_block]
+    [note_block.states]
+        [note_block.states.instrument]
+            default = "harp"
+            allowed = ["banjo","basedrum","bass","bell","bit",
+                "chime","cow_bell","creeper","custom_head","didgeridoo",
+                "dragon","flute","guitar","harp","hat",
+                "iron_xylophone","piglin","pling","skeleton","snare",
+                "wither_skeleton","xylophone","zombie"]
+        [note_block.states.note]
+            default = 0
+            allowed = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]
+        [note_block.states.powered]
+            default = false
+            allowed = [true, false]
+[grass_block]
+    [grass_block.states]
+        [grass_block.states.snowy]
+            default = false
+            allowed = [true, false]
