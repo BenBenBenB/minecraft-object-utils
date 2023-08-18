@@ -8,13 +8,17 @@ class ModInfo:
     version: str
     directory: str
 
+    @property
+    def versioned_name(self) -> str:
+        return f"{self.namespace}-{self.version}"
+
     def __init__(
         self, namespace: str, version: str = "", directory: str = ""
     ) -> None:
         self.namespace = namespace
         self.version = version
         if directory == "":
-            self.directory = os.path.join(DEFAULT_DATA_DIRECTORY, namespace)
+            self.directory = DEFAULT_DATA_DIRECTORY
         else:
             self.directory = directory
 

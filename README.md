@@ -10,46 +10,55 @@
 ## Basic Usage
 
 ### Vanilla Minecraft
-The default constructor will reflect objects from the latest version of minecraft.
+The default constructor will reflect objects from the latest version of minecraft. The minecraft namespace is assumed if one is not supplied in the block name.
+
 Basic Example: create a dirt block.
 ```python
 from minecraft_object_utils import *
 mcof = MinecraftObjectFactory()
-block1 = mcof.blocks.create("dirt")
+block1 = mcof.blocks.create("dirt") # same result as "minecraft:dirt"
 ```
 
-Create a dispenser, which has powered and facing states.
+Example: create a dispenser, which has powered and facing states.
 ```python
 mcof = MinecraftObjectFactory()
 block2 = mcof.blocks.create("dispenser")
-block2.facing # default is "north"
-block2.powered = "true"
-block2.powered = "very" # will error, invalid state value
-block2.color = "red" # will error, invalid state name
+block2.get_state('facing')  # default is "north"
+block2.set_state('powered', True)
+block2.set_state('powered', "very")  # will error, invalid state
+block2.set_state('color', "red")  # will error, invalid property
 ```
 
 ### Modded Minecraft
-You can restrict the available objects by minecraft version and/or mod:
-If you created "0.5.0i-blocks.toml" for Create mod v0.5.0i:
+You can create and import toml files to represent objects from mods.
+
+Example: for Create mod v0.5.0i, make "/your/configs/dir/create-0.5.0i-blocks.toml" and import:
 ```python
 mods = [ 
     ModInfo("minecraft","1.19.2"), 
-    ModInfo("create","0.5.0i", "/path/to/configs/dir") 
+    ModInfo("create","0.5.0i", "/your/configs/dir") 
 ]
 mcof = MinecraftObjectFactory(mods)
 block3 = mcof.blocks.create("stone") # assumes "minecraft:stone"
 block4 = mcof.blocks.create("create:chute")
 ```
 
-You can also manage the dictionaries manually. Example:
+You can also register block info to the factory manually. 
+Example:
 ```python
-bf = BlockFactory()
-bf.block_states["yourmod:yourblock"] = [] # block with no states.
-bf.block_states["othermod:otherblock"] = [
-    BlockState("awesome","false",["true","false"]),
-    BlockState("fakestatename","foo",["foo","bar","baz"]),
-]
+bf = BlockFactory([])
+bt1 = BlockTraits("yourmod:yourblock")  # block with no state
+bt2 = BlockTraits(
+    "othermod:otherblock",
+    [
+        BlockProperty('awesome', False, [True, False]),
+        BlockProperty('fakename', "foo", ["foo", "bar", "baz"]),
+    ],
+)
+
+bf.register(bt1)
+bf.register(bt2)
 block1 = bf.create("yourmod:yourblock")
 block2 = bf.create("othermod:otherblock")
-block2.awesome = "true"
+block2.set_state('awesome', True)
 ```

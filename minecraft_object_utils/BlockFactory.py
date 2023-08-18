@@ -5,84 +5,79 @@ from typing import Any
 import toml
 from ModInfo import VANILLA_JAVA_LATEST, ModInfo
 
-DATA_FILE_NAME = "blocks.yaml"
 
+class BlockProperty:
+    """Describes default value and possible state values for a block property"""
 
-class BlockState:
-    _name: str
-    _default_value: str
-    _allowed_values: "list[str]"
-
-    @property
-    def name(self) -> str:
-        return self._name
-
-    @property
-    def default_value(self) -> str:
-        return self._default_value
-
-    @property
-    def allowed_values(self) -> "list(str)":
-        return self._allowed_values
+    name: str
+    default_state: str
+    allowed_states: "list[str]"
 
     def __init__(
         self, name: str, default_value: str, allowed_values: "list[str]"
     ) -> None:
-        self._name = name
-        self._default_value = default_value
-        self._allowed_values = allowed_values
+        self.name = name
+        self.default_state = default_value
+        self.allowed_states = allowed_values
+
+
+class BlockTraits:
+    """The definition of a block. Describes possible states and behavior in the game."""
+
+    name: str
+    properties: "list[BlockProperty]"
+    # gravity: bool
+    # conductive: bool
+    # moveable: bool
+
+    def __init__(self, name: str, properties: "list[BlockProperty]" = []) -> None:
+        self.name = name
+        self.properties = properties
 
 
 class Block:
-    _name: str
-    _states: "list[BlockState]"
-    # nbt_tags?
+    """Represents a block and its state. Restricts state to valid values."""
+
+    traits: BlockTraits
+    _state: "dict[str, str]"
 
     @property
     def name(self) -> str:
-        return self._name
-
-    @property
-    def states(self) -> str:
-        return self._states
+        return self.traits.name
 
     def __init__(
         self,
-        name: str,
-        states: "list[BlockState]" = [],
-        initial_values: "dict(str,str)" = {},
+        block_info: BlockTraits,
+        initial_state: "dict[str, str]" = {},
     ) -> None:
-        super().__setattr__("_name", name)
-        super().__setattr__("_states", states)
-        for state in states:
-            super().__setattr__(state.name, state.default_value)
-        for state_name, state_value in initial_values.items():
-            self.__setattr__(state_name, state_value)
+        self.traits = block_info
+        self.state = {x.name: x.default_state for x in self.traits.properties}
+        for prop, value in initial_state.items():
+            self.set_state(prop, value)
 
-    def __setitem__(self, key, value) -> None:
-        self.__setattr__(key, value)
-
-    def __getitem__(self, key) -> "Block":
-        return self.__getattr__(key)
-
-    def __setattr__(self, __name: str, __value: Any) -> None:
-        state = [s for s in self._states if s.name == __name]
-        if not any(state):
+    def set_state(self, prop_name: str, state_value: str) -> None:
+        """Sets the state of a block property."""
+        block_prop = [p for p in self.traits.properties if p.name == prop_name]
+        if not any(block_prop):
             raise ValueError(
-                f"''{__name}' is not a valid state for block '{self._name}'. Valid block states are: {[s.name for s in self.states]}"
+                f"'{prop_name}' is not a valid property for block '{self.name}'. Valid block properties are: {[p.name for p in self.traits.properties]}"
             )
-        state = state[0]
-        if __value in state.allowed_values:
-            super().__setattr__(__name, __value)
+        block_prop = block_prop[0]
+        if state_value in block_prop.allowed_states:
+            self.state[prop_name] = state_value
         else:
             raise ValueError(
-                f"'{__value}' is not a valid value for '{self._name}' state '{__name}'. Valid values are: {state.allowed_values}"
+                f"'{state_value}' is not a valid state. Valid values are: {block_prop.allowed_states}"
             )
+
+    def get_state(self, prop_name: str) -> None:
+        """Gets the state for a block property."""
+        return self._state.get(prop_name)
 
 
 class BlockFactory:
     namespaces: "list[ModInfo]"
-    blocks: "dict(str,list(BlockState))"
+    blocks: "dict[str,BlockTraits]"
 
     def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
         self.blocks = {}
@@ -91,48 +86,57 @@ class BlockFactory:
             self.import_namespace(mod)
 
     def import_namespace(self, mod: ModInfo) -> None:
+        """Register a collection of blocks to factory from file."""
         imported_already = [n for n in self.namespaces if n.namespace == mod.namespace]
         if any(imported_already):
-            imported_name = (
-                f"{imported_already[0].namespace}-{imported_already[0].version}"
-            )
             raise ValueError(
-                f"Skipping block import for {mod.namespace}. Already imported for same name: {imported_name}"
+                f"Problem importing {mod.versioned_name}. Conflict with {imported_already[0].versioned_name}"
             )
-        file_path = os.path.join(mod.directory, f"{mod.version}-block.toml")
+        file_path = os.path.join(mod.directory, f"{mod.versioned_name}-block.toml")
         if os.path.isfile(file_path):
             self.namespaces.append(mod)
             self.load_from_toml(file_path, mod.namespace)
         else:
             logging.warning(
-                f"Skipping block import for {mod.namespace}-{mod.version}. File not found: {file_path}"
+                f"Skipping block import for {mod.versioned_name}. File not found: {file_path}"
             )
 
     def load_from_toml(self, file_path: str, namespace: str) -> None:
-        all_block_data = toml.load(file_path)
+        """Reads block traits from toml files and stores to self.
+
+        Args:
+            file_path (str): location of file to read.
+            namespace (str): namespace to save blocks under.
+        """
+        all_block_data: "dict[str,dict]" = toml.load(file_path)
         for block_name, block_data in all_block_data.items():
             if ":" not in block_name:
                 block_name = f"{namespace}:{block_name}"
-            self.blocks[block_name] = [
-                BlockState(
-                    state_name, state_values["default"], state_values["allowed"]
-                )
-                for state_name, state_values in (block_data.get("states", {})).items()
+            block_props = [
+                BlockProperty(prop_name, state["default"], state["allowed"])
+                for prop_name, state in (block_data.get("properties", {})).items()
             ]
+            self.register(BlockTraits(block_name, block_props))
 
-    def create(self, block_name: str, initial_values: "dict(str,str)" = {}) -> Block:
+    def register(self, block_info: BlockTraits) -> None:
+        """Saves new block traits to the factory."""
+        if block_info.name in self.blocks:
+            raise ValueError(f"Block '{block_info.name}' is already registered.")
+        self.blocks[block_info.name] = block_info
+
+    def create(self, block_name: str, initial_state: "dict(str,str)" = {}) -> Block:
+        """Create a Block object. Optionally specify initial state.
+
+        Args:
+            block_name (str): the block's name. Example: "minecraft:dirt"
+            initial_state (dict, optional): Set the block's initial state. Defaults to {}.
+
+        Returns:
+            Block: a new minecraft block
+        """
         if ":" not in block_name:
             block_name = f"minecraft:{block_name}"
         if block_name in self.blocks:
-            return Block(block_name, self.blocks[block_name], initial_values)
+            return Block(self.blocks[block_name], initial_state)
         else:
             raise ValueError(f"'{block_name}' is not registered in the BlockFactory.")
-
-
-# def __main__():
-#     bf = BlockFactory()
-#     nb = bf.create("note_block")
-#     nb.powered = 7
-#     pass
-
-# __main__()
