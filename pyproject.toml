@@ -5,13 +5,11 @@ description = "Create python objects that represent Minecraft blocks, items, and
 authors = ["Ben Burton <benjaminburtondev@gmail.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "minecraft_object_utils"}]
+packages = [{ include = "minecraft_object_utils" }]
 homepage = "https://github.com/BenBenBenB/minecraft-object-utils"
 repository = "https://github.com/BenBenBenB/minecraft-object-utils"
 keywords = ["minecraft"]
-include = [
-    "LICENSE",
-]
+include = ["LICENSE"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -22,7 +20,7 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Topic :: Games/Entertainment",
-    "Topic :: Software Development :: Libraries :: Python Modules"
+    "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 
 [tool.poetry.dependencies]
@@ -44,7 +42,8 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.ruff]
-extend-select = ["ANN2",
+extend-select = [
+    "ANN2",
     "C4",
     "SIM",
     "B",
@@ -66,16 +65,9 @@ extend-select = ["ANN2",
     "W",
     "UP",
     "C90",
-    "PD"]
-ignore = [
-    "E402",
-    "B905",
-    "N818",
-    "S101",
-    "N806",
-    "B006",
-    "RET505",
-    "B008"]
+    "PD",
+]
+ignore = ["E402", "B905", "N818", "S101", "N806", "B006", "RET505", "B008"]
 exclude = [
     ".bzr",
     ".direnv",

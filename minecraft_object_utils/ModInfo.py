@@ -1,7 +1,8 @@
 import os.path
 
 VANILLA_NAMESPACE = "minecraft"
-DEFAULT_DATA_DIRECTORY = os.path.join(os.path.dirname(os.path.abspath(__file__)),"data")
+DEFAULT_DATA_DIRECTORY = os.path.join(os.path.dirname(__file__), "data")
+
 
 class ModInfo:
     namespace: str
@@ -12,9 +13,7 @@ class ModInfo:
     def versioned_name(self) -> str:
         return f"{self.namespace}-{self.version}"
 
-    def __init__(
-        self, namespace: str, version: str = "", directory: str = ""
-    ) -> None:
+    def __init__(self, namespace: str, version: str = "", directory: str = "") -> None:
         self.namespace = namespace
         self.version = version
         if directory == "":
