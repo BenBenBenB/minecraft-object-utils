@@ -34,6 +34,14 @@ class BlockTraits:
         self.name = name
         self.properties = properties
 
+    @staticmethod
+    def create_from_toml(block_name: str, block_data: dict) -> "BlockTraits":
+        block_props = [
+            BlockProperty(prop_name, state["default"], state["allowed"])
+            for prop_name, state in (block_data.get("properties", {})).items()
+        ]
+        return BlockTraits(block_name, block_props)
+
 
 class Block:
     """Represents a block and its state. Restricts state to valid values."""
@@ -112,11 +120,8 @@ class BlockFactory:
         for block_name, block_data in all_block_data.items():
             if ":" not in block_name:
                 block_name = f"{namespace}:{block_name}"
-            block_props = [
-                BlockProperty(prop_name, state["default"], state["allowed"])
-                for prop_name, state in (block_data.get("properties", {})).items()
-            ]
-            self.register(BlockTraits(block_name, block_props))
+            block_info = BlockTraits.create_from_toml(block_name, block_data)
+            self.register(block_info)
 
     def register(self, block_info: BlockTraits) -> None:
         """Saves new block traits to the factory."""
