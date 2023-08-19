@@ -56,7 +56,7 @@ class Block:
         initial_state: "dict[str, str]" = {},
     ) -> None:
         self.traits = block_info
-        self.state = {x.name: x.default_state for x in self.traits.properties}
+        self._state = {x.name: x.default_state for x in self.traits.properties}
         for prop, value in initial_state.items():
             self.set_state(prop, value)
 
@@ -69,7 +69,7 @@ class Block:
             )
         block_prop = block_prop[0]
         if state_value in block_prop.allowed_states:
-            self.state[prop_name] = state_value
+            self._state[prop_name] = state_value
         else:
             raise ValueError(
                 f"'{state_value}' is not a valid state. Valid values are: {block_prop.allowed_states}"
