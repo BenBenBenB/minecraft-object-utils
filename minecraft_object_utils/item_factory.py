@@ -2,7 +2,8 @@ import logging
 import os.path
 
 import toml
-from ModInfo import VANILLA_JAVA_LATEST, ModInfo
+
+from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
 
 class ItemTraits:
@@ -61,7 +62,7 @@ class ItemFactory:
             namespace (str): namespace to save items under.
         """
         all_item_data: "dict[str,dict]" = toml.load(file_path)
-        for item_name, item_data in all_item_data.items():
+        for item_name in all_item_data:
             if ":" not in item_name:
                 item_name = f"{namespace}:{item_name}"
             self.register(ItemTraits(item_name))

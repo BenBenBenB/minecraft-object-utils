@@ -1,9 +1,9 @@
 import logging
 import os.path
-from typing import Any
 
 import toml
-from ModInfo import VANILLA_JAVA_LATEST, ModInfo
+
+from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
 
 class BlockProperty:
@@ -26,9 +26,6 @@ class BlockTraits:
 
     name: str
     properties: "list[BlockProperty]"
-    # gravity: bool
-    # conductive: bool
-    # moveable: bool
 
     def __init__(self, name: str, properties: "list[BlockProperty]" = []) -> None:
         self.name = name

@@ -13,13 +13,12 @@ class ModInfo:
     def versioned_name(self) -> str:
         return f"{self.namespace}-{self.version}"
 
-    def __init__(self, namespace: str, version: str = "", directory: str = "") -> None:
+    def __init__(
+        self, namespace: str, version: str = "", directory: str = DEFAULT_DATA_DIRECTORY
+    ) -> None:
         self.namespace = namespace
         self.version = version
-        if directory == "":
-            self.directory = DEFAULT_DATA_DIRECTORY
-        else:
-            self.directory = directory
+        self.directory = directory
 
 
 VANILLA_JAVA_LATEST = ModInfo(VANILLA_NAMESPACE, "1.20")

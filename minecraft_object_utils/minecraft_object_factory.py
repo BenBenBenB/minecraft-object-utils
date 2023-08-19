@@ -1,7 +1,7 @@
-from BlockFactory import BlockFactory
-from ItemFactory import ItemFactory
-from EntityFactory import EntityFactory
-from ModInfo import VANILLA_JAVA_LATEST, ModInfo
+from .block_factory import BlockFactory
+from .entity_factory import EntityFactory
+from .item_factory import ItemFactory
+from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
 
 class MinecraftObjectFactory:

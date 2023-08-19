@@ -2,7 +2,8 @@ import logging
 import os.path
 
 import toml
-from ModInfo import VANILLA_JAVA_LATEST, ModInfo
+
+from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
 
 class EntityTraits:
@@ -61,7 +62,7 @@ class EntityFactory:
             namespace (str): namespace to save entities under.
         """
         all_entity_data: "dict[str,dict]" = toml.load(file_path)
-        for entity_name, entity_data in all_entity_data.items():
+        for entity_name in all_entity_data:
             if ":" not in entity_name:
                 entity_name = f"{namespace}:{entity_name}"
             self.register(EntityTraits(entity_name))
