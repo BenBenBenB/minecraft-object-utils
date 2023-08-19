@@ -1,0 +1,36 @@
+name: Publish Package
+on:
+  workflow_dispatch :
+    inputs:
+      environment:
+        description: 'Publish to PyPI'
+        type: environment
+        required: true
+
+jobs:
+  publish-pypi:
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.10']
+        poetry-version: ['1.5.1']
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    environment: ${{ github.event.inputs.environment }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run image
+        uses: abatilo/actions-poetry@v2
+        with:
+          poetry-version: ${{ matrix.poetry-version }}
+      - name: Publish
+        env:
+          PYPI_URL: ${{ vars.PYPI_URL }}
+          PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
+        run: |
+          poetry config repositories.nbtrepo $PYPI_URL
+          poetry config pypi-token.nbtrepo $PYPI_TOKEN
+          poetry publish --build -r nbtrepo
