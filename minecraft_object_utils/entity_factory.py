@@ -9,10 +9,10 @@ from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 class EntityTraits:
     """The definition of an entity and common NBT tags."""
 
-    name: str
+    id: str
 
-    def __init__(self, name: str) -> None:
-        self.name = name
+    def __init__(self, id: str) -> None:
+        self.id = id
 
 
 class Entity:
@@ -21,8 +21,8 @@ class Entity:
     traits: EntityTraits
 
     @property
-    def name(self) -> str:
-        return self.traits.name
+    def id(self) -> str:
+        return self.traits.id
 
     def __init__(self, entity_info: EntityTraits) -> None:
         self.traits = entity_info
@@ -62,30 +62,30 @@ class EntityFactory:
             namespace (str): namespace to save entities under.
         """
         all_entity_data: "dict[str,dict]" = toml.load(file_path)
-        for entity_name in all_entity_data:
-            if ":" not in entity_name:
-                entity_name = f"{namespace}:{entity_name}"
-            self.register(EntityTraits(entity_name))
+        for entity_id in all_entity_data:
+            if ":" not in entity_id:
+                entity_id = f"{namespace}:{entity_id}"
+            self.register(EntityTraits(entity_id))
 
     def register(self, entity_info: EntityTraits) -> None:
         """Saves new entity traits to the factory."""
-        if entity_info.name in self.entities:
-            raise ValueError(f"Entity '{entity_info.name}' is already registered.")
-        self.entities[entity_info.name] = entity_info
+        if entity_info.id in self.entities:
+            raise ValueError(f"Entity '{entity_info.id}' is already registered.")
+        self.entities[entity_info.id] = entity_info
 
-    def create(self, entity_name: str, initial_state: "dict(str,str)" = {}) -> Entity:
+    def create(self, entity_id: str, initial_state: "dict(str,str)" = {}) -> Entity:
         """Create a Entity object. Optionally specify initial state.
 
         Args:
-            entity_name (str): the entity's name. Example: "minecraft:dirt"
+            entity_id (str): the entity's id. Example: "minecraft:dirt"
             initial_state (dict, optional): Set the entity's initial state. Defaults to {}.
 
         Returns:
             Entity: a new minecraft entity
         """
-        if ":" not in entity_name:
-            entity_name = f"minecraft:{entity_name}"
-        if entity_name in self.entities:
-            return Entity(self.entities[entity_name], initial_state)
+        if ":" not in entity_id:
+            entity_id = f"minecraft:{entity_id}"
+        if entity_id in self.entities:
+            return Entity(self.entities[entity_id], initial_state)
         else:
-            raise ValueError(f"'{entity_name}' is not registered in the EntityFactory.")
+            raise ValueError(f"'{entity_id}' is not registered in the EntityFactory.")

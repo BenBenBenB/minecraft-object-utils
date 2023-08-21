@@ -9,35 +9,35 @@ from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 class BlockProperty:
     """Describes default value and possible state values for a block property"""
 
-    name: str
-    default_state: str
-    allowed_states: "list[str]"
+    id: str
+    default: str
+    allowed: "list[str]"
 
     def __init__(
-        self, name: str, default_value: str, allowed_values: "list[str]"
+        self, id: str, default_value: str, allowed_values: "list[str]"
     ) -> None:
-        self.name = name
-        self.default_state = default_value
-        self.allowed_states = allowed_values
+        self.id = id
+        self.default = default_value
+        self.allowed = allowed_values
 
 
 class BlockTraits:
     """The definition of a block. Describes possible states and behavior in the game."""
 
-    name: str
+    id: str
     properties: "list[BlockProperty]"
 
-    def __init__(self, name: str, properties: "list[BlockProperty]" = []) -> None:
-        self.name = name
+    def __init__(self, id: str, properties: "list[BlockProperty]" = []) -> None:
+        self.id = id
         self.properties = properties
 
     @staticmethod
-    def create_from_toml(block_name: str, block_data: dict) -> "BlockTraits":
+    def create_from_toml(block_id: str, block_data: dict) -> "BlockTraits":
         block_props = [
             BlockProperty(prop_name, state["default"], state["allowed"])
             for prop_name, state in (block_data.get("properties", {})).items()
         ]
-        return BlockTraits(block_name, block_props)
+        return BlockTraits(block_id, block_props)
 
 
 class Block:
@@ -47,8 +47,8 @@ class Block:
     _state: "dict[str, str]"
 
     @property
-    def name(self) -> str:
-        return self.traits.name
+    def id(self) -> str:
+        return self.traits.id
 
     def __init__(
         self,
@@ -56,31 +56,36 @@ class Block:
         initial_state: "dict[str, str]" = {},
     ) -> None:
         self.traits = block_info
-        self._state = {x.name: x.default_state for x in self.traits.properties}
+        self._state = {x.id: x.default for x in self.traits.properties}
         for prop, value in initial_state.items():
             self.set_state(prop, value)
 
     def set_state(self, prop_name: str, state_value: str) -> None:
         """Sets the state of a block property."""
-        block_prop = [p for p in self.traits.properties if p.name == prop_name]
+        prop_name = str(prop_name).lower()
+        block_prop = [p for p in self.traits.properties if p.id == prop_name]
         if not any(block_prop):
             raise ValueError(
-                f"'{prop_name}' is not a valid property for block '{self.name}'. Valid block properties are: {[p.name for p in self.traits.properties]}"
+                f"'{prop_name}' is not a valid property for block '{self.id}'. Valid block properties are: {[p.id for p in self.traits.properties]}"
             )
         block_prop = block_prop[0]
-        if state_value in block_prop.allowed_states:
+        state_value = str(state_value).lower()
+        if state_value in block_prop.allowed:
             self._state[prop_name] = state_value
         else:
             raise ValueError(
-                f"'{state_value}' is not a valid state. Valid values are: {block_prop.allowed_states}"
+                f"'{state_value}' is not a valid state. Valid values are: {block_prop.allowed}"
             )
 
     def get_state(self, prop_name: str) -> None:
         """Gets the state for a block property."""
+        prop_name = str(prop_name).lower()
         return self._state.get(prop_name)
 
 
 class BlockFactory:
+    """Stores collection of BlockTraits and allows you to create instances of Block from them."""
+
     namespaces: "list[ModInfo]"
     blocks: "dict[str,BlockTraits]"
 
@@ -122,23 +127,23 @@ class BlockFactory:
 
     def register(self, block_info: BlockTraits) -> None:
         """Saves new block traits to the factory."""
-        if block_info.name in self.blocks:
-            raise ValueError(f"Block '{block_info.name}' is already registered.")
-        self.blocks[block_info.name] = block_info
+        if block_info.id in self.blocks:
+            raise ValueError(f"Block '{block_info.id}' is already registered.")
+        self.blocks[block_info.id] = block_info
 
-    def create(self, block_name: str, initial_state: "dict(str,str)" = {}) -> Block:
+    def create(self, block_id: str, initial_state: "dict(str,str)" = {}) -> Block:
         """Create a Block object. Optionally specify initial state.
 
         Args:
-            block_name (str): the block's name. Example: "minecraft:dirt"
+            block_id (str): the block's id. Example: "minecraft:dirt"
             initial_state (dict, optional): Set the block's initial state. Defaults to {}.
 
         Returns:
             Block: a new minecraft block
         """
-        if ":" not in block_name:
-            block_name = f"minecraft:{block_name}"
-        if block_name in self.blocks:
-            return Block(self.blocks[block_name], initial_state)
+        if ":" not in block_id:
+            block_id = f"minecraft:{block_id}"
+        if block_id in self.blocks:
+            return Block(self.blocks[block_id], initial_state)
         else:
-            raise ValueError(f"'{block_name}' is not registered in the BlockFactory.")
+            raise ValueError(f"'{block_id}' is not registered in the BlockFactory.")

@@ -12,7 +12,7 @@ def test_block() -> Block:
 
 def test_set_valid_property(test_block: Block) -> None:
     test_block.set_state("note", 10)
-    assert test_block.get_state("note") == 10
+    assert test_block.get_state("note") == "10"
 
 
 def test_set_invalid_property(test_block: Block) -> None:

@@ -9,10 +9,10 @@ from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 class ItemTraits:
     """The definition of an item and common NBT tags."""
 
-    name: str
+    id: str
 
-    def __init__(self, name: str) -> None:
-        self.name = name
+    def __init__(self, id: str) -> None:
+        self.id = id
 
 
 class Item:
@@ -21,8 +21,8 @@ class Item:
     traits: ItemTraits
 
     @property
-    def name(self) -> str:
-        return self.traits.name
+    def id(self) -> str:
+        return self.traits.id
 
     def __init__(self, item_info: ItemTraits) -> None:
         self.traits = item_info
@@ -62,30 +62,30 @@ class ItemFactory:
             namespace (str): namespace to save items under.
         """
         all_item_data: "dict[str,dict]" = toml.load(file_path)
-        for item_name in all_item_data:
-            if ":" not in item_name:
-                item_name = f"{namespace}:{item_name}"
-            self.register(ItemTraits(item_name))
+        for item_id in all_item_data:
+            if ":" not in item_id:
+                item_id = f"{namespace}:{item_id}"
+            self.register(ItemTraits(item_id))
 
     def register(self, item_info: ItemTraits) -> None:
         """Saves new item traits to the factory."""
-        if item_info.name in self.items:
-            raise ValueError(f"Item '{item_info.name}' is already registered.")
-        self.items[item_info.name] = item_info
+        if item_info.id in self.items:
+            raise ValueError(f"Item '{item_info.id}' is already registered.")
+        self.items[item_info.id] = item_info
 
-    def create(self, item_name: str, initial_state: "dict(str,str)" = {}) -> Item:
+    def create(self, item_id: str, initial_state: "dict(str,str)" = {}) -> Item:
         """Create a Item object. Optionally specify initial state.
 
         Args:
-            item_name (str): the item's name. Example: "minecraft:dirt"
+            item_id (str): the item's id. Example: "minecraft:dirt"
             initial_state (dict, optional): Set the item's initial state. Defaults to {}.
 
         Returns:
             Item: a new minecraft item
         """
-        if ":" not in item_name:
-            item_name = f"minecraft:{item_name}"
-        if item_name in self.items:
-            return Item(self.items[item_name], initial_state)
+        if ":" not in item_id:
+            item_id = f"minecraft:{item_id}"
+        if item_id in self.items:
+            return Item(self.items[item_id], initial_state)
         else:
-            raise ValueError(f"'{item_name}' is not registered in the ItemFactory.")
+            raise ValueError(f"'{item_id}' is not registered in the ItemFactory.")

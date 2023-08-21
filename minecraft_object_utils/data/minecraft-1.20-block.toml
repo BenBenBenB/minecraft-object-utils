@@ -1,998 +1,6837 @@
-# WIP: data not confirmed
-[acacia_button]
-[acacia_door]
-[acacia_fence_gate]
-[acacia_fence]
-[acacia_leaves]
-[acacia_log]
-[acacia_planks]
-[acacia_pressure_plate]
-[acacia_sapling]
-[acacia_sign]
-[acacia_slab]
-[acacia_stairs]
-[acacia_trapdoor]
-[acacia_wall_sign]
-[acacia_wood]
-[activator_rail]
+# Generated from Minecraft version MOD_DEV
 [air]
-[allium]
-[amethyst_block]
-[amethyst_cluster]
-[ancient_debris]
-[andesite_slab]
-[andesite_stairs]
-[andesite_wall]
-[andesite]
-[anvil]
-[attached_melon_stem]
-[attached_pumpkin_stem]
-[azalea_leaves]
-[azalea]
-[azure_bluet]
-[bamboo_sapling]
-[bamboo]
-[barrel]
-[barrier]
-[basalt]
-[beacon]
-[bedrock]
-[bee_nest]
-[beehive]
-[beetroots]
-[bell]
-[big_dripleaf_stem]
-[big_dripleaf]
-[birch_button]
-[birch_door]
-[birch_fence_gate]
-[birch_fence]
-[birch_leaves]
-[birch_log]
-[birch_planks]
-[birch_pressure_plate]
-[birch_sapling]
-[birch_sign]
-[birch_slab]
-[birch_stairs]
-[birch_trapdoor]
-[birch_wall_sign]
-[birch_wood]
-[black_banner]
-[black_bed]
-[black_candle_cake]
-[black_candle]
-[black_carpet]
-[black_concrete_powder]
-[black_concrete]
-[black_glazed_terracotta]
-[black_shulker_box]
-[black_stained_glass_pane]
-[black_stained_glass]
-[black_terracotta]
-[black_wall_banner]
-[black_wool]
-[blackstone_slab]
-[blackstone_stairs]
-[blackstone_wall]
-[blackstone]
-[blast_furnace]
-[blue_banner]
-[blue_bed]
-[blue_candle_cake]
-[blue_candle]
-[blue_carpet]
-[blue_concrete_powder]
-[blue_concrete]
-[blue_glazed_terracotta]
-[blue_ice]
-[blue_orchid]
-[blue_shulker_box]
-[blue_stained_glass_pane]
-[blue_stained_glass]
-[blue_terracotta]
-[blue_wall_banner]
-[blue_wool]
-[bone_block]
-[bookshelf]
-[brain_coral_block]
-[brain_coral_fan]
-[brain_coral_wall_fan]
-[brain_coral]
-[brewing_stand]
-[brick_slab]
-[brick_stairs]
-[brick_wall]
-[bricks]
-[brown_banner]
-[brown_bed]
-[brown_candle_cake]
-[brown_candle]
-[brown_carpet]
-[brown_concrete_powder]
-[brown_concrete]
-[brown_glazed_terracotta]
-[brown_mushroom_block]
-[brown_mushroom]
-[brown_shulker_box]
-[brown_stained_glass_pane]
-[brown_stained_glass]
-[brown_terracotta]
-[brown_wall_banner]
-[brown_wool]
-[bubble_column]
-[bubble_coral_block]
-[bubble_coral_fan]
-[bubble_coral_wall_fan]
-[bubble_coral]
-[budding_amethyst]
-[cactus]
-[cake]
-[calcite]
-[campfire]
-[candle_cake]
-[candle]
-[carrots]
-[cartography_table]
-[carved_pumpkin]
-[cauldron]
-[cave_air]
-[cave_vines_plant]
-[cave_vines]
-[chain_command_block]
-[chain]
-[chest]
-[chipped_anvil]
-[chiseled_deepslate]
-[chiseled_nether_bricks]
-[chiseled_polished_blackstone]
-[chiseled_quartz_block]
-[chiseled_red_sandstone]
-[chiseled_sandstone]
-[chiseled_stone_bricks]
-[chorus_flower]
-[chorus_plant]
-[clay]
-[coal_block]
-[coal_ore]
-[coarse_dirt]
-[cobbled_deepslate_slab]
-[cobbled_deepslate_stairs]
-[cobbled_deepslate_wall]
-[cobbled_deepslate]
-[cobblestone_slab]
-[cobblestone_stairs]
-[cobblestone_wall]
-[cobblestone]
-[cobweb]
-[cocoa]
-[command_block]
-[comparator]
-[composter]
-[conduit]
-[copper_block]
-[copper_ore]
-[cornflower]
-[cracked_deepslate_bricks]
-[cracked_deepslate_tiles]
-[cracked_nether_bricks]
-[cracked_polished_blackstone_bricks]
-[cracked_stone_bricks]
-[crafting_table]
-[creeper_head]
-[creeper_wall_head]
-[crimson_button]
-[crimson_door]
-[crimson_fence_gate]
-[crimson_fence]
-[crimson_fungus]
-[crimson_hyphae]
-[crimson_nylium]
-[crimson_planks]
-[crimson_pressure_plate]
-[crimson_roots]
-[crimson_sign]
-[crimson_slab]
-[crimson_stairs]
-[crimson_stem]
-[crimson_trapdoor]
-[crimson_wall_sign]
-[crying_obsidian]
-[cut_copper_slab]
-[cut_copper_stairs]
-[cut_copper]
-[cut_red_sandstone_slab]
-[cut_red_sandstone]
-[cut_sandstone_slab]
-[cut_sandstone]
-[cyan_banner]
-[cyan_bed]
-[cyan_candle_cake]
-[cyan_candle]
-[cyan_carpet]
-[cyan_concrete_powder]
-[cyan_concrete]
-[cyan_glazed_terracotta]
-[cyan_shulker_box]
-[cyan_stained_glass_pane]
-[cyan_stained_glass]
-[cyan_terracotta]
-[cyan_wall_banner]
-[cyan_wool]
-[damaged_anvil]
-[dandelion]
-[dark_oak_button]
-[dark_oak_door]
-[dark_oak_fence_gate]
-[dark_oak_fence]
-[dark_oak_leaves]
-[dark_oak_log]
-[dark_oak_planks]
-[dark_oak_pressure_plate]
-[dark_oak_sapling]
-[dark_oak_sign]
-[dark_oak_slab]
-[dark_oak_stairs]
-[dark_oak_trapdoor]
-[dark_oak_wall_sign]
-[dark_oak_wood]
-[dark_prismarine_slab]
-[dark_prismarine_stairs]
-[dark_prismarine]
-[daylight_detector]
-[dead_brain_coral_block]
-[dead_brain_coral_fan]
-[dead_brain_coral_wall_fan]
-[dead_brain_coral]
-[dead_bubble_coral_block]
-[dead_bubble_coral_fan]
-[dead_bubble_coral_wall_fan]
-[dead_bubble_coral]
-[dead_bush]
-[dead_fire_coral_block]
-[dead_fire_coral_fan]
-[dead_fire_coral_wall_fan]
-[dead_fire_coral]
-[dead_horn_coral_block]
-[dead_horn_coral_fan]
-[dead_horn_coral_wall_fan]
-[dead_horn_coral]
-[dead_tube_coral_block]
-[dead_tube_coral_fan]
-[dead_tube_coral_wall_fan]
-[dead_tube_coral]
-[deepslate_brick_slab]
-[deepslate_brick_stairs]
-[deepslate_brick_wall]
-[deepslate_bricks]
-[deepslate_coal_ore]
-[deepslate_copper_ore]
-[deepslate_diamond_ore]
-[deepslate_emerald_ore]
-[deepslate_gold_ore]
-[deepslate_iron_ore]
-[deepslate_lapis_ore]
-[deepslate_redstone_ore]
-[deepslate_tile_slab]
-[deepslate_tile_stairs]
-[deepslate_tile_wall]
-[deepslate_tiles]
-[deepslate]
-[detector_rail]
-[diamond_block]
-[diamond_ore]
-[diorite_slab]
-[diorite_stairs]
-[diorite_wall]
-[diorite]
-[dirt_path]
-[dirt]
-[dispenser]
-[dragon_egg]
-[dragon_head]
-[dragon_wall_head]
-[dried_kelp_block]
-[dripstone_block]
-[dropper]
-[emerald_block]
-[emerald_ore]
-[enchanting_table]
-[end_gateway]
-[end_portal_frame]
-[end_portal]
-[end_rod]
-[end_stone_brick_slab]
-[end_stone_brick_stairs]
-[end_stone_brick_wall]
-[end_stone_bricks]
-[end_stone]
-[ender_chest]
-[exposed_copper]
-[exposed_cut_copper_slab]
-[exposed_cut_copper_stairs]
-[exposed_cut_copper]
-[farmland]
-[fern]
-[fire_coral_block]
-[fire_coral_fan]
-[fire_coral_wall_fan]
-[fire_coral]
-[fire]
-[fletching_table]
-[flower_pot]
-[flowering_azalea_leaves]
-[flowering_azalea]
-[frogspawn]
-[frosted_ice]
-[furnace]
-[gilded_blackstone]
-[glass_pane]
-[glass]
-[glow_lichen]
-[glowstone]
-[gold_block]
-[gold_ore]
-[granite_slab]
-[granite_stairs]
-[granite_wall]
+[stone]
 [granite]
+[polished_granite]
+[diorite]
+[polished_diorite]
+[andesite]
+[polished_andesite]
 [grass_block]
-[grass_block.properties]
 [grass_block.properties.snowy]
-default = false
-allowed = [true, false]
-[grass]
-[gravel]
-[gray_banner]
-[gray_bed]
-[gray_candle_cake]
-[gray_candle]
-[gray_carpet]
-[gray_concrete_powder]
-[gray_concrete]
-[gray_glazed_terracotta]
-[gray_shulker_box]
-[gray_stained_glass_pane]
-[gray_stained_glass]
-[gray_terracotta]
-[gray_wall_banner]
-[gray_wool]
-[green_banner]
-[green_bed]
-[green_candle_cake]
-[green_candle]
-[green_carpet]
-[green_concrete_powder]
-[green_concrete]
-[green_glazed_terracotta]
-[green_shulker_box]
-[green_stained_glass_pane]
-[green_stained_glass]
-[green_terracotta]
-[green_wall_banner]
-[green_wool]
-[grindstone]
-[hanging_roots]
-[hay_block]
-[heavy_weighted_pressure_plate]
-[honey_block]
-[honeycomb_block]
-[hopper]
-[horn_coral_block]
-[horn_coral_fan]
-[horn_coral_wall_fan]
-[horn_coral]
-[ice]
-[infested_chiseled_stone_bricks]
-[infested_cobblestone]
-[infested_cracked_stone_bricks]
-[infested_deepslate]
-[infested_mossy_stone_bricks]
-[infested_stone_bricks]
-[infested_stone]
-[iron_bars]
-[iron_block]
-[iron_door]
-[iron_ore]
-[iron_trapdoor]
-[jack_o_lantern]
-[jigsaw]
-[jukebox]
-[jungle_button]
-[jungle_door]
-[jungle_fence_gate]
-[jungle_fence]
-[jungle_leaves]
-[jungle_log]
+default = "false"
+allowed = ["true", "false"]
+[dirt]
+[coarse_dirt]
+[podzol]
+[podzol.properties.snowy]
+default = "false"
+allowed = ["true", "false"]
+[cobblestone]
+[oak_planks]
+[spruce_planks]
+[birch_planks]
 [jungle_planks]
-[jungle_pressure_plate]
-[jungle_sapling]
-[jungle_sign]
-[jungle_slab]
-[jungle_stairs]
-[jungle_trapdoor]
-[jungle_wall_sign]
-[jungle_wood]
-[kelp_plant]
-[kelp]
-[ladder]
-[lantern]
-[lapis_block]
-[lapis_ore]
-[large_amethyst_bud]
-[large_fern]
-[lava_cauldron]
-[lava]
-[lectern]
-[lever]
-[light_blue_banner]
-[light_blue_bed]
-[light_blue_candle_cake]
-[light_blue_candle]
-[light_blue_carpet]
-[light_blue_concrete_powder]
-[light_blue_concrete]
-[light_blue_glazed_terracotta]
-[light_blue_shulker_box]
-[light_blue_stained_glass_pane]
-[light_blue_stained_glass]
-[light_blue_terracotta]
-[light_blue_wall_banner]
-[light_blue_wool]
-[light_gray_banner]
-[light_gray_bed]
-[light_gray_candle_cake]
-[light_gray_candle]
-[light_gray_carpet]
-[light_gray_concrete_powder]
-[light_gray_concrete]
-[light_gray_glazed_terracotta]
-[light_gray_shulker_box]
-[light_gray_stained_glass_pane]
-[light_gray_stained_glass]
-[light_gray_terracotta]
-[light_gray_wall_banner]
-[light_gray_wool]
-[light_weighted_pressure_plate]
-[light]
-[lightning_rod]
-[lilac]
-[lily_of_the_valley]
-[lily_pad]
-[lime_banner]
-[lime_bed]
-[lime_candle_cake]
-[lime_candle]
-[lime_carpet]
-[lime_concrete_powder]
-[lime_concrete]
-[lime_glazed_terracotta]
-[lime_shulker_box]
-[lime_stained_glass_pane]
-[lime_stained_glass]
-[lime_terracotta]
-[lime_wall_banner]
-[lime_wool]
-[lodestone]
-[loom]
-[magenta_banner]
-[magenta_bed]
-[magenta_candle_cake]
-[magenta_candle]
-[magenta_carpet]
-[magenta_concrete_powder]
-[magenta_concrete]
-[magenta_glazed_terracotta]
-[magenta_shulker_box]
-[magenta_stained_glass_pane]
-[magenta_stained_glass]
-[magenta_terracotta]
-[magenta_wall_banner]
-[magenta_wool]
-[magma_block]
-[mangrove_button]
-[mangrove_door]
-[mangrove_fence_gate]
-[mangrove_fence]
-[mangrove_leaves]
-[mangrove_log]
+[acacia_planks]
+[cherry_planks]
+[dark_oak_planks]
 [mangrove_planks]
-[mangrove_pressure_plate]
+[bamboo_planks]
+[bamboo_mosaic]
+[oak_sapling]
+[oak_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[spruce_sapling]
+[spruce_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[birch_sapling]
+[birch_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[jungle_sapling]
+[jungle_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[acacia_sapling]
+[acacia_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[cherry_sapling]
+[cherry_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[dark_oak_sapling]
+[dark_oak_sapling.properties.stage]
+default = "0"
+allowed = ["0", "1"]
 [mangrove_propagule]
-[mangrove_roots]
-[mangrove_sign]
-[mangrove_slab]
-[mangrove_stairs]
-[mangrove_trapdoor]
-[mangrove_wall_sign]
-[mangrove_wood]
-[medium_amethyst_bud]
-[melon_stem]
-[melon]
-[moss_block]
-[moss_carpet]
-[mossy_cobblestone_slab]
-[mossy_cobblestone_stairs]
-[mossy_cobblestone_wall]
-[mossy_cobblestone]
-[mossy_stone_brick_slab]
-[mossy_stone_brick_stairs]
-[mossy_stone_brick_wall]
-[mossy_stone_bricks]
-[moving_piston]
-[mud_brick_slab]
-[mud_brick_stairs]
-[mud_brick_wall]
-[mud_bricks]
-[mud]
-[muddy_mangrove_roots]
-[mushroom_stem]
-[mycelium]
-[nether_brick_fence]
-[nether_brick_slab]
-[nether_brick_stairs]
-[nether_brick_wall]
-[nether_bricks]
+[mangrove_propagule.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4"]
+[mangrove_propagule.properties.hanging]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_propagule.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[mangrove_propagule.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bedrock]
+[water]
+[water.properties.level]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[lava]
+[lava.properties.level]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[sand]
+[suspicious_sand]
+[suspicious_sand.properties.dusted]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[red_sand]
+[gravel]
+[suspicious_gravel]
+[suspicious_gravel.properties.dusted]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[gold_ore]
+[deepslate_gold_ore]
+[iron_ore]
+[deepslate_iron_ore]
+[coal_ore]
+[deepslate_coal_ore]
 [nether_gold_ore]
-[nether_portal]
-[nether_quartz_ore]
-[nether_sprouts]
-[nether_wart_block]
-[nether_wart]
-[netherite_block]
-[netherrack]
+[oak_log]
+[oak_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[spruce_log]
+[spruce_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[birch_log]
+[birch_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[jungle_log]
+[jungle_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[acacia_log]
+[acacia_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[cherry_log]
+[cherry_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[dark_oak_log]
+[dark_oak_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[mangrove_log]
+[mangrove_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[mangrove_roots]
+[mangrove_roots.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[muddy_mangrove_roots]
+[muddy_mangrove_roots.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[bamboo_block]
+[bamboo_block.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_spruce_log]
+[stripped_spruce_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_birch_log]
+[stripped_birch_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_jungle_log]
+[stripped_jungle_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_acacia_log]
+[stripped_acacia_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_cherry_log]
+[stripped_cherry_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_dark_oak_log]
+[stripped_dark_oak_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_oak_log]
+[stripped_oak_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_mangrove_log]
+[stripped_mangrove_log.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_bamboo_block]
+[stripped_bamboo_block.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[oak_wood]
+[oak_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[spruce_wood]
+[spruce_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[birch_wood]
+[birch_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[jungle_wood]
+[jungle_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[acacia_wood]
+[acacia_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[cherry_wood]
+[cherry_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[dark_oak_wood]
+[dark_oak_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[mangrove_wood]
+[mangrove_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_oak_wood]
+[stripped_oak_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_spruce_wood]
+[stripped_spruce_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_birch_wood]
+[stripped_birch_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_jungle_wood]
+[stripped_jungle_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_acacia_wood]
+[stripped_acacia_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_cherry_wood]
+[stripped_cherry_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_dark_oak_wood]
+[stripped_dark_oak_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_mangrove_wood]
+[stripped_mangrove_wood.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[oak_leaves]
+[oak_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[oak_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[oak_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_leaves]
+[spruce_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[spruce_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[spruce_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_leaves]
+[birch_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[birch_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[birch_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_leaves]
+[jungle_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[jungle_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[jungle_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_leaves]
+[acacia_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[acacia_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[acacia_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_leaves]
+[cherry_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[cherry_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[cherry_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_leaves]
+[dark_oak_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[dark_oak_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_leaves]
+[mangrove_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[mangrove_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[azalea_leaves]
+[azalea_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[azalea_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[azalea_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[flowering_azalea_leaves]
+[flowering_azalea_leaves.properties.distance]
+default = "7"
+allowed = ["1", "2", "3", "4", "5", "6", "7"]
+[flowering_azalea_leaves.properties.persistent]
+default = "false"
+allowed = ["true", "false"]
+[flowering_azalea_leaves.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sponge]
+[wet_sponge]
+[glass]
+[lapis_ore]
+[deepslate_lapis_ore]
+[lapis_block]
+[dispenser]
+[dispenser.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[dispenser.properties.triggered]
+default = "false"
+allowed = ["true", "false"]
+[sandstone]
+[chiseled_sandstone]
+[cut_sandstone]
 [note_block]
-[note_block.properties]
 [note_block.properties.instrument]
 default = "harp"
 allowed = [
-    "banjo",
-    "basedrum",
-    "bass",
-    "bell",
-    "bit",
-    "chime",
-    "cow_bell",
-    "creeper",
-    "custom_head",
-    "didgeridoo",
-    "dragon",
-    "flute",
-    "guitar",
     "harp",
-    "hat",
-    "iron_xylophone",
-    "piglin",
-    "pling",
-    "skeleton",
+    "basedrum",
     "snare",
-    "wither_skeleton",
+    "hat",
+    "bass",
+    "flute",
+    "bell",
+    "guitar",
+    "chime",
     "xylophone",
+    "iron_xylophone",
+    "cow_bell",
+    "didgeridoo",
+    "bit",
+    "banjo",
+    "pling",
     "zombie",
+    "skeleton",
+    "creeper",
+    "dragon",
+    "wither_skeleton",
+    "piglin",
+    "custom_head",
 ]
 [note_block.properties.note]
-default = 0
+default = "0"
 allowed = [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20,
-    21,
-    22,
-    23,
-    24,
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
 ]
 [note_block.properties.powered]
-default = false
-allowed = [true, false]
-[oak_button]
-[oak_door]
-[oak_fence_gate]
-[oak_fence]
-[oak_leaves]
-[oak_log]
-[oak_planks]
-[oak_pressure_plate]
-[oak_sapling]
-[oak_sign]
-[oak_slab]
-[oak_stairs]
-[oak_trapdoor]
-[oak_wall_sign]
-[oak_wood]
-[observer]
-[obsidian]
-[ochre_froglight]
-[orange_banner]
+default = "false"
+allowed = ["true", "false"]
+[white_bed]
+[white_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[white_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[white_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
 [orange_bed]
-[orange_candle_cake]
-[orange_candle]
-[orange_carpet]
-[orange_concrete_powder]
-[orange_concrete]
-[orange_glazed_terracotta]
-[orange_shulker_box]
-[orange_stained_glass_pane]
-[orange_stained_glass]
-[orange_terracotta]
-[orange_tulip]
-[orange_wall_banner]
-[orange_wool]
-[oxeye_daisy]
-[oxidized_copper]
-[oxidized_cut_copper_slab]
-[oxidized_cut_copper_stairs]
-[oxidized_cut_copper]
-[packed_ice]
-[packed_mud]
-[pearlescent_froglight]
-[peony]
-[petrified_oak_slab]
-[pink_banner]
+[orange_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[orange_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[orange_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[magenta_bed]
+[magenta_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[magenta_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[magenta_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[light_blue_bed]
+[light_blue_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_blue_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[yellow_bed]
+[yellow_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[yellow_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[yellow_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[lime_bed]
+[lime_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lime_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[lime_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
 [pink_bed]
-[pink_candle_cake]
-[pink_candle]
-[pink_carpet]
-[pink_concrete_powder]
-[pink_concrete]
-[pink_glazed_terracotta]
-[pink_shulker_box]
-[pink_stained_glass_pane]
-[pink_stained_glass]
-[pink_terracotta]
-[pink_tulip]
-[pink_wall_banner]
-[pink_wool]
-[piston_head]
-[piston]
-[player_head]
-[player_wall_head]
-[podzol]
-[pointed_dripstone]
-[polished_andesite_slab]
-[polished_andesite_stairs]
-[polished_andesite]
-[polished_basalt]
-[polished_blackstone_brick_slab]
-[polished_blackstone_brick_stairs]
-[polished_blackstone_brick_wall]
-[polished_blackstone_bricks]
-[polished_blackstone_button]
-[polished_blackstone_pressure_plate]
-[polished_blackstone_slab]
-[polished_blackstone_stairs]
-[polished_blackstone_wall]
-[polished_blackstone]
-[polished_deepslate_slab]
-[polished_deepslate_stairs]
-[polished_deepslate_wall]
-[polished_deepslate]
-[polished_diorite_slab]
-[polished_diorite_stairs]
-[polished_diorite]
-[polished_granite_slab]
-[polished_granite_stairs]
-[polished_granite]
-[poppy]
-[potatoes]
-[potted_acacia_sapling]
-[potted_allium]
-[potted_azalea_bush]
-[potted_azure_bluet]
-[potted_bamboo]
-[potted_birch_sapling]
-[potted_blue_orchid]
-[potted_brown_mushroom]
-[potted_cactus]
-[potted_cornflower]
-[potted_crimson_fungus]
-[potted_crimson_roots]
-[potted_dandelion]
-[potted_dark_oak_sapling]
-[potted_dead_bush]
-[potted_fern]
-[potted_flowering_azalea_bush]
-[potted_jungle_sapling]
-[potted_lily_of_the_valley]
-[potted_mangrove_propagule]
-[potted_oak_sapling]
-[potted_orange_tulip]
-[potted_oxeye_daisy]
-[potted_pink_tulip]
-[potted_poppy]
-[potted_red_mushroom]
-[potted_red_tulip]
-[potted_spruce_sapling]
-[potted_warped_fungus]
-[potted_warped_roots]
-[potted_white_tulip]
-[potted_wither_rose]
-[powder_snow_cauldron]
-[powder_snow]
-[powered_rail]
-[prismarine_brick_slab]
-[prismarine_brick_stairs]
-[prismarine_bricks]
-[prismarine_slab]
-[prismarine_stairs]
-[prismarine_wall]
-[prismarine]
-[pumpkin_stem]
-[pumpkin]
-[purple_banner]
+[pink_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[pink_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[pink_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[gray_bed]
+[gray_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[gray_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[gray_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[light_gray_bed]
+[light_gray_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_gray_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[cyan_bed]
+[cyan_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cyan_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[cyan_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
 [purple_bed]
-[purple_candle_cake]
-[purple_candle]
-[purple_carpet]
-[purple_concrete_powder]
-[purple_concrete]
-[purple_glazed_terracotta]
-[purple_shulker_box]
-[purple_stained_glass_pane]
-[purple_stained_glass]
-[purple_terracotta]
-[purple_wall_banner]
-[purple_wool]
-[purpur_block]
-[purpur_pillar]
-[purpur_slab]
-[purpur_stairs]
-[quartz_block]
-[quartz_bricks]
-[quartz_pillar]
-[quartz_slab]
-[quartz_stairs]
-[rail]
-[raw_copper_block]
-[raw_gold_block]
-[raw_iron_block]
-[red_banner]
+[purple_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[purple_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[purple_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[blue_bed]
+[blue_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[blue_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[blue_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[brown_bed]
+[brown_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[brown_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[brown_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[green_bed]
+[green_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[green_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[green_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
 [red_bed]
-[red_candle_cake]
-[red_candle]
-[red_carpet]
-[red_concrete_powder]
-[red_concrete]
-[red_glazed_terracotta]
-[red_mushroom_block]
-[red_mushroom]
-[red_nether_brick_slab]
-[red_nether_brick_stairs]
-[red_nether_brick_wall]
-[red_nether_bricks]
-[red_sand]
-[red_sandstone_slab]
-[red_sandstone_stairs]
-[red_sandstone_wall]
-[red_sandstone]
-[red_shulker_box]
-[red_stained_glass_pane]
-[red_stained_glass]
-[red_terracotta]
-[red_tulip]
-[red_wall_banner]
-[red_wool]
-[redstone_block]
-[redstone_lamp]
-[redstone_ore]
-[redstone_torch]
-[redstone_wall_torch]
-[redstone_wire]
-[reinforced_deepslate]
-[repeater]
-[repeating_command_block]
-[respawn_anchor]
-[rooted_dirt]
-[rose_bush]
-[sand]
-[sandstone_slab]
-[sandstone_stairs]
-[sandstone_wall]
-[sandstone]
-[scaffolding]
-[sculk_catalyst]
-[sculk_sensor]
-[sculk_shrieker]
-[sculk_vein]
-[sculk]
-[sea_lantern]
-[sea_pickle]
+[red_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[red_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[black_bed]
+[black_bed.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[black_bed.properties.occupied]
+default = "false"
+allowed = ["true", "false"]
+[black_bed.properties.part]
+default = "foot"
+allowed = ["head", "foot"]
+[powered_rail]
+[powered_rail.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[powered_rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+]
+[powered_rail.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[detector_rail]
+[detector_rail.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[detector_rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+]
+[detector_rail.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sticky_piston]
+[sticky_piston.properties.extended]
+default = "false"
+allowed = ["true", "false"]
+[sticky_piston.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[cobweb]
+[grass]
+[fern]
+[dead_bush]
 [seagrass]
-[shroomlight]
-[shulker_box]
-[skeleton_skull]
-[skeleton_wall_skull]
-[slime_block]
-[small_amethyst_bud]
-[small_dripleaf]
-[smithing_table]
-[smoker]
-[smooth_basalt]
-[smooth_quartz_slab]
-[smooth_quartz_stairs]
-[smooth_quartz]
-[smooth_red_sandstone_slab]
-[smooth_red_sandstone_stairs]
-[smooth_red_sandstone]
-[smooth_sandstone_slab]
-[smooth_sandstone_stairs]
-[smooth_sandstone]
-[smooth_stone_slab]
-[smooth_stone]
-[snow_block]
-[snow]
-[soul_campfire]
+[tall_seagrass]
+[tall_seagrass.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[piston]
+[piston.properties.extended]
+default = "false"
+allowed = ["true", "false"]
+[piston.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[piston_head]
+[piston_head.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[piston_head.properties.short]
+default = "false"
+allowed = ["true", "false"]
+[piston_head.properties.type]
+default = "normal"
+allowed = ["normal", "sticky"]
+[white_wool]
+[orange_wool]
+[magenta_wool]
+[light_blue_wool]
+[yellow_wool]
+[lime_wool]
+[pink_wool]
+[gray_wool]
+[light_gray_wool]
+[cyan_wool]
+[purple_wool]
+[blue_wool]
+[brown_wool]
+[green_wool]
+[red_wool]
+[black_wool]
+[moving_piston]
+[moving_piston.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[moving_piston.properties.type]
+default = "normal"
+allowed = ["normal", "sticky"]
+[dandelion]
+[torchflower]
+[poppy]
+[blue_orchid]
+[allium]
+[azure_bluet]
+[red_tulip]
+[orange_tulip]
+[white_tulip]
+[pink_tulip]
+[oxeye_daisy]
+[cornflower]
+[wither_rose]
+[lily_of_the_valley]
+[brown_mushroom]
+[red_mushroom]
+[gold_block]
+[iron_block]
+[bricks]
+[tnt]
+[tnt.properties.unstable]
+default = "false"
+allowed = ["true", "false"]
+[bookshelf]
+[chiseled_bookshelf]
+[chiseled_bookshelf.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[chiseled_bookshelf.properties.slot_0_occupied]
+default = "false"
+allowed = ["true", "false"]
+[chiseled_bookshelf.properties.slot_1_occupied]
+default = "false"
+allowed = ["true", "false"]
+[chiseled_bookshelf.properties.slot_2_occupied]
+default = "false"
+allowed = ["true", "false"]
+[chiseled_bookshelf.properties.slot_3_occupied]
+default = "false"
+allowed = ["true", "false"]
+[chiseled_bookshelf.properties.slot_4_occupied]
+default = "false"
+allowed = ["true", "false"]
+[chiseled_bookshelf.properties.slot_5_occupied]
+default = "false"
+allowed = ["true", "false"]
+[mossy_cobblestone]
+[obsidian]
+[torch]
+[wall_torch]
+[wall_torch.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[fire]
+[fire.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[fire.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[fire.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[fire.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[fire.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[fire.properties.west]
+default = "false"
+allowed = ["true", "false"]
 [soul_fire]
-[soul_lantern]
+[spawner]
+[oak_stairs]
+[oak_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[oak_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[oak_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[chest]
+[chest.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[chest.properties.type]
+default = "single"
+allowed = ["single", "left", "right"]
+[chest.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[redstone_wire]
+[redstone_wire.properties.east]
+default = "none"
+allowed = ["up", "side", "none"]
+[redstone_wire.properties.north]
+default = "none"
+allowed = ["up", "side", "none"]
+[redstone_wire.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[redstone_wire.properties.south]
+default = "none"
+allowed = ["up", "side", "none"]
+[redstone_wire.properties.west]
+default = "none"
+allowed = ["up", "side", "none"]
+[diamond_ore]
+[deepslate_diamond_ore]
+[diamond_block]
+[crafting_table]
+[wheat]
+[wheat.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[farmland]
+[farmland.properties.moisture]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[furnace]
+[furnace.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[furnace.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[oak_sign]
+[oak_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[oak_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_sign]
+[spruce_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[spruce_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_sign]
+[birch_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[birch_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_sign]
+[acacia_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[acacia_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_sign]
+[cherry_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[cherry_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_sign]
+[jungle_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[jungle_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_sign]
+[dark_oak_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[dark_oak_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_sign]
+[mangrove_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[mangrove_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_sign]
+[bamboo_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[bamboo_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_door]
+[oak_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[oak_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[oak_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[oak_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[ladder]
+[ladder.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[ladder.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[rail]
+[rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+    "south_east",
+    "south_west",
+    "north_west",
+    "north_east",
+]
+[rail.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobblestone_stairs]
+[cobblestone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cobblestone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[cobblestone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[cobblestone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_wall_sign]
+[oak_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_wall_sign]
+[spruce_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_wall_sign]
+[birch_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_wall_sign]
+[acacia_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_wall_sign]
+[cherry_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_wall_sign]
+[jungle_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_wall_sign]
+[dark_oak_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_wall_sign]
+[mangrove_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_wall_sign]
+[bamboo_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_hanging_sign]
+[oak_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[oak_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[oak_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_hanging_sign]
+[spruce_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[spruce_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[spruce_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_hanging_sign]
+[birch_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[birch_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[birch_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_hanging_sign]
+[acacia_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[acacia_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[acacia_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_hanging_sign]
+[cherry_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[cherry_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[cherry_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_hanging_sign]
+[jungle_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[jungle_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[jungle_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_hanging_sign]
+[dark_oak_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[dark_oak_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_hanging_sign]
+[crimson_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[crimson_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[crimson_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_hanging_sign]
+[warped_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[warped_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[warped_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_hanging_sign]
+[mangrove_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[mangrove_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_hanging_sign]
+[bamboo_hanging_sign.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_hanging_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[bamboo_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_wall_hanging_sign]
+[oak_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_wall_hanging_sign]
+[spruce_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_wall_hanging_sign]
+[birch_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_wall_hanging_sign]
+[acacia_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_wall_hanging_sign]
+[cherry_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_wall_hanging_sign]
+[jungle_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_wall_hanging_sign]
+[dark_oak_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_wall_hanging_sign]
+[mangrove_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_wall_hanging_sign]
+[crimson_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_wall_hanging_sign]
+[warped_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_wall_hanging_sign]
+[bamboo_wall_hanging_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_wall_hanging_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[lever]
+[lever.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[lever.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lever.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[stone_pressure_plate]
+[stone_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[iron_door]
+[iron_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[iron_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[iron_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[iron_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[iron_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[oak_pressure_plate]
+[oak_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[spruce_pressure_plate]
+[spruce_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[birch_pressure_plate]
+[birch_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[jungle_pressure_plate]
+[jungle_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[acacia_pressure_plate]
+[acacia_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[cherry_pressure_plate]
+[cherry_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_pressure_plate]
+[dark_oak_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_pressure_plate]
+[mangrove_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_pressure_plate]
+[bamboo_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[redstone_ore]
+[redstone_ore.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_redstone_ore]
+[deepslate_redstone_ore.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[redstone_torch]
+[redstone_torch.properties.lit]
+default = "true"
+allowed = ["true", "false"]
+[redstone_wall_torch]
+[redstone_wall_torch.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[redstone_wall_torch.properties.lit]
+default = "true"
+allowed = ["true", "false"]
+[stone_button]
+[stone_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[stone_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[stone_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[snow]
+[snow.properties.layers]
+default = "1"
+allowed = ["1", "2", "3", "4", "5", "6", "7", "8"]
+[ice]
+[snow_block]
+[cactus]
+[cactus.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[clay]
+[sugar_cane]
+[sugar_cane.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[jukebox]
+[jukebox.properties.has_record]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence]
+[oak_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[pumpkin]
+[netherrack]
 [soul_sand]
 [soul_soil]
+[basalt]
+[basalt.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[polished_basalt]
+[polished_basalt.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
 [soul_torch]
 [soul_wall_torch]
-[spawner]
-[sponge]
-[spore_blossom]
-[spruce_button]
-[spruce_door]
-[spruce_fence_gate]
-[spruce_fence]
-[spruce_leaves]
-[spruce_log]
-[spruce_planks]
-[spruce_pressure_plate]
-[spruce_sapling]
-[spruce_sign]
-[spruce_slab]
-[spruce_stairs]
-[spruce_trapdoor]
-[spruce_wall_sign]
-[spruce_wood]
-[sticky_piston]
-[stone_brick_slab]
-[stone_brick_stairs]
-[stone_brick_wall]
-[stone_bricks]
-[stone_button]
-[stone_pressure_plate]
-[stone_slab]
-[stone_stairs]
-[stone]
-[stonecutter]
-[stripped_acacia_log]
-[stripped_acacia_wood]
-[stripped_birch_log]
-[stripped_birch_wood]
-[stripped_crimson_hyphae]
-[stripped_crimson_stem]
-[stripped_dark_oak_log]
-[stripped_dark_oak_wood]
-[stripped_jungle_log]
-[stripped_jungle_wood]
-[stripped_mangrove_log]
-[stripped_mangrove_wood]
-[stripped_oak_log]
-[stripped_oak_wood]
-[stripped_spruce_log]
-[stripped_spruce_wood]
-[stripped_warped_hyphae]
-[stripped_warped_stem]
-[structure_block]
-[structure_void]
-[sugar_cane]
-[sunflower]
-[sweet_berry_bush]
-[tall_grass]
-[tall_seagrass]
-[target]
-[terracotta]
-[tinted_glass]
-[tnt]
-[torch]
-[trapped_chest]
-[tripwire_hook]
-[tripwire]
-[tube_coral_block]
-[tube_coral_fan]
-[tube_coral_wall_fan]
-[tube_coral]
-[tuff]
-[turtle_egg]
-[twisting_vines_plant]
-[twisting_vines]
-[verdant_froglight]
-[vine]
-[void_air]
-[wall_torch]
-[warped_button]
-[warped_door]
-[warped_fence_gate]
-[warped_fence]
-[warped_fungus]
-[warped_hyphae]
-[warped_nylium]
-[warped_planks]
-[warped_pressure_plate]
-[warped_roots]
-[warped_sign]
-[warped_slab]
-[warped_stairs]
-[warped_stem]
-[warped_trapdoor]
-[warped_wall_sign]
-[warped_wart_block]
-[water_cauldron]
-[water]
-[waxed_copper_block]
-[waxed_cut_copper_slab]
-[waxed_cut_copper_stairs]
-[waxed_cut_copper]
-[waxed_exposed_copper]
-[waxed_exposed_cut_copper_slab]
-[waxed_exposed_cut_copper_stairs]
-[waxed_exposed_cut_copper]
-[waxed_oxidized_copper]
-[waxed_oxidized_cut_copper_slab]
-[waxed_oxidized_cut_copper_stairs]
-[waxed_oxidized_cut_copper]
-[waxed_weathered_copper]
-[waxed_weathered_cut_copper_slab]
-[waxed_weathered_cut_copper_stairs]
-[waxed_weathered_cut_copper]
-[weathered_copper]
-[weathered_cut_copper_slab]
-[weathered_cut_copper_stairs]
-[weathered_cut_copper]
-[weeping_vines_plant]
-[weeping_vines]
-[wet_sponge]
-[wheat]
-[white_banner]
-[white_bed]
-[white_candle_cake]
-[white_candle]
-[white_carpet]
-[white_concrete_powder]
-[white_concrete]
-[white_glazed_terracotta]
-[white_shulker_box]
-[white_stained_glass_pane]
+[soul_wall_torch.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[glowstone]
+[nether_portal]
+[nether_portal.properties.axis]
+default = "x"
+allowed = ["x", "z"]
+[carved_pumpkin]
+[carved_pumpkin.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jack_o_lantern]
+[jack_o_lantern.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cake]
+[cake.properties.bites]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6"]
+[repeater]
+[repeater.properties.delay]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[repeater.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[repeater.properties.locked]
+default = "false"
+allowed = ["true", "false"]
+[repeater.properties.powered]
+default = "false"
+allowed = ["true", "false"]
 [white_stained_glass]
-[white_terracotta]
-[white_tulip]
-[white_wall_banner]
-[white_wool]
-[wither_rose]
-[wither_skeleton_skull]
-[wither_skeleton_wall_skull]
-[yellow_banner]
-[yellow_bed]
-[yellow_candle_cake]
-[yellow_candle]
-[yellow_carpet]
-[yellow_concrete_powder]
-[yellow_concrete]
-[yellow_glazed_terracotta]
-[yellow_shulker_box]
-[yellow_stained_glass_pane]
+[orange_stained_glass]
+[magenta_stained_glass]
+[light_blue_stained_glass]
 [yellow_stained_glass]
-[yellow_terracotta]
-[yellow_wall_banner]
-[yellow_wool]
+[lime_stained_glass]
+[pink_stained_glass]
+[gray_stained_glass]
+[light_gray_stained_glass]
+[cyan_stained_glass]
+[purple_stained_glass]
+[blue_stained_glass]
+[brown_stained_glass]
+[green_stained_glass]
+[red_stained_glass]
+[black_stained_glass]
+[oak_trapdoor]
+[oak_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[oak_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[oak_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[oak_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_trapdoor]
+[spruce_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[spruce_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[spruce_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[spruce_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_trapdoor]
+[birch_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[birch_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[birch_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[birch_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_trapdoor]
+[jungle_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[jungle_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[jungle_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[jungle_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_trapdoor]
+[acacia_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[acacia_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[acacia_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[acacia_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_trapdoor]
+[cherry_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[cherry_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[cherry_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[cherry_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_trapdoor]
+[dark_oak_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[dark_oak_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_trapdoor]
+[mangrove_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[mangrove_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_trapdoor]
+[bamboo_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[bamboo_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_bricks]
+[mossy_stone_bricks]
+[cracked_stone_bricks]
+[chiseled_stone_bricks]
+[packed_mud]
+[mud_bricks]
+[infested_stone]
+[infested_cobblestone]
+[infested_stone_bricks]
+[infested_mossy_stone_bricks]
+[infested_cracked_stone_bricks]
+[infested_chiseled_stone_bricks]
+[brown_mushroom_block]
+[brown_mushroom_block.properties.down]
+default = "true"
+allowed = ["true", "false"]
+[brown_mushroom_block.properties.east]
+default = "true"
+allowed = ["true", "false"]
+[brown_mushroom_block.properties.north]
+default = "true"
+allowed = ["true", "false"]
+[brown_mushroom_block.properties.south]
+default = "true"
+allowed = ["true", "false"]
+[brown_mushroom_block.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[brown_mushroom_block.properties.west]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block]
+[red_mushroom_block.properties.down]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block.properties.east]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block.properties.north]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block.properties.south]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[red_mushroom_block.properties.west]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem]
+[mushroom_stem.properties.down]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem.properties.east]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem.properties.north]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem.properties.south]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[mushroom_stem.properties.west]
+default = "true"
+allowed = ["true", "false"]
+[iron_bars]
+[iron_bars.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[iron_bars.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[iron_bars.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[iron_bars.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[iron_bars.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[chain]
+[chain.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[chain.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[glass_pane]
+[glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[melon]
+[attached_pumpkin_stem]
+[attached_pumpkin_stem.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[attached_melon_stem]
+[attached_melon_stem.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[pumpkin_stem]
+[pumpkin_stem.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[melon_stem]
+[melon_stem.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[vine]
+[vine.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[vine.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[vine.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[vine.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[vine.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen]
+[glow_lichen.properties.down]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[glow_lichen.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence_gate]
+[oak_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[oak_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[brick_stairs]
+[brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_brick_stairs]
+[stone_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[stone_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[stone_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[stone_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mud_brick_stairs]
+[mud_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mud_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[mud_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[mud_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mycelium]
+[mycelium.properties.snowy]
+default = "false"
+allowed = ["true", "false"]
+[lily_pad]
+[nether_bricks]
+[nether_brick_fence]
+[nether_brick_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_stairs]
+[nether_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[nether_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[nether_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[nether_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[nether_wart]
+[nether_wart.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[enchanting_table]
+[brewing_stand]
+[brewing_stand.properties.has_bottle_0]
+default = "false"
+allowed = ["true", "false"]
+[brewing_stand.properties.has_bottle_1]
+default = "false"
+allowed = ["true", "false"]
+[brewing_stand.properties.has_bottle_2]
+default = "false"
+allowed = ["true", "false"]
+[cauldron]
+[water_cauldron]
+[water_cauldron.properties.level]
+default = "1"
+allowed = ["1", "2", "3"]
+[lava_cauldron]
+[powder_snow_cauldron]
+[powder_snow_cauldron.properties.level]
+default = "1"
+allowed = ["1", "2", "3"]
+[end_portal]
+[end_portal_frame]
+[end_portal_frame.properties.eye]
+default = "false"
+allowed = ["true", "false"]
+[end_portal_frame.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[end_stone]
+[dragon_egg]
+[redstone_lamp]
+[redstone_lamp.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[cocoa]
+[cocoa.properties.age]
+default = "0"
+allowed = ["0", "1", "2"]
+[cocoa.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[sandstone_stairs]
+[sandstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[sandstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[sandstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[sandstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[emerald_ore]
+[deepslate_emerald_ore]
+[ender_chest]
+[ender_chest.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[ender_chest.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[tripwire_hook]
+[tripwire_hook.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[tripwire_hook.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[tripwire_hook.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[tripwire]
+[tripwire.properties.attached]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.disarmed]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[tripwire.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[emerald_block]
+[spruce_stairs]
+[spruce_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[spruce_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[spruce_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_stairs]
+[birch_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[birch_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[birch_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_stairs]
+[jungle_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[jungle_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[jungle_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[command_block]
+[command_block.properties.conditional]
+default = "false"
+allowed = ["true", "false"]
+[command_block.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[beacon]
+[cobblestone_wall]
+[cobblestone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobblestone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobblestone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobblestone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[cobblestone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobblestone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_cobblestone_wall]
+[mossy_cobblestone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_cobblestone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_cobblestone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_cobblestone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[mossy_cobblestone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_cobblestone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[flower_pot]
+[potted_torchflower]
+[potted_oak_sapling]
+[potted_spruce_sapling]
+[potted_birch_sapling]
+[potted_jungle_sapling]
+[potted_acacia_sapling]
+[potted_cherry_sapling]
+[potted_dark_oak_sapling]
+[potted_mangrove_propagule]
+[potted_fern]
+[potted_dandelion]
+[potted_poppy]
+[potted_blue_orchid]
+[potted_allium]
+[potted_azure_bluet]
+[potted_red_tulip]
+[potted_orange_tulip]
+[potted_white_tulip]
+[potted_pink_tulip]
+[potted_oxeye_daisy]
+[potted_cornflower]
+[potted_lily_of_the_valley]
+[potted_wither_rose]
+[potted_red_mushroom]
+[potted_brown_mushroom]
+[potted_dead_bush]
+[potted_cactus]
+[carrots]
+[carrots.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[potatoes]
+[potatoes.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[oak_button]
+[oak_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[oak_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oak_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[spruce_button]
+[spruce_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[spruce_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[birch_button]
+[birch_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[birch_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[jungle_button]
+[jungle_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[jungle_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[acacia_button]
+[acacia_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[acacia_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[cherry_button]
+[cherry_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[cherry_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_button]
+[dark_oak_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[dark_oak_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_button]
+[mangrove_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[mangrove_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_button]
+[bamboo_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[bamboo_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[skeleton_skull]
+[skeleton_skull.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[skeleton_wall_skull]
+[skeleton_wall_skull.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[wither_skeleton_skull]
+[wither_skeleton_skull.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[wither_skeleton_wall_skull]
+[wither_skeleton_wall_skull.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
 [zombie_head]
+[zombie_head.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
 [zombie_wall_head]
+[zombie_wall_head.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[player_head]
+[player_head.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[player_wall_head]
+[player_wall_head.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[creeper_head]
+[creeper_head.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[creeper_wall_head]
+[creeper_wall_head.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dragon_head]
+[dragon_head.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[dragon_wall_head]
+[dragon_wall_head.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[piglin_head]
+[piglin_head.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[piglin_wall_head]
+[piglin_wall_head.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[anvil]
+[anvil.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[chipped_anvil]
+[chipped_anvil.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[damaged_anvil]
+[damaged_anvil.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[trapped_chest]
+[trapped_chest.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[trapped_chest.properties.type]
+default = "single"
+allowed = ["single", "left", "right"]
+[trapped_chest.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[light_weighted_pressure_plate]
+[light_weighted_pressure_plate.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[heavy_weighted_pressure_plate]
+[heavy_weighted_pressure_plate.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[comparator]
+[comparator.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[comparator.properties.mode]
+default = "compare"
+allowed = ["compare", "subtract"]
+[comparator.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[daylight_detector]
+[daylight_detector.properties.inverted]
+default = "false"
+allowed = ["true", "false"]
+[daylight_detector.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[redstone_block]
+[nether_quartz_ore]
+[hopper]
+[hopper.properties.enabled]
+default = "true"
+allowed = ["true", "false"]
+[hopper.properties.facing]
+default = "down"
+allowed = ["down", "north", "south", "west", "east"]
+[quartz_block]
+[chiseled_quartz_block]
+[quartz_pillar]
+[quartz_pillar.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[quartz_stairs]
+[quartz_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[quartz_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[quartz_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[quartz_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[activator_rail]
+[activator_rail.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[activator_rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+]
+[activator_rail.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dropper]
+[dropper.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[dropper.properties.triggered]
+default = "false"
+allowed = ["true", "false"]
+[white_terracotta]
+[orange_terracotta]
+[magenta_terracotta]
+[light_blue_terracotta]
+[yellow_terracotta]
+[lime_terracotta]
+[pink_terracotta]
+[gray_terracotta]
+[light_gray_terracotta]
+[cyan_terracotta]
+[purple_terracotta]
+[blue_terracotta]
+[brown_terracotta]
+[green_terracotta]
+[red_terracotta]
+[black_terracotta]
+[white_stained_glass_pane]
+[white_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[white_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[white_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[white_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[white_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[orange_stained_glass_pane]
+[orange_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[orange_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[orange_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[orange_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[orange_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[magenta_stained_glass_pane]
+[magenta_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[magenta_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[magenta_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[magenta_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[magenta_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_stained_glass_pane]
+[light_blue_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[yellow_stained_glass_pane]
+[yellow_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[yellow_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[yellow_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[yellow_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[yellow_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[lime_stained_glass_pane]
+[lime_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[lime_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[lime_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[lime_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[lime_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[pink_stained_glass_pane]
+[pink_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[pink_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[pink_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[pink_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[pink_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[gray_stained_glass_pane]
+[gray_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[gray_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[gray_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[gray_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[gray_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_stained_glass_pane]
+[light_gray_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[cyan_stained_glass_pane]
+[cyan_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[cyan_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[cyan_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[cyan_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cyan_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[purple_stained_glass_pane]
+[purple_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[purple_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[purple_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[purple_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[purple_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[blue_stained_glass_pane]
+[blue_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[blue_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[blue_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[blue_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[blue_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[brown_stained_glass_pane]
+[brown_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[brown_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[brown_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[brown_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[brown_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[green_stained_glass_pane]
+[green_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[green_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[green_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[green_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[green_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[red_stained_glass_pane]
+[red_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[red_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[red_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[red_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[black_stained_glass_pane]
+[black_stained_glass_pane.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[black_stained_glass_pane.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[black_stained_glass_pane.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[black_stained_glass_pane.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[black_stained_glass_pane.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[acacia_stairs]
+[acacia_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[acacia_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[acacia_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_stairs]
+[cherry_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[cherry_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[cherry_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_stairs]
+[dark_oak_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[dark_oak_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[dark_oak_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_stairs]
+[mangrove_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[mangrove_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[mangrove_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_stairs]
+[bamboo_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[bamboo_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[bamboo_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_mosaic_stairs]
+[bamboo_mosaic_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_mosaic_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[bamboo_mosaic_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[bamboo_mosaic_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[slime_block]
+[barrier]
+[light]
+[light.properties.level]
+default = "15"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[light.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[iron_trapdoor]
+[iron_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[iron_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[iron_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[iron_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[iron_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[prismarine]
+[prismarine_bricks]
+[dark_prismarine]
+[prismarine_stairs]
+[prismarine_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[prismarine_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[prismarine_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[prismarine_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[prismarine_brick_stairs]
+[prismarine_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[prismarine_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[prismarine_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[prismarine_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_prismarine_stairs]
+[dark_prismarine_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_prismarine_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[dark_prismarine_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[dark_prismarine_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[prismarine_slab]
+[prismarine_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[prismarine_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[prismarine_brick_slab]
+[prismarine_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[prismarine_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_prismarine_slab]
+[dark_prismarine_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[dark_prismarine_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sea_lantern]
+[hay_block]
+[hay_block.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[white_carpet]
+[orange_carpet]
+[magenta_carpet]
+[light_blue_carpet]
+[yellow_carpet]
+[lime_carpet]
+[pink_carpet]
+[gray_carpet]
+[light_gray_carpet]
+[cyan_carpet]
+[purple_carpet]
+[blue_carpet]
+[brown_carpet]
+[green_carpet]
+[red_carpet]
+[black_carpet]
+[terracotta]
+[coal_block]
+[packed_ice]
+[sunflower]
+[sunflower.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[lilac]
+[lilac.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[rose_bush]
+[rose_bush.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[peony]
+[peony.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[tall_grass]
+[tall_grass.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[large_fern]
+[large_fern.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[white_banner]
+[white_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[orange_banner]
+[orange_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[magenta_banner]
+[magenta_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[light_blue_banner]
+[light_blue_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[yellow_banner]
+[yellow_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[lime_banner]
+[lime_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[pink_banner]
+[pink_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[gray_banner]
+[gray_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[light_gray_banner]
+[light_gray_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[cyan_banner]
+[cyan_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[purple_banner]
+[purple_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[blue_banner]
+[blue_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[brown_banner]
+[brown_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[green_banner]
+[green_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[red_banner]
+[red_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[black_banner]
+[black_banner.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[white_wall_banner]
+[white_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[orange_wall_banner]
+[orange_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[magenta_wall_banner]
+[magenta_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_blue_wall_banner]
+[light_blue_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[yellow_wall_banner]
+[yellow_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lime_wall_banner]
+[lime_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[pink_wall_banner]
+[pink_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[gray_wall_banner]
+[gray_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_gray_wall_banner]
+[light_gray_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cyan_wall_banner]
+[cyan_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[purple_wall_banner]
+[purple_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[blue_wall_banner]
+[blue_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[brown_wall_banner]
+[brown_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[green_wall_banner]
+[green_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_wall_banner]
+[red_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[black_wall_banner]
+[black_wall_banner.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_sandstone]
+[chiseled_red_sandstone]
+[cut_red_sandstone]
+[red_sandstone_stairs]
+[red_sandstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_sandstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[red_sandstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[red_sandstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oak_slab]
+[oak_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[oak_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_slab]
+[spruce_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[spruce_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_slab]
+[birch_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[birch_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_slab]
+[jungle_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[jungle_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_slab]
+[acacia_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[acacia_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_slab]
+[cherry_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cherry_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_slab]
+[dark_oak_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[dark_oak_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_slab]
+[mangrove_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[mangrove_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_slab]
+[bamboo_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[bamboo_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_mosaic_slab]
+[bamboo_mosaic_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[bamboo_mosaic_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_slab]
+[stone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[stone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_stone_slab]
+[smooth_stone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[smooth_stone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sandstone_slab]
+[sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cut_sandstone_slab]
+[cut_sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cut_sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[petrified_oak_slab]
+[petrified_oak_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[petrified_oak_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobblestone_slab]
+[cobblestone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cobblestone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[brick_slab]
+[brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_brick_slab]
+[stone_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[stone_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mud_brick_slab]
+[mud_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[mud_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_slab]
+[nether_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[nether_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[quartz_slab]
+[quartz_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[quartz_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_sandstone_slab]
+[red_sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[red_sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cut_red_sandstone_slab]
+[cut_red_sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cut_red_sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[purpur_slab]
+[purpur_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[purpur_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_stone]
+[smooth_sandstone]
+[smooth_quartz]
+[smooth_red_sandstone]
+[spruce_fence_gate]
+[spruce_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence_gate]
+[birch_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence_gate]
+[jungle_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence_gate]
+[acacia_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence_gate]
+[cherry_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence_gate]
+[dark_oak_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence_gate]
+[mangrove_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence_gate]
+[bamboo_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence]
+[spruce_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[spruce_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence]
+[birch_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[birch_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence]
+[jungle_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[jungle_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence]
+[acacia_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[acacia_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence]
+[cherry_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cherry_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence]
+[dark_oak_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence]
+[mangrove_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence]
+[bamboo_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[spruce_door]
+[spruce_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[spruce_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[spruce_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[spruce_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[spruce_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[birch_door]
+[birch_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[birch_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[birch_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[birch_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[birch_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[jungle_door]
+[jungle_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[jungle_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[jungle_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[jungle_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[jungle_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[acacia_door]
+[acacia_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[acacia_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[acacia_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[acacia_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[acacia_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[cherry_door]
+[cherry_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cherry_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[cherry_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[cherry_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[cherry_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_door]
+[dark_oak_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dark_oak_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[dark_oak_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[dark_oak_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[dark_oak_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_door]
+[mangrove_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mangrove_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[mangrove_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[mangrove_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[mangrove_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_door]
+[bamboo_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bamboo_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[bamboo_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[bamboo_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[bamboo_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[end_rod]
+[end_rod.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[chorus_plant]
+[chorus_plant.properties.down]
+default = "false"
+allowed = ["true", "false"]
+[chorus_plant.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[chorus_plant.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[chorus_plant.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[chorus_plant.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[chorus_plant.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[chorus_flower]
+[chorus_flower.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5"]
+[purpur_block]
+[purpur_pillar]
+[purpur_pillar.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[purpur_stairs]
+[purpur_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[purpur_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[purpur_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[purpur_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[end_stone_bricks]
+[torchflower_crop]
+[torchflower_crop.properties.age]
+default = "0"
+allowed = ["0", "1"]
+[pitcher_crop]
+[pitcher_crop.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3", "4"]
+[pitcher_crop.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[pitcher_plant]
+[pitcher_plant.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[beetroots]
+[beetroots.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[dirt_path]
+[end_gateway]
+[repeating_command_block]
+[repeating_command_block.properties.conditional]
+default = "false"
+allowed = ["true", "false"]
+[repeating_command_block.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[chain_command_block]
+[chain_command_block.properties.conditional]
+default = "false"
+allowed = ["true", "false"]
+[chain_command_block.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[frosted_ice]
+[frosted_ice.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[magma_block]
+[nether_wart_block]
+[red_nether_bricks]
+[bone_block]
+[bone_block.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[structure_void]
+[observer]
+[observer.properties.facing]
+default = "south"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[observer.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[shulker_box]
+[shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[white_shulker_box]
+[white_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[orange_shulker_box]
+[orange_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[magenta_shulker_box]
+[magenta_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[light_blue_shulker_box]
+[light_blue_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[yellow_shulker_box]
+[yellow_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[lime_shulker_box]
+[lime_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[pink_shulker_box]
+[pink_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[gray_shulker_box]
+[gray_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[light_gray_shulker_box]
+[light_gray_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[cyan_shulker_box]
+[cyan_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[purple_shulker_box]
+[purple_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[blue_shulker_box]
+[blue_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[brown_shulker_box]
+[brown_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[green_shulker_box]
+[green_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[red_shulker_box]
+[red_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[black_shulker_box]
+[black_shulker_box.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[white_glazed_terracotta]
+[white_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[orange_glazed_terracotta]
+[orange_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[magenta_glazed_terracotta]
+[magenta_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_blue_glazed_terracotta]
+[light_blue_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[yellow_glazed_terracotta]
+[yellow_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lime_glazed_terracotta]
+[lime_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[pink_glazed_terracotta]
+[pink_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[gray_glazed_terracotta]
+[gray_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[light_gray_glazed_terracotta]
+[light_gray_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cyan_glazed_terracotta]
+[cyan_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[purple_glazed_terracotta]
+[purple_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[blue_glazed_terracotta]
+[blue_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[brown_glazed_terracotta]
+[brown_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[green_glazed_terracotta]
+[green_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_glazed_terracotta]
+[red_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[black_glazed_terracotta]
+[black_glazed_terracotta.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[white_concrete]
+[orange_concrete]
+[magenta_concrete]
+[light_blue_concrete]
+[yellow_concrete]
+[lime_concrete]
+[pink_concrete]
+[gray_concrete]
+[light_gray_concrete]
+[cyan_concrete]
+[purple_concrete]
+[blue_concrete]
+[brown_concrete]
+[green_concrete]
+[red_concrete]
+[black_concrete]
+[white_concrete_powder]
+[orange_concrete_powder]
+[magenta_concrete_powder]
+[light_blue_concrete_powder]
+[yellow_concrete_powder]
+[lime_concrete_powder]
+[pink_concrete_powder]
+[gray_concrete_powder]
+[light_gray_concrete_powder]
+[cyan_concrete_powder]
+[purple_concrete_powder]
+[blue_concrete_powder]
+[brown_concrete_powder]
+[green_concrete_powder]
+[red_concrete_powder]
+[black_concrete_powder]
+[kelp]
+[kelp.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+]
+[kelp_plant]
+[dried_kelp_block]
+[turtle_egg]
+[turtle_egg.properties.eggs]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[turtle_egg.properties.hatch]
+default = "0"
+allowed = ["0", "1", "2"]
+[sniffer_egg]
+[sniffer_egg.properties.hatch]
+default = "0"
+allowed = ["0", "1", "2"]
+[dead_tube_coral_block]
+[dead_brain_coral_block]
+[dead_bubble_coral_block]
+[dead_fire_coral_block]
+[dead_horn_coral_block]
+[tube_coral_block]
+[brain_coral_block]
+[bubble_coral_block]
+[fire_coral_block]
+[horn_coral_block]
+[dead_tube_coral]
+[dead_tube_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_brain_coral]
+[dead_brain_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_bubble_coral]
+[dead_bubble_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_fire_coral]
+[dead_fire_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_horn_coral]
+[dead_horn_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[tube_coral]
+[tube_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[brain_coral]
+[brain_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[bubble_coral]
+[bubble_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[fire_coral]
+[fire_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[horn_coral]
+[horn_coral.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_tube_coral_fan]
+[dead_tube_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_brain_coral_fan]
+[dead_brain_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_bubble_coral_fan]
+[dead_bubble_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_fire_coral_fan]
+[dead_fire_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_horn_coral_fan]
+[dead_horn_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[tube_coral_fan]
+[tube_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[brain_coral_fan]
+[brain_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[bubble_coral_fan]
+[bubble_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[fire_coral_fan]
+[fire_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[horn_coral_fan]
+[horn_coral_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_tube_coral_wall_fan]
+[dead_tube_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dead_tube_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_brain_coral_wall_fan]
+[dead_brain_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dead_brain_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_bubble_coral_wall_fan]
+[dead_bubble_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dead_bubble_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_fire_coral_wall_fan]
+[dead_fire_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dead_fire_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[dead_horn_coral_wall_fan]
+[dead_horn_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[dead_horn_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[tube_coral_wall_fan]
+[tube_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[tube_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[brain_coral_wall_fan]
+[brain_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[brain_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[bubble_coral_wall_fan]
+[bubble_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bubble_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[fire_coral_wall_fan]
+[fire_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[fire_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[horn_coral_wall_fan]
+[horn_coral_wall_fan.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[horn_coral_wall_fan.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[sea_pickle]
+[sea_pickle.properties.pickles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[sea_pickle.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[blue_ice]
+[conduit]
+[conduit.properties.waterlogged]
+default = "true"
+allowed = ["true", "false"]
+[bamboo_sapling]
+[bamboo]
+[bamboo.properties.age]
+default = "0"
+allowed = ["0", "1"]
+[bamboo.properties.leaves]
+default = "none"
+allowed = ["none", "small", "large"]
+[bamboo.properties.stage]
+default = "0"
+allowed = ["0", "1"]
+[potted_bamboo]
+[void_air]
+[cave_air]
+[bubble_column]
+[bubble_column.properties.drag]
+default = "true"
+allowed = ["true", "false"]
+[polished_granite_stairs]
+[polished_granite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_granite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_granite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_granite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_red_sandstone_stairs]
+[smooth_red_sandstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[smooth_red_sandstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[smooth_red_sandstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[smooth_red_sandstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_stone_brick_stairs]
+[mossy_stone_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mossy_stone_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[mossy_stone_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[mossy_stone_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_diorite_stairs]
+[polished_diorite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_diorite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_diorite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_diorite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_cobblestone_stairs]
+[mossy_cobblestone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[mossy_cobblestone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[mossy_cobblestone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[mossy_cobblestone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[end_stone_brick_stairs]
+[end_stone_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[end_stone_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[end_stone_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[end_stone_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_stairs]
+[stone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[stone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[stone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[stone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_sandstone_stairs]
+[smooth_sandstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[smooth_sandstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[smooth_sandstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[smooth_sandstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_quartz_stairs]
+[smooth_quartz_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[smooth_quartz_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[smooth_quartz_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[smooth_quartz_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[granite_stairs]
+[granite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[granite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[granite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[granite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[andesite_stairs]
+[andesite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[andesite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[andesite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[andesite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_nether_brick_stairs]
+[red_nether_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[red_nether_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[red_nether_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[red_nether_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_andesite_stairs]
+[polished_andesite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_andesite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_andesite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_andesite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[diorite_stairs]
+[diorite_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[diorite_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[diorite_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[diorite_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_granite_slab]
+[polished_granite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_granite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_red_sandstone_slab]
+[smooth_red_sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[smooth_red_sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_stone_brick_slab]
+[mossy_stone_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[mossy_stone_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_diorite_slab]
+[polished_diorite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_diorite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_cobblestone_slab]
+[mossy_cobblestone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[mossy_cobblestone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[end_stone_brick_slab]
+[end_stone_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[end_stone_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_sandstone_slab]
+[smooth_sandstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[smooth_sandstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[smooth_quartz_slab]
+[smooth_quartz_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[smooth_quartz_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[granite_slab]
+[granite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[granite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[andesite_slab]
+[andesite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[andesite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_nether_brick_slab]
+[red_nether_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[red_nether_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_andesite_slab]
+[polished_andesite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_andesite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[diorite_slab]
+[diorite_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[diorite_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[brick_wall]
+[brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[prismarine_wall]
+[prismarine_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[prismarine_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[prismarine_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[prismarine_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[prismarine_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[prismarine_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_sandstone_wall]
+[red_sandstone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_sandstone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_sandstone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_sandstone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[red_sandstone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_sandstone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_stone_brick_wall]
+[mossy_stone_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_stone_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_stone_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mossy_stone_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[mossy_stone_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mossy_stone_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[granite_wall]
+[granite_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[granite_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[granite_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[granite_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[granite_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[granite_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[stone_brick_wall]
+[stone_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[stone_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[stone_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[stone_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[stone_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[stone_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mud_brick_wall]
+[mud_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mud_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mud_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[mud_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[mud_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[mud_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[nether_brick_wall]
+[nether_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[nether_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[nether_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[nether_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[nether_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[nether_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[andesite_wall]
+[andesite_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[andesite_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[andesite_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[andesite_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[andesite_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[andesite_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_nether_brick_wall]
+[red_nether_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_nether_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_nether_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[red_nether_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[red_nether_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_nether_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[sandstone_wall]
+[sandstone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[sandstone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[sandstone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[sandstone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[sandstone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sandstone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[end_stone_brick_wall]
+[end_stone_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[end_stone_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[end_stone_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[end_stone_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[end_stone_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[end_stone_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[diorite_wall]
+[diorite_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[diorite_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[diorite_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[diorite_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[diorite_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[diorite_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[scaffolding]
+[scaffolding.properties.bottom]
+default = "false"
+allowed = ["true", "false"]
+[scaffolding.properties.distance]
+default = "7"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
+[scaffolding.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[loom]
+[loom.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[barrel]
+[barrel.properties.facing]
+default = "north"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[barrel.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[smoker]
+[smoker.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[smoker.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[blast_furnace]
+[blast_furnace.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[blast_furnace.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[cartography_table]
+[fletching_table]
+[grindstone]
+[grindstone.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[grindstone.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lectern]
+[lectern.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[lectern.properties.has_book]
+default = "false"
+allowed = ["true", "false"]
+[lectern.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[smithing_table]
+[stonecutter]
+[stonecutter.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bell]
+[bell.properties.attachment]
+default = "floor"
+allowed = ["floor", "ceiling", "single_wall", "double_wall"]
+[bell.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bell.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[lantern]
+[lantern.properties.hanging]
+default = "false"
+allowed = ["true", "false"]
+[lantern.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[soul_lantern]
+[soul_lantern.properties.hanging]
+default = "false"
+allowed = ["true", "false"]
+[soul_lantern.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[campfire]
+[campfire.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[campfire.properties.lit]
+default = "true"
+allowed = ["true", "false"]
+[campfire.properties.signal_fire]
+default = "false"
+allowed = ["true", "false"]
+[campfire.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[soul_campfire]
+[soul_campfire.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[soul_campfire.properties.lit]
+default = "true"
+allowed = ["true", "false"]
+[soul_campfire.properties.signal_fire]
+default = "false"
+allowed = ["true", "false"]
+[soul_campfire.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sweet_berry_bush]
+[sweet_berry_bush.properties.age]
+default = "0"
+allowed = ["0", "1", "2", "3"]
+[warped_stem]
+[warped_stem.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_warped_stem]
+[stripped_warped_stem.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[warped_hyphae]
+[warped_hyphae.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_warped_hyphae]
+[stripped_warped_hyphae.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[warped_nylium]
+[warped_fungus]
+[warped_wart_block]
+[warped_roots]
+[nether_sprouts]
+[crimson_stem]
+[crimson_stem.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_crimson_stem]
+[stripped_crimson_stem.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[crimson_hyphae]
+[crimson_hyphae.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[stripped_crimson_hyphae]
+[stripped_crimson_hyphae.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[crimson_nylium]
+[crimson_fungus]
+[shroomlight]
+[weeping_vines]
+[weeping_vines.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+]
+[weeping_vines_plant]
+[twisting_vines]
+[twisting_vines.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+]
+[twisting_vines_plant]
+[crimson_roots]
+[crimson_planks]
+[warped_planks]
+[crimson_slab]
+[crimson_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[crimson_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_slab]
+[warped_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[warped_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_pressure_plate]
+[crimson_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[warped_pressure_plate]
+[warped_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence]
+[crimson_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence]
+[warped_fence.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[crimson_trapdoor]
+[crimson_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[crimson_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[crimson_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[crimson_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_trapdoor]
+[warped_trapdoor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_trapdoor.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[warped_trapdoor.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[warped_trapdoor.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[warped_trapdoor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence_gate]
+[crimson_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[crimson_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence_gate]
+[warped_fence_gate.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_fence_gate.properties.in_wall]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence_gate.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[warped_fence_gate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[crimson_stairs]
+[crimson_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[crimson_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[crimson_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_stairs]
+[warped_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[warped_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[warped_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_button]
+[crimson_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[crimson_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[warped_button]
+[warped_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[warped_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[crimson_door]
+[crimson_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[crimson_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[crimson_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[crimson_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[warped_door]
+[warped_door.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_door.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[warped_door.properties.hinge]
+default = "left"
+allowed = ["left", "right"]
+[warped_door.properties.open]
+default = "false"
+allowed = ["true", "false"]
+[warped_door.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[crimson_sign]
+[crimson_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[crimson_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_sign]
+[warped_sign.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[warped_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[crimson_wall_sign]
+[crimson_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[crimson_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[warped_wall_sign]
+[warped_wall_sign.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[warped_wall_sign.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[structure_block]
+[structure_block.properties.mode]
+default = "load"
+allowed = ["save", "load", "corner", "data"]
+[jigsaw]
+[jigsaw.properties.orientation]
+default = "north_up"
+allowed = [
+    "down_east",
+    "down_north",
+    "down_south",
+    "down_west",
+    "up_east",
+    "up_north",
+    "up_south",
+    "up_west",
+    "west_up",
+    "east_up",
+    "north_up",
+    "south_up",
+]
+[composter]
+[composter.properties.level]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5", "6", "7", "8"]
+[target]
+[target.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[bee_nest]
+[bee_nest.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[bee_nest.properties.honey_level]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5"]
+[beehive]
+[beehive.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[beehive.properties.honey_level]
+default = "0"
+allowed = ["0", "1", "2", "3", "4", "5"]
+[honey_block]
+[honeycomb_block]
+[netherite_block]
+[ancient_debris]
+[crying_obsidian]
+[respawn_anchor]
+[respawn_anchor.properties.charges]
+default = "0"
+allowed = ["0", "1", "2", "3", "4"]
+[potted_crimson_fungus]
+[potted_warped_fungus]
+[potted_crimson_roots]
+[potted_warped_roots]
+[lodestone]
+[blackstone]
+[blackstone_stairs]
+[blackstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[blackstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[blackstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[blackstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[blackstone_wall]
+[blackstone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[blackstone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[blackstone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[blackstone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[blackstone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[blackstone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[blackstone_slab]
+[blackstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[blackstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone]
+[polished_blackstone_bricks]
+[cracked_polished_blackstone_bricks]
+[chiseled_polished_blackstone]
+[polished_blackstone_brick_slab]
+[polished_blackstone_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_blackstone_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_brick_stairs]
+[polished_blackstone_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_blackstone_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_blackstone_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_blackstone_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_brick_wall]
+[polished_blackstone_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[polished_blackstone_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[gilded_blackstone]
+[polished_blackstone_stairs]
+[polished_blackstone_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_blackstone_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_blackstone_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_blackstone_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_slab]
+[polished_blackstone_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_blackstone_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_pressure_plate]
+[polished_blackstone_pressure_plate.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_button]
+[polished_blackstone_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[polished_blackstone_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_blackstone_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_wall]
+[polished_blackstone_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_blackstone_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[polished_blackstone_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_blackstone_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[chiseled_nether_bricks]
+[cracked_nether_bricks]
+[quartz_bricks]
+[candle]
+[candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[white_candle]
+[white_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[white_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[white_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[orange_candle]
+[orange_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[orange_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[orange_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[magenta_candle]
+[magenta_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[magenta_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[magenta_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_candle]
+[light_blue_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[light_blue_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[yellow_candle]
+[yellow_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[yellow_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[yellow_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[lime_candle]
+[lime_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[lime_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[lime_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[pink_candle]
+[pink_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[pink_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[pink_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[gray_candle]
+[gray_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[gray_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[gray_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_candle]
+[light_gray_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[light_gray_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cyan_candle]
+[cyan_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[cyan_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[cyan_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[purple_candle]
+[purple_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[purple_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[purple_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[blue_candle]
+[blue_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[blue_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[blue_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[brown_candle]
+[brown_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[brown_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[brown_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[green_candle]
+[green_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[green_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[green_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[red_candle]
+[red_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[red_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[red_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[black_candle]
+[black_candle.properties.candles]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[black_candle.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[black_candle.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[candle_cake]
+[candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[white_candle_cake]
+[white_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[orange_candle_cake]
+[orange_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[magenta_candle_cake]
+[magenta_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[light_blue_candle_cake]
+[light_blue_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[yellow_candle_cake]
+[yellow_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[lime_candle_cake]
+[lime_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[pink_candle_cake]
+[pink_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[gray_candle_cake]
+[gray_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[light_gray_candle_cake]
+[light_gray_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[cyan_candle_cake]
+[cyan_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[purple_candle_cake]
+[purple_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[blue_candle_cake]
+[blue_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[brown_candle_cake]
+[brown_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[green_candle_cake]
+[green_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[red_candle_cake]
+[red_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[black_candle_cake]
+[black_candle_cake.properties.lit]
+default = "false"
+allowed = ["true", "false"]
+[amethyst_block]
+[budding_amethyst]
+[amethyst_cluster]
+[amethyst_cluster.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[amethyst_cluster.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[large_amethyst_bud]
+[large_amethyst_bud.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[large_amethyst_bud.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[medium_amethyst_bud]
+[medium_amethyst_bud.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[medium_amethyst_bud.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[small_amethyst_bud]
+[small_amethyst_bud.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[small_amethyst_bud.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[tuff]
+[calcite]
+[tinted_glass]
+[powder_snow]
+[sculk_sensor]
+[sculk_sensor.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[sculk_sensor.properties.sculk_sensor_phase]
+default = "inactive"
+allowed = ["inactive", "active", "cooldown"]
+[sculk_sensor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[calibrated_sculk_sensor]
+[calibrated_sculk_sensor.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[calibrated_sculk_sensor.properties.power]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[calibrated_sculk_sensor.properties.sculk_sensor_phase]
+default = "inactive"
+allowed = ["inactive", "active", "cooldown"]
+[calibrated_sculk_sensor.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sculk]
+[sculk_vein]
+[sculk_vein.properties.down]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[sculk_vein.properties.west]
+default = "false"
+allowed = ["true", "false"]
+[sculk_catalyst]
+[sculk_catalyst.properties.bloom]
+default = "false"
+allowed = ["true", "false"]
+[sculk_shrieker]
+[sculk_shrieker.properties.can_summon]
+default = "false"
+allowed = ["true", "false"]
+[sculk_shrieker.properties.shrieking]
+default = "false"
+allowed = ["true", "false"]
+[sculk_shrieker.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oxidized_copper]
+[weathered_copper]
+[exposed_copper]
+[copper_block]
+[copper_ore]
+[deepslate_copper_ore]
+[oxidized_cut_copper]
+[weathered_cut_copper]
+[exposed_cut_copper]
+[cut_copper]
+[oxidized_cut_copper_stairs]
+[oxidized_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[oxidized_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[oxidized_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[oxidized_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[weathered_cut_copper_stairs]
+[weathered_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[weathered_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[weathered_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[weathered_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[exposed_cut_copper_stairs]
+[exposed_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[exposed_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[exposed_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[exposed_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cut_copper_stairs]
+[cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[oxidized_cut_copper_slab]
+[oxidized_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[oxidized_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[weathered_cut_copper_slab]
+[weathered_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[weathered_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[exposed_cut_copper_slab]
+[exposed_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[exposed_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cut_copper_slab]
+[cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_copper_block]
+[waxed_weathered_copper]
+[waxed_exposed_copper]
+[waxed_oxidized_copper]
+[waxed_oxidized_cut_copper]
+[waxed_weathered_cut_copper]
+[waxed_exposed_cut_copper]
+[waxed_cut_copper]
+[waxed_oxidized_cut_copper_stairs]
+[waxed_oxidized_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[waxed_oxidized_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[waxed_oxidized_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[waxed_oxidized_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_weathered_cut_copper_stairs]
+[waxed_weathered_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[waxed_weathered_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[waxed_weathered_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[waxed_weathered_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_exposed_cut_copper_stairs]
+[waxed_exposed_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[waxed_exposed_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[waxed_exposed_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[waxed_exposed_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_cut_copper_stairs]
+[waxed_cut_copper_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[waxed_cut_copper_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[waxed_cut_copper_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[waxed_cut_copper_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_oxidized_cut_copper_slab]
+[waxed_oxidized_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[waxed_oxidized_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_weathered_cut_copper_slab]
+[waxed_weathered_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[waxed_weathered_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_exposed_cut_copper_slab]
+[waxed_exposed_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[waxed_exposed_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[waxed_cut_copper_slab]
+[waxed_cut_copper_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[waxed_cut_copper_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[lightning_rod]
+[lightning_rod.properties.facing]
+default = "up"
+allowed = ["north", "east", "south", "west", "up", "down"]
+[lightning_rod.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[lightning_rod.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[pointed_dripstone]
+[pointed_dripstone.properties.thickness]
+default = "tip"
+allowed = ["tip_merge", "tip", "frustum", "middle", "base"]
+[pointed_dripstone.properties.vertical_direction]
+default = "up"
+allowed = ["up", "down"]
+[pointed_dripstone.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[dripstone_block]
+[cave_vines]
+[cave_vines.properties.age]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+]
+[cave_vines.properties.berries]
+default = "false"
+allowed = ["true", "false"]
+[cave_vines_plant]
+[cave_vines_plant.properties.berries]
+default = "false"
+allowed = ["true", "false"]
+[spore_blossom]
+[azalea]
+[flowering_azalea]
+[moss_carpet]
+[pink_petals]
+[pink_petals.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[pink_petals.properties.flower_amount]
+default = "1"
+allowed = ["1", "2", "3", "4"]
+[moss_block]
+[big_dripleaf]
+[big_dripleaf.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[big_dripleaf.properties.tilt]
+default = "none"
+allowed = ["none", "unstable", "partial", "full"]
+[big_dripleaf.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[big_dripleaf_stem]
+[big_dripleaf_stem.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[big_dripleaf_stem.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[small_dripleaf]
+[small_dripleaf.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[small_dripleaf.properties.half]
+default = "lower"
+allowed = ["upper", "lower"]
+[small_dripleaf.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[hanging_roots]
+[hanging_roots.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[rooted_dirt]
+[mud]
+[deepslate]
+[deepslate.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[cobbled_deepslate]
+[cobbled_deepslate_stairs]
+[cobbled_deepslate_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[cobbled_deepslate_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[cobbled_deepslate_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[cobbled_deepslate_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobbled_deepslate_slab]
+[cobbled_deepslate_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[cobbled_deepslate_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobbled_deepslate_wall]
+[cobbled_deepslate_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobbled_deepslate_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobbled_deepslate_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[cobbled_deepslate_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[cobbled_deepslate_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[cobbled_deepslate_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_deepslate]
+[polished_deepslate_stairs]
+[polished_deepslate_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[polished_deepslate_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[polished_deepslate_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[polished_deepslate_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_deepslate_slab]
+[polished_deepslate_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[polished_deepslate_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_deepslate_wall]
+[polished_deepslate_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_deepslate_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_deepslate_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[polished_deepslate_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[polished_deepslate_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[polished_deepslate_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_tiles]
+[deepslate_tile_stairs]
+[deepslate_tile_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[deepslate_tile_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[deepslate_tile_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[deepslate_tile_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_tile_slab]
+[deepslate_tile_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[deepslate_tile_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_tile_wall]
+[deepslate_tile_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_tile_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_tile_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_tile_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[deepslate_tile_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_tile_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_bricks]
+[deepslate_brick_stairs]
+[deepslate_brick_stairs.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[deepslate_brick_stairs.properties.half]
+default = "bottom"
+allowed = ["top", "bottom"]
+[deepslate_brick_stairs.properties.shape]
+default = "straight"
+allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
+[deepslate_brick_stairs.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_brick_slab]
+[deepslate_brick_slab.properties.type]
+default = "bottom"
+allowed = ["top", "bottom", "double"]
+[deepslate_brick_slab.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_brick_wall]
+[deepslate_brick_wall.properties.east]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_brick_wall.properties.north]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_brick_wall.properties.south]
+default = "none"
+allowed = ["none", "low", "tall"]
+[deepslate_brick_wall.properties.up]
+default = "true"
+allowed = ["true", "false"]
+[deepslate_brick_wall.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[deepslate_brick_wall.properties.west]
+default = "none"
+allowed = ["none", "low", "tall"]
+[chiseled_deepslate]
+[cracked_deepslate_bricks]
+[cracked_deepslate_tiles]
+[infested_deepslate]
+[infested_deepslate.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[smooth_basalt]
+[raw_iron_block]
+[raw_copper_block]
+[raw_gold_block]
+[potted_azalea_bush]
+[potted_flowering_azalea_bush]
+[ochre_froglight]
+[ochre_froglight.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[verdant_froglight]
+[verdant_froglight.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[pearlescent_froglight]
+[pearlescent_froglight.properties.axis]
+default = "y"
+allowed = ["x", "y", "z"]
+[frogspawn]
+[reinforced_deepslate]
+[decorated_pot]
+[decorated_pot.properties.cracked]
+default = "false"
+allowed = ["true", "false"]
+[decorated_pot.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[decorated_pot.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
