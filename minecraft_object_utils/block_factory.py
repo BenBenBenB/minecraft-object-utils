@@ -86,44 +86,45 @@ class Block:
 class BlockFactory:
     """Stores collection of BlockTraits and allows you to create instances of Block from them."""
 
-    namespaces: "list[ModInfo]"
+    imported: "list[str]"
+    mods: "list[ModInfo]"
     blocks: "dict[str,BlockTraits]"
 
     def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
         self.blocks = {}
-        self.namespaces = []
+        self.mods = []
+        self.imported = []
         for mod in mods:
-            self.import_namespace(mod)
+            self.import_mod(mod)
 
-    def import_namespace(self, mod: ModInfo) -> None:
+    def import_mod(self, mod: ModInfo) -> None:
         """Register a collection of blocks to factory from file."""
-        imported_already = [n for n in self.namespaces if n.namespace == mod.namespace]
-        if any(imported_already):
-            raise ValueError(
-                f"Problem importing {mod.versioned_name}. Conflict with {imported_already[0].versioned_name}"
-            )
-        file_path = os.path.join(mod.directory, f"{mod.versioned_name}-block.toml")
+        file_path = mod.get_file_path("block")
         if os.path.isfile(file_path):
-            self.namespaces.append(mod)
-            self.load_from_toml(file_path, mod.namespace)
+            self.mods.append(mod)
+            self.load_from_toml(file_path)
         else:
             logging.warning(
                 f"Skipping block import for {mod.versioned_name}. File not found: {file_path}"
             )
 
-    def load_from_toml(self, file_path: str, namespace: str) -> None:
+    def load_from_toml(self, file_path: str) -> None:
         """Reads block traits from toml files and stores to self.
 
         Args:
             file_path (str): location of file to read.
-            namespace (str): namespace to save blocks under.
         """
+        if file_path in self.imported:
+            logging.warning(f"Skipping import. Already loaded file: {file_path}")
+            return
         all_block_data: "dict[str,dict]" = toml.load(file_path)
-        for block_name, block_data in all_block_data.items():
-            if ":" not in block_name:
-                block_name = f"{namespace}:{block_name}"
-            block_info = BlockTraits.create_from_toml(block_name, block_data)
-            self.register(block_info)
+        for namespace, namespace_blocks in all_block_data.items():
+            for block_id, block_data in namespace_blocks.items():
+                if ":" not in block_id:
+                    block_id = f"{namespace}:{block_id}"
+                block_info = BlockTraits.create_from_toml(block_id, block_data)
+                self.register(block_info)
+        self.imported.append(file_path)
 
     def register(self, block_info: BlockTraits) -> None:
         """Saves new block traits to the factory."""

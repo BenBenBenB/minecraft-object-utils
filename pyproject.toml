@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "minecraft-object-utils"
-version = "0.0.3"
+version = "0.1.0"
 description = "Create python objects that represent Minecraft blocks, items, and entities."
 authors = ["Ben Burton <benjaminburtondev@gmail.com>"]
 license = "MIT"
@@ -19,6 +19,7 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Topic :: Games/Entertainment",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]

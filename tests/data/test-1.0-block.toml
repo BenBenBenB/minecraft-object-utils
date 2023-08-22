@@ -1,0 +1,39 @@
+# Generated from Minecraft version 1.20.1
+[minecraft.air]
+[minecraft.stone]
+[minecraft.grass_block]
+[minecraft.grass_block.properties.snowy]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.cobblestone]
+[minecraft.powered_rail]
+[minecraft.powered_rail.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.powered_rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+]
+[minecraft.powered_rail.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.detector_rail]
+[minecraft.detector_rail.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.detector_rail.properties.shape]
+default = "north_south"
+allowed = [
+    "north_south",
+    "east_west",
+    "ascending_east",
+    "ascending_west",
+    "ascending_north",
+    "ascending_south",
+]
