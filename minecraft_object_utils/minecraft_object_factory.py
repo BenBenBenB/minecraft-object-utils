@@ -8,9 +8,9 @@ class MinecraftObjectFactory:
     """Sets up Block, Item, and Entity factories."""
 
     _mods: "list[ModInfo]"
-    blocks: BlockFactory
-    items: ItemFactory
-    entities: EntityFactory
+    block: BlockFactory
+    item: ItemFactory
+    entity: EntityFactory
 
     @property
     def mods(self) -> "list[ModInfo]":
@@ -18,21 +18,16 @@ class MinecraftObjectFactory:
 
     def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
         self._mods = mods
-        self.blocks = BlockFactory(mods)
-        self.items = ItemFactory(mods)
-        self.entities = EntityFactory(mods)
+        self.block = BlockFactory(mods)
+        self.item = ItemFactory(mods)
+        self.entity = EntityFactory(mods)
 
-    def import_namespace(self, mod: ModInfo) -> None:
+    def import_mod(self, mod: ModInfo) -> None:
         """Imports configs from file for all factories.
 
         Args:
-            mod (ModInfo): namespaces to be imported
+            mod (ModInfo): describes object collection to be imported
         """
-        imported_already = [n for n in self._mods if n.namespace == mod.namespace]
-        if any(imported_already):
-            raise ValueError(
-                f"Problem importing {mod.versioned_name}. Conflict with {imported_already[0].versioned_name}"
-            )
-        self.blocks.import_namespace(mod)
-        self.items.import_namespace(mod)
-        self.entities.import_namespace(mod)
+        self.block.import_mod(mod)
+        self.item.import_mod(mod)
+        self.entity.import_mod(mod)
