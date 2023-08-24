@@ -1,0 +1,18 @@
+# Generated from Minecraft version 1.20.1
+[minecraft.bee]
+height = 0.6
+width = 0.7
+category = "CREATURE"
+[minecraft.blaze]
+fire_immune = true
+height = 1.8
+width = 0.6
+category = "MONSTER"
+[minecraft.chest_boat]
+height = 0.5625
+width = 1.375
+category = "MISC"
+[minecraft.cod]
+height = 0.3
+width = 0.5
+category = "WATER_AMBIENT"

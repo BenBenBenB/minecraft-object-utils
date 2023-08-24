@@ -1,0 +1,7 @@
+[minecraft.air]
+[minecraft.netherite_block]
+is_fire_resistant = true
+[minecraft.exposed_copper]
+[minecraft.wooden_shovel]
+max_stack_size = 1
+max_damage = 59
