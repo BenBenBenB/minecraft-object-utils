@@ -31,8 +31,34 @@ class ItemStack(BaseObject):
     """Represents an item and stores common NBT."""
 
     traits: ItemTraits
-    count: int
-    damage: int
+    _count: int
+    _damage: int
+
+    @property
+    def count(self) -> int:
+        return self._count
+
+    @count.setter
+    def count(self, new_count) -> None:
+        if 1 <= new_count <= self.traits.max_stack_size:
+            self._count = new_count
+        else:
+            raise ValueError(
+                f"Count {new_count} is invalid. Max count: {self.traits.max_stack_size}"
+            )
+
+    @property
+    def damage(self) -> int:
+        return self._damage
+
+    @damage.setter
+    def damage(self, new_damage) -> None:
+        if 0 <= new_damage <= self.traits.max_damage:
+            self._damage = new_damage
+        else:
+            raise ValueError(
+                f"Damage {new_damage} is invalid. Max damage: {self.traits.max_damage}"
+            )
 
     def __init__(
         self,
