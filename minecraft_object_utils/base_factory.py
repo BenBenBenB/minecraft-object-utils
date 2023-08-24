@@ -1,6 +1,7 @@
 import logging
 import os.path
 from abc import ABC, abstractmethod
+from typing import Generic, TypeVar
 
 import toml
 
@@ -22,10 +23,14 @@ class BaseObjectTraits(ABC):
         return BaseObjectTraits(object_id)
 
 
+BObjT = TypeVar("BObjT")
+
+
 class BaseObject(ABC):
     """Represents a minecraft object, and its characteristics, and its state."""
 
     traits: BaseObjectTraits
+    file_name_part: str
 
     @property
     def id(self) -> str:
@@ -36,15 +41,19 @@ class BaseObject(ABC):
         self.traits = object_info
 
 
-class BaseObjectFactory(ABC):
+BObj = TypeVar("BObj")
+
+
+class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
     """Stores collection of BaseObjectTraits and allows you to create instances of BaseObject from them."""
 
     imported: "list[str]"
     mods: "list[ModInfo]"
     registry: "dict[str,BaseObjectTraits]"
-    object_type_name: str
+    file_name_part: str
+    BaseObjType: type
+    BaseObjTraitType: type
 
-    @abstractmethod
     def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
         self.registry = {}
         self.mods = []
@@ -54,7 +63,7 @@ class BaseObjectFactory(ABC):
 
     def import_mod(self, mod: ModInfo) -> None:
         """Register a collection of object traits to factory from file."""
-        file_path = mod.get_file_path(self.object_type_name)
+        file_path = mod.get_file_path(self.file_name_part)
         if self.load_from_toml(file_path):
             self.mods.append(mod)
 
@@ -78,25 +87,23 @@ class BaseObjectFactory(ABC):
             for object_id, object_data in namespace_traits.items():
                 if ":" not in object_id:
                     object_id = f"{namespace}:{object_id}"
-                object_traits = self._parse_toml(object_id, object_data)
+                object_traits = self.BaseObjTraitType.create_from_toml(
+                    object_id, object_data
+                )
                 self.register(object_traits)
         self.imported.append(file_path)
         return True
-
-    @abstractmethod
-    def _parse_toml(self, object_id: str, item_data: dict) -> BaseObjectTraits:
-        return BaseObjectTraits.create_from_toml(object_id, item_data)
 
     def register(self, object_traits: BaseObjectTraits) -> None:
         """Saves new traits to the factory."""
         if object_traits.id in self.registry:
             raise ValueError(
-                f"Already registered {self.object_type_name} {object_traits.id}"
+                f"Already registered {self.file_name_part} {object_traits.id}"
             )
         self.registry[object_traits.id] = object_traits
 
-    def create(self, object_id: str, initial_state: "dict(str,str)" = {}) -> BaseObject:
-        """Create a BaseObject object. Optionally specify initial state.
+    def create(self, object_id: str, initial_state: "dict(str,str)" = {}) -> BObj:
+        """Create a BaseObject derived object. Optionally specify initial state.
 
         Args:
             object_id (str): the object's id. Example: "minecraft:dirt"
@@ -108,12 +115,6 @@ class BaseObjectFactory(ABC):
         if ":" not in object_id:
             object_id = f"minecraft:{object_id}"
         if object_id in self.registry:
-            return self._create(object_id, initial_state)
+            return self.BaseObjType(self.registry[object_id], initial_state)
         else:
             raise ValueError(f"{self.__class__.__name__} has no {object_id}.")
-
-    @abstractmethod
-    def _create(
-        self, object_id: str, initial_state: "dict(str,str)" = {}
-    ) -> BaseObject:
-        return BaseObject(self.registry[object_id], initial_state)

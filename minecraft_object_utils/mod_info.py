@@ -13,7 +13,9 @@ class ModInfo:
     def versioned_name(self) -> str:
         return f"{self.namespace}-{self.version}"
 
-    def __init__(self, namespace: str, version: str, directory: str) -> None:
+    def __init__(
+        self, namespace: str, version: str, directory: str = VANILLA_DATA_DIRECTORY
+    ) -> None:
         self.namespace = namespace
         self.version = version
         self.directory = directory

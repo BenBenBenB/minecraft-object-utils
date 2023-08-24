@@ -1,5 +1,4 @@
 from .base_factory import BaseObject, BaseObjectFactory, BaseObjectTraits
-from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
 
 class BlockProperty:
@@ -88,15 +87,9 @@ class Block(BaseObject):
         return self._state.get(prop_name)
 
 
-class BlockFactory(BaseObjectFactory):
+class BlockFactory(BaseObjectFactory[Block, BlockTraits]):
     """Registers BlockTraits and allows creation of Block instances from them."""
 
-    def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
-        self.object_type_name = "block"
-        return super().__init__(mods)
-
-    def _parse_toml(self, entity_id: str, item_data: dict) -> BlockTraits:
-        return BlockTraits.create_from_toml(entity_id, item_data)
-
-    def _create(self, block_id: str, initial_state: "dict(str,str)" = {}) -> Block:
-        return Block(self.registry[block_id], initial_state)
+    file_name_part: str = "block"
+    BaseObjType: type = Block
+    BaseObjTraitType: type = BlockTraits
