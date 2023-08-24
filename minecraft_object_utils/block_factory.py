@@ -16,23 +16,39 @@ class BlockProperty:
         self.default = default_value
         self.allowed = allowed_values
 
+    @staticmethod
+    def create_list_from_toml(block_props: dict) -> "BlockTraits":
+        return [
+            BlockProperty(prop_name, state["default"], state["allowed"])
+            for prop_name, state in block_props.items()
+        ]
+
 
 class BlockTraits(BaseObjectTraits):
     """The definition of a block. Describes possible states and behavior in the game."""
 
     props: "list[BlockProperty]"
 
-    def __init__(self, id: str, props: "list[BlockProperty]" = []) -> None:
+    def __init__(
+        self,
+        id: str,
+        piston_behavior: str,
+        props: "list[BlockProperty]" = [],
+    ) -> None:
         super().__init__(id)
         self.props = props
+        self.piston_behavior = piston_behavior
 
     @staticmethod
     def create_from_toml(block_id: str, block_data: dict) -> "BlockTraits":
-        block_props = [
-            BlockProperty(prop_name, state["default"], state["allowed"])
-            for prop_name, state in (block_data.get("properties", {})).items()
-        ]
-        return BlockTraits(block_id, block_props)
+        block_props = BlockProperty.create_list_from_toml(
+            block_data.get("properties", {})
+        )
+        return BlockTraits(
+            block_id,
+            block_data.get("piston_behavior", "NORMAL"),
+            block_props,
+        )
 
 
 class Block(BaseObject):

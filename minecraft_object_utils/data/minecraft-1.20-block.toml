@@ -29,34 +29,42 @@ allowed = ["true", "false"]
 [minecraft.bamboo_planks]
 [minecraft.bamboo_mosaic]
 [minecraft.oak_sapling]
+piston_behavior = "DESTROY"
 [minecraft.oak_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.spruce_sapling]
+piston_behavior = "DESTROY"
 [minecraft.spruce_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.birch_sapling]
+piston_behavior = "DESTROY"
 [minecraft.birch_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.jungle_sapling]
+piston_behavior = "DESTROY"
 [minecraft.jungle_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.acacia_sapling]
+piston_behavior = "DESTROY"
 [minecraft.acacia_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.cherry_sapling]
+piston_behavior = "DESTROY"
 [minecraft.cherry_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.dark_oak_sapling]
+piston_behavior = "DESTROY"
 [minecraft.dark_oak_sapling.properties.stage]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.mangrove_propagule]
+piston_behavior = "DESTROY"
 [minecraft.mangrove_propagule.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4"]
@@ -71,6 +79,7 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.bedrock]
 [minecraft.water]
+piston_behavior = "DESTROY"
 [minecraft.water.properties.level]
 default = "0"
 allowed = [
@@ -92,6 +101,7 @@ allowed = [
     "15",
 ]
 [minecraft.lava]
+piston_behavior = "DESTROY"
 [minecraft.lava.properties.level]
 default = "0"
 allowed = [
@@ -114,12 +124,14 @@ allowed = [
 ]
 [minecraft.sand]
 [minecraft.suspicious_sand]
+piston_behavior = "DESTROY"
 [minecraft.suspicious_sand.properties.dusted]
 default = "0"
 allowed = ["0", "1", "2", "3"]
 [minecraft.red_sand]
 [minecraft.gravel]
 [minecraft.suspicious_gravel]
+piston_behavior = "DESTROY"
 [minecraft.suspicious_gravel.properties.dusted]
 default = "0"
 allowed = ["0", "1", "2", "3"]
@@ -275,6 +287,7 @@ allowed = ["x", "y", "z"]
 default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.oak_leaves]
+piston_behavior = "DESTROY"
 [minecraft.oak_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -285,6 +298,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.spruce_leaves]
+piston_behavior = "DESTROY"
 [minecraft.spruce_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -295,6 +309,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.birch_leaves]
+piston_behavior = "DESTROY"
 [minecraft.birch_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -305,6 +320,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.jungle_leaves]
+piston_behavior = "DESTROY"
 [minecraft.jungle_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -315,6 +331,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.acacia_leaves]
+piston_behavior = "DESTROY"
 [minecraft.acacia_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -325,6 +342,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cherry_leaves]
+piston_behavior = "DESTROY"
 [minecraft.cherry_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -335,6 +353,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.dark_oak_leaves]
+piston_behavior = "DESTROY"
 [minecraft.dark_oak_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -345,6 +364,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.mangrove_leaves]
+piston_behavior = "DESTROY"
 [minecraft.mangrove_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -355,6 +375,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.azalea_leaves]
+piston_behavior = "DESTROY"
 [minecraft.azalea_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -365,6 +386,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.flowering_azalea_leaves]
+piston_behavior = "DESTROY"
 [minecraft.flowering_azalea_leaves.properties.distance]
 default = "7"
 allowed = ["1", "2", "3", "4", "5", "6", "7"]
@@ -451,6 +473,7 @@ allowed = [
 default = "false"
 allowed = ["true", "false"]
 [minecraft.white_bed]
+piston_behavior = "DESTROY"
 [minecraft.white_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -461,6 +484,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.orange_bed]
+piston_behavior = "DESTROY"
 [minecraft.orange_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -471,6 +495,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.magenta_bed]
+piston_behavior = "DESTROY"
 [minecraft.magenta_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -481,6 +506,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.light_blue_bed]
+piston_behavior = "DESTROY"
 [minecraft.light_blue_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -491,6 +517,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.yellow_bed]
+piston_behavior = "DESTROY"
 [minecraft.yellow_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -501,6 +528,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.lime_bed]
+piston_behavior = "DESTROY"
 [minecraft.lime_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -511,6 +539,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.pink_bed]
+piston_behavior = "DESTROY"
 [minecraft.pink_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -521,6 +550,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.gray_bed]
+piston_behavior = "DESTROY"
 [minecraft.gray_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -531,6 +561,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.light_gray_bed]
+piston_behavior = "DESTROY"
 [minecraft.light_gray_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -541,6 +572,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.cyan_bed]
+piston_behavior = "DESTROY"
 [minecraft.cyan_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -551,6 +583,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.purple_bed]
+piston_behavior = "DESTROY"
 [minecraft.purple_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -561,6 +594,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.blue_bed]
+piston_behavior = "DESTROY"
 [minecraft.blue_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -571,6 +605,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.brown_bed]
+piston_behavior = "DESTROY"
 [minecraft.brown_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -581,6 +616,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.green_bed]
+piston_behavior = "DESTROY"
 [minecraft.green_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -591,6 +627,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.red_bed]
+piston_behavior = "DESTROY"
 [minecraft.red_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -601,6 +638,7 @@ allowed = ["true", "false"]
 default = "foot"
 allowed = ["head", "foot"]
 [minecraft.black_bed]
+piston_behavior = "DESTROY"
 [minecraft.black_bed.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -645,6 +683,7 @@ allowed = [
 default = "false"
 allowed = ["true", "false"]
 [minecraft.sticky_piston]
+piston_behavior = "BLOCK"
 [minecraft.sticky_piston.properties.extended]
 default = "false"
 allowed = ["true", "false"]
@@ -652,15 +691,22 @@ allowed = ["true", "false"]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.cobweb]
+piston_behavior = "DESTROY"
 [minecraft.grass]
+piston_behavior = "DESTROY"
 [minecraft.fern]
+piston_behavior = "DESTROY"
 [minecraft.dead_bush]
+piston_behavior = "DESTROY"
 [minecraft.seagrass]
+piston_behavior = "DESTROY"
 [minecraft.tall_seagrass]
+piston_behavior = "DESTROY"
 [minecraft.tall_seagrass.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.piston]
+piston_behavior = "BLOCK"
 [minecraft.piston.properties.extended]
 default = "false"
 allowed = ["true", "false"]
@@ -668,6 +714,7 @@ allowed = ["true", "false"]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.piston_head]
+piston_behavior = "BLOCK"
 [minecraft.piston_head.properties.facing]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -694,6 +741,7 @@ allowed = ["normal", "sticky"]
 [minecraft.red_wool]
 [minecraft.black_wool]
 [minecraft.moving_piston]
+piston_behavior = "BLOCK"
 [minecraft.moving_piston.properties.facing]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -701,21 +749,37 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "normal"
 allowed = ["normal", "sticky"]
 [minecraft.dandelion]
+piston_behavior = "DESTROY"
 [minecraft.torchflower]
+piston_behavior = "DESTROY"
 [minecraft.poppy]
+piston_behavior = "DESTROY"
 [minecraft.blue_orchid]
+piston_behavior = "DESTROY"
 [minecraft.allium]
+piston_behavior = "DESTROY"
 [minecraft.azure_bluet]
+piston_behavior = "DESTROY"
 [minecraft.red_tulip]
+piston_behavior = "DESTROY"
 [minecraft.orange_tulip]
+piston_behavior = "DESTROY"
 [minecraft.white_tulip]
+piston_behavior = "DESTROY"
 [minecraft.pink_tulip]
+piston_behavior = "DESTROY"
 [minecraft.oxeye_daisy]
+piston_behavior = "DESTROY"
 [minecraft.cornflower]
+piston_behavior = "DESTROY"
 [minecraft.wither_rose]
+piston_behavior = "DESTROY"
 [minecraft.lily_of_the_valley]
+piston_behavior = "DESTROY"
 [minecraft.brown_mushroom]
+piston_behavior = "DESTROY"
 [minecraft.red_mushroom]
+piston_behavior = "DESTROY"
 [minecraft.gold_block]
 [minecraft.iron_block]
 [minecraft.bricks]
@@ -749,11 +813,14 @@ allowed = ["true", "false"]
 [minecraft.mossy_cobblestone]
 [minecraft.obsidian]
 [minecraft.torch]
+piston_behavior = "DESTROY"
 [minecraft.wall_torch]
+piston_behavior = "DESTROY"
 [minecraft.wall_torch.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.fire]
+piston_behavior = "DESTROY"
 [minecraft.fire.properties.age]
 default = "0"
 allowed = [
@@ -790,6 +857,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.soul_fire]
+piston_behavior = "DESTROY"
 [minecraft.spawner]
 [minecraft.oak_stairs]
 [minecraft.oak_stairs.properties.facing]
@@ -815,6 +883,7 @@ allowed = ["single", "left", "right"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.redstone_wire]
+piston_behavior = "DESTROY"
 [minecraft.redstone_wire.properties.east]
 default = "none"
 allowed = ["up", "side", "none"]
@@ -852,6 +921,7 @@ allowed = ["up", "side", "none"]
 [minecraft.diamond_block]
 [minecraft.crafting_table]
 [minecraft.wheat]
+piston_behavior = "DESTROY"
 [minecraft.wheat.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
@@ -1083,6 +1153,7 @@ allowed = [
 default = "false"
 allowed = ["true", "false"]
 [minecraft.oak_door]
+piston_behavior = "DESTROY"
 [minecraft.oak_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -1099,6 +1170,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.ladder]
+piston_behavior = "DESTROY"
 [minecraft.ladder.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -1574,6 +1646,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.lever]
+piston_behavior = "DESTROY"
 [minecraft.lever.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -1584,10 +1657,12 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.stone_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.stone_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.iron_door]
+piston_behavior = "DESTROY"
 [minecraft.iron_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -1604,38 +1679,47 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.oak_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.oak_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.spruce_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.spruce_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.birch_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.birch_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.jungle_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.jungle_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.acacia_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.acacia_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cherry_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.cherry_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.dark_oak_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.dark_oak_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.mangrove_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.mangrove_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.bamboo_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.bamboo_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
@@ -1648,10 +1732,12 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.redstone_torch]
+piston_behavior = "DESTROY"
 [minecraft.redstone_torch.properties.lit]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.redstone_wall_torch]
+piston_behavior = "DESTROY"
 [minecraft.redstone_wall_torch.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -1659,6 +1745,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.stone_button]
+piston_behavior = "DESTROY"
 [minecraft.stone_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -1669,12 +1756,14 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.snow]
+piston_behavior = "DESTROY"
 [minecraft.snow.properties.layers]
 default = "1"
 allowed = ["1", "2", "3", "4", "5", "6", "7", "8"]
 [minecraft.ice]
 [minecraft.snow_block]
 [minecraft.cactus]
+piston_behavior = "DESTROY"
 [minecraft.cactus.properties.age]
 default = "0"
 allowed = [
@@ -1697,6 +1786,7 @@ allowed = [
 ]
 [minecraft.clay]
 [minecraft.sugar_cane]
+piston_behavior = "DESTROY"
 [minecraft.sugar_cane.properties.age]
 default = "0"
 allowed = [
@@ -1738,6 +1828,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.pumpkin]
+piston_behavior = "DESTROY"
 [minecraft.netherrack]
 [minecraft.soul_sand]
 [minecraft.soul_soil]
@@ -1750,28 +1841,35 @@ allowed = ["x", "y", "z"]
 default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.soul_torch]
+piston_behavior = "DESTROY"
 [minecraft.soul_wall_torch]
+piston_behavior = "DESTROY"
 [minecraft.soul_wall_torch.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.glowstone]
 [minecraft.nether_portal]
+piston_behavior = "BLOCK"
 [minecraft.nether_portal.properties.axis]
 default = "x"
 allowed = ["x", "z"]
 [minecraft.carved_pumpkin]
+piston_behavior = "DESTROY"
 [minecraft.carved_pumpkin.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.jack_o_lantern]
+piston_behavior = "DESTROY"
 [minecraft.jack_o_lantern.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.cake]
+piston_behavior = "DESTROY"
 [minecraft.cake.properties.bites]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6"]
 [minecraft.repeater]
+piston_behavior = "DESTROY"
 [minecraft.repeater.properties.delay]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -2053,23 +2151,29 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.melon]
+piston_behavior = "DESTROY"
 [minecraft.attached_pumpkin_stem]
+piston_behavior = "DESTROY"
 [minecraft.attached_pumpkin_stem.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.attached_melon_stem]
+piston_behavior = "DESTROY"
 [minecraft.attached_melon_stem.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.pumpkin_stem]
+piston_behavior = "DESTROY"
 [minecraft.pumpkin_stem.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 [minecraft.melon_stem]
+piston_behavior = "DESTROY"
 [minecraft.melon_stem.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 [minecraft.vine]
+piston_behavior = "DESTROY"
 [minecraft.vine.properties.east]
 default = "false"
 allowed = ["true", "false"]
@@ -2086,6 +2190,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.glow_lichen]
+piston_behavior = "DESTROY"
 [minecraft.glow_lichen.properties.down]
 default = "false"
 allowed = ["true", "false"]
@@ -2164,6 +2269,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.lily_pad]
+piston_behavior = "DESTROY"
 [minecraft.nether_bricks]
 [minecraft.nether_brick_fence]
 [minecraft.nether_brick_fence.properties.east]
@@ -2195,6 +2301,7 @@ allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.nether_wart]
+piston_behavior = "DESTROY"
 [minecraft.nether_wart.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3"]
@@ -2220,6 +2327,7 @@ allowed = ["1", "2", "3"]
 default = "1"
 allowed = ["1", "2", "3"]
 [minecraft.end_portal]
+piston_behavior = "BLOCK"
 [minecraft.end_portal_frame]
 [minecraft.end_portal_frame.properties.eye]
 default = "false"
@@ -2229,11 +2337,13 @@ default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.end_stone]
 [minecraft.dragon_egg]
+piston_behavior = "DESTROY"
 [minecraft.redstone_lamp]
 [minecraft.redstone_lamp.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cocoa]
+piston_behavior = "DESTROY"
 [minecraft.cocoa.properties.age]
 default = "0"
 allowed = ["0", "1", "2"]
@@ -2263,6 +2373,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.tripwire_hook]
+piston_behavior = "DESTROY"
 [minecraft.tripwire_hook.properties.attached]
 default = "false"
 allowed = ["true", "false"]
@@ -2273,6 +2384,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.tripwire]
+piston_behavior = "DESTROY"
 [minecraft.tripwire.properties.attached]
 default = "false"
 allowed = ["true", "false"]
@@ -2381,42 +2493,73 @@ allowed = ["true", "false"]
 default = "none"
 allowed = ["none", "low", "tall"]
 [minecraft.flower_pot]
+piston_behavior = "DESTROY"
 [minecraft.potted_torchflower]
+piston_behavior = "DESTROY"
 [minecraft.potted_oak_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_spruce_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_birch_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_jungle_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_acacia_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_cherry_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_dark_oak_sapling]
+piston_behavior = "DESTROY"
 [minecraft.potted_mangrove_propagule]
+piston_behavior = "DESTROY"
 [minecraft.potted_fern]
+piston_behavior = "DESTROY"
 [minecraft.potted_dandelion]
+piston_behavior = "DESTROY"
 [minecraft.potted_poppy]
+piston_behavior = "DESTROY"
 [minecraft.potted_blue_orchid]
+piston_behavior = "DESTROY"
 [minecraft.potted_allium]
+piston_behavior = "DESTROY"
 [minecraft.potted_azure_bluet]
+piston_behavior = "DESTROY"
 [minecraft.potted_red_tulip]
+piston_behavior = "DESTROY"
 [minecraft.potted_orange_tulip]
+piston_behavior = "DESTROY"
 [minecraft.potted_white_tulip]
+piston_behavior = "DESTROY"
 [minecraft.potted_pink_tulip]
+piston_behavior = "DESTROY"
 [minecraft.potted_oxeye_daisy]
+piston_behavior = "DESTROY"
 [minecraft.potted_cornflower]
+piston_behavior = "DESTROY"
 [minecraft.potted_lily_of_the_valley]
+piston_behavior = "DESTROY"
 [minecraft.potted_wither_rose]
+piston_behavior = "DESTROY"
 [minecraft.potted_red_mushroom]
+piston_behavior = "DESTROY"
 [minecraft.potted_brown_mushroom]
+piston_behavior = "DESTROY"
 [minecraft.potted_dead_bush]
+piston_behavior = "DESTROY"
 [minecraft.potted_cactus]
+piston_behavior = "DESTROY"
 [minecraft.carrots]
+piston_behavior = "DESTROY"
 [minecraft.carrots.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 [minecraft.potatoes]
+piston_behavior = "DESTROY"
 [minecraft.potatoes.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 [minecraft.oak_button]
+piston_behavior = "DESTROY"
 [minecraft.oak_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2427,6 +2570,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.spruce_button]
+piston_behavior = "DESTROY"
 [minecraft.spruce_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2437,6 +2581,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.birch_button]
+piston_behavior = "DESTROY"
 [minecraft.birch_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2447,6 +2592,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.jungle_button]
+piston_behavior = "DESTROY"
 [minecraft.jungle_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2457,6 +2603,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.acacia_button]
+piston_behavior = "DESTROY"
 [minecraft.acacia_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2467,6 +2614,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cherry_button]
+piston_behavior = "DESTROY"
 [minecraft.cherry_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2477,6 +2625,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.dark_oak_button]
+piston_behavior = "DESTROY"
 [minecraft.dark_oak_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2487,6 +2636,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.mangrove_button]
+piston_behavior = "DESTROY"
 [minecraft.mangrove_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2497,6 +2647,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.bamboo_button]
+piston_behavior = "DESTROY"
 [minecraft.bamboo_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -2507,6 +2658,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.skeleton_skull]
+piston_behavior = "DESTROY"
 [minecraft.skeleton_skull.properties.rotation]
 default = "0"
 allowed = [
@@ -2528,10 +2680,12 @@ allowed = [
     "15",
 ]
 [minecraft.skeleton_wall_skull]
+piston_behavior = "DESTROY"
 [minecraft.skeleton_wall_skull.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.wither_skeleton_skull]
+piston_behavior = "DESTROY"
 [minecraft.wither_skeleton_skull.properties.rotation]
 default = "0"
 allowed = [
@@ -2553,10 +2707,12 @@ allowed = [
     "15",
 ]
 [minecraft.wither_skeleton_wall_skull]
+piston_behavior = "DESTROY"
 [minecraft.wither_skeleton_wall_skull.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.zombie_head]
+piston_behavior = "DESTROY"
 [minecraft.zombie_head.properties.rotation]
 default = "0"
 allowed = [
@@ -2578,10 +2734,12 @@ allowed = [
     "15",
 ]
 [minecraft.zombie_wall_head]
+piston_behavior = "DESTROY"
 [minecraft.zombie_wall_head.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.player_head]
+piston_behavior = "DESTROY"
 [minecraft.player_head.properties.rotation]
 default = "0"
 allowed = [
@@ -2603,10 +2761,12 @@ allowed = [
     "15",
 ]
 [minecraft.player_wall_head]
+piston_behavior = "DESTROY"
 [minecraft.player_wall_head.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.creeper_head]
+piston_behavior = "DESTROY"
 [minecraft.creeper_head.properties.rotation]
 default = "0"
 allowed = [
@@ -2628,10 +2788,12 @@ allowed = [
     "15",
 ]
 [minecraft.creeper_wall_head]
+piston_behavior = "DESTROY"
 [minecraft.creeper_wall_head.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.dragon_head]
+piston_behavior = "DESTROY"
 [minecraft.dragon_head.properties.rotation]
 default = "0"
 allowed = [
@@ -2653,10 +2815,12 @@ allowed = [
     "15",
 ]
 [minecraft.dragon_wall_head]
+piston_behavior = "DESTROY"
 [minecraft.dragon_wall_head.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.piglin_head]
+piston_behavior = "DESTROY"
 [minecraft.piglin_head.properties.rotation]
 default = "0"
 allowed = [
@@ -2678,18 +2842,22 @@ allowed = [
     "15",
 ]
 [minecraft.piglin_wall_head]
+piston_behavior = "DESTROY"
 [minecraft.piglin_wall_head.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.anvil]
+piston_behavior = "BLOCK"
 [minecraft.anvil.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.chipped_anvil]
+piston_behavior = "BLOCK"
 [minecraft.chipped_anvil.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.damaged_anvil]
+piston_behavior = "BLOCK"
 [minecraft.damaged_anvil.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -2704,6 +2872,7 @@ allowed = ["single", "left", "right"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.light_weighted_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.light_weighted_pressure_plate.properties.power]
 default = "0"
 allowed = [
@@ -2725,6 +2894,7 @@ allowed = [
     "15",
 ]
 [minecraft.heavy_weighted_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.heavy_weighted_pressure_plate.properties.power]
 default = "0"
 allowed = [
@@ -2746,6 +2916,7 @@ allowed = [
     "15",
 ]
 [minecraft.comparator]
+piston_behavior = "DESTROY"
 [minecraft.comparator.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -3183,6 +3354,7 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.slime_block]
 [minecraft.barrier]
+piston_behavior = "BLOCK"
 [minecraft.light]
 [minecraft.light.properties.level]
 default = "15"
@@ -3311,26 +3483,32 @@ allowed = ["x", "y", "z"]
 [minecraft.coal_block]
 [minecraft.packed_ice]
 [minecraft.sunflower]
+piston_behavior = "DESTROY"
 [minecraft.sunflower.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.lilac]
+piston_behavior = "DESTROY"
 [minecraft.lilac.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.rose_bush]
+piston_behavior = "DESTROY"
 [minecraft.rose_bush.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.peony]
+piston_behavior = "DESTROY"
 [minecraft.peony.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.tall_grass]
+piston_behavior = "DESTROY"
 [minecraft.tall_grass.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.large_fern]
+piston_behavior = "DESTROY"
 [minecraft.large_fern.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
@@ -4155,6 +4333,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.spruce_door]
+piston_behavior = "DESTROY"
 [minecraft.spruce_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4171,6 +4350,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.birch_door]
+piston_behavior = "DESTROY"
 [minecraft.birch_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4187,6 +4367,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.jungle_door]
+piston_behavior = "DESTROY"
 [minecraft.jungle_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4203,6 +4384,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.acacia_door]
+piston_behavior = "DESTROY"
 [minecraft.acacia_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4219,6 +4401,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cherry_door]
+piston_behavior = "DESTROY"
 [minecraft.cherry_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4235,6 +4418,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.dark_oak_door]
+piston_behavior = "DESTROY"
 [minecraft.dark_oak_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4251,6 +4435,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.mangrove_door]
+piston_behavior = "DESTROY"
 [minecraft.mangrove_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4267,6 +4452,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.bamboo_door]
+piston_behavior = "DESTROY"
 [minecraft.bamboo_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4287,6 +4473,7 @@ allowed = ["true", "false"]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.chorus_plant]
+piston_behavior = "DESTROY"
 [minecraft.chorus_plant.properties.down]
 default = "false"
 allowed = ["true", "false"]
@@ -4306,6 +4493,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.chorus_flower]
+piston_behavior = "DESTROY"
 [minecraft.chorus_flower.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5"]
@@ -4329,10 +4517,12 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.end_stone_bricks]
 [minecraft.torchflower_crop]
+piston_behavior = "DESTROY"
 [minecraft.torchflower_crop.properties.age]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.pitcher_crop]
+piston_behavior = "DESTROY"
 [minecraft.pitcher_crop.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3", "4"]
@@ -4340,15 +4530,18 @@ allowed = ["0", "1", "2", "3", "4"]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.pitcher_plant]
+piston_behavior = "DESTROY"
 [minecraft.pitcher_plant.properties.half]
 default = "lower"
 allowed = ["upper", "lower"]
 [minecraft.beetroots]
+piston_behavior = "DESTROY"
 [minecraft.beetroots.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3"]
 [minecraft.dirt_path]
 [minecraft.end_gateway]
+piston_behavior = "BLOCK"
 [minecraft.repeating_command_block]
 [minecraft.repeating_command_block.properties.conditional]
 default = "false"
@@ -4375,6 +4568,7 @@ allowed = ["0", "1", "2", "3"]
 default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.structure_void]
+piston_behavior = "DESTROY"
 [minecraft.observer]
 [minecraft.observer.properties.facing]
 default = "south"
@@ -4383,134 +4577,167 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.white_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.white_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.orange_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.orange_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.magenta_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.magenta_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.light_blue_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.light_blue_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.yellow_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.yellow_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.lime_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.lime_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.pink_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.pink_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.gray_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.gray_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.light_gray_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.light_gray_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.cyan_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.cyan_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.purple_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.purple_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.blue_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.blue_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.brown_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.brown_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.green_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.green_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.red_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.red_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.black_shulker_box]
+piston_behavior = "DESTROY"
 [minecraft.black_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.white_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.white_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.orange_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.orange_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.magenta_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.magenta_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.light_blue_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.light_blue_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.yellow_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.yellow_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.lime_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.lime_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.pink_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.pink_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.gray_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.gray_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.light_gray_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.light_gray_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.cyan_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.cyan_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.purple_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.purple_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.blue_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.blue_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.brown_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.brown_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.green_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.green_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.red_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.red_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.black_glazed_terracotta]
+piston_behavior = "PUSH_ONLY"
 [minecraft.black_glazed_terracotta.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4547,6 +4774,7 @@ allowed = ["north", "south", "west", "east"]
 [minecraft.red_concrete_powder]
 [minecraft.black_concrete_powder]
 [minecraft.kelp]
+piston_behavior = "DESTROY"
 [minecraft.kelp.properties.age]
 default = "0"
 allowed = [
@@ -4578,8 +4806,10 @@ allowed = [
     "25",
 ]
 [minecraft.kelp_plant]
+piston_behavior = "DESTROY"
 [minecraft.dried_kelp_block]
 [minecraft.turtle_egg]
+piston_behavior = "DESTROY"
 [minecraft.turtle_egg.properties.eggs]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -4621,22 +4851,27 @@ allowed = ["true", "false"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.tube_coral]
+piston_behavior = "DESTROY"
 [minecraft.tube_coral.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.brain_coral]
+piston_behavior = "DESTROY"
 [minecraft.brain_coral.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.bubble_coral]
+piston_behavior = "DESTROY"
 [minecraft.bubble_coral.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.fire_coral]
+piston_behavior = "DESTROY"
 [minecraft.fire_coral.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.horn_coral]
+piston_behavior = "DESTROY"
 [minecraft.horn_coral.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
@@ -4661,22 +4896,27 @@ allowed = ["true", "false"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.tube_coral_fan]
+piston_behavior = "DESTROY"
 [minecraft.tube_coral_fan.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.brain_coral_fan]
+piston_behavior = "DESTROY"
 [minecraft.brain_coral_fan.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.bubble_coral_fan]
+piston_behavior = "DESTROY"
 [minecraft.bubble_coral_fan.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.fire_coral_fan]
+piston_behavior = "DESTROY"
 [minecraft.fire_coral_fan.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.horn_coral_fan]
+piston_behavior = "DESTROY"
 [minecraft.horn_coral_fan.properties.waterlogged]
 default = "true"
 allowed = ["true", "false"]
@@ -4716,6 +4956,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.tube_coral_wall_fan]
+piston_behavior = "DESTROY"
 [minecraft.tube_coral_wall_fan.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4723,6 +4964,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.brain_coral_wall_fan]
+piston_behavior = "DESTROY"
 [minecraft.brain_coral_wall_fan.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4730,6 +4972,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.bubble_coral_wall_fan]
+piston_behavior = "DESTROY"
 [minecraft.bubble_coral_wall_fan.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4737,6 +4980,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.fire_coral_wall_fan]
+piston_behavior = "DESTROY"
 [minecraft.fire_coral_wall_fan.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4744,6 +4988,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.horn_coral_wall_fan]
+piston_behavior = "DESTROY"
 [minecraft.horn_coral_wall_fan.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -4751,6 +4996,7 @@ allowed = ["north", "south", "west", "east"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.sea_pickle]
+piston_behavior = "DESTROY"
 [minecraft.sea_pickle.properties.pickles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -4763,7 +5009,9 @@ allowed = ["true", "false"]
 default = "true"
 allowed = ["true", "false"]
 [minecraft.bamboo_sapling]
+piston_behavior = "DESTROY"
 [minecraft.bamboo]
+piston_behavior = "DESTROY"
 [minecraft.bamboo.properties.age]
 default = "0"
 allowed = ["0", "1"]
@@ -4774,9 +5022,11 @@ allowed = ["none", "small", "large"]
 default = "0"
 allowed = ["0", "1"]
 [minecraft.potted_bamboo]
+piston_behavior = "DESTROY"
 [minecraft.void_air]
 [minecraft.cave_air]
 [minecraft.bubble_column]
+piston_behavior = "DESTROY"
 [minecraft.bubble_column.properties.drag]
 default = "true"
 allowed = ["true", "false"]
@@ -5301,6 +5551,7 @@ allowed = ["true", "false"]
 default = "none"
 allowed = ["none", "low", "tall"]
 [minecraft.scaffolding]
+piston_behavior = "DESTROY"
 [minecraft.scaffolding.properties.bottom]
 default = "false"
 allowed = ["true", "false"]
@@ -5338,6 +5589,7 @@ allowed = ["true", "false"]
 [minecraft.cartography_table]
 [minecraft.fletching_table]
 [minecraft.grindstone]
+piston_behavior = "BLOCK"
 [minecraft.grindstone.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -5360,6 +5612,7 @@ allowed = ["true", "false"]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.bell]
+piston_behavior = "DESTROY"
 [minecraft.bell.properties.attachment]
 default = "floor"
 allowed = ["floor", "ceiling", "single_wall", "double_wall"]
@@ -5370,6 +5623,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.lantern]
+piston_behavior = "DESTROY"
 [minecraft.lantern.properties.hanging]
 default = "false"
 allowed = ["true", "false"]
@@ -5377,6 +5631,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.soul_lantern]
+piston_behavior = "DESTROY"
 [minecraft.soul_lantern.properties.hanging]
 default = "false"
 allowed = ["true", "false"]
@@ -5410,6 +5665,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.sweet_berry_bush]
+piston_behavior = "DESTROY"
 [minecraft.sweet_berry_bush.properties.age]
 default = "0"
 allowed = ["0", "1", "2", "3"]
@@ -5431,9 +5687,12 @@ default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.warped_nylium]
 [minecraft.warped_fungus]
+piston_behavior = "DESTROY"
 [minecraft.warped_wart_block]
 [minecraft.warped_roots]
+piston_behavior = "DESTROY"
 [minecraft.nether_sprouts]
+piston_behavior = "DESTROY"
 [minecraft.crimson_stem]
 [minecraft.crimson_stem.properties.axis]
 default = "y"
@@ -5452,8 +5711,10 @@ default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.crimson_nylium]
 [minecraft.crimson_fungus]
+piston_behavior = "DESTROY"
 [minecraft.shroomlight]
 [minecraft.weeping_vines]
+piston_behavior = "DESTROY"
 [minecraft.weeping_vines.properties.age]
 default = "0"
 allowed = [
@@ -5485,7 +5746,9 @@ allowed = [
     "25",
 ]
 [minecraft.weeping_vines_plant]
+piston_behavior = "DESTROY"
 [minecraft.twisting_vines]
+piston_behavior = "DESTROY"
 [minecraft.twisting_vines.properties.age]
 default = "0"
 allowed = [
@@ -5517,7 +5780,9 @@ allowed = [
     "25",
 ]
 [minecraft.twisting_vines_plant]
+piston_behavior = "DESTROY"
 [minecraft.crimson_roots]
+piston_behavior = "DESTROY"
 [minecraft.crimson_planks]
 [minecraft.warped_planks]
 [minecraft.crimson_slab]
@@ -5535,10 +5800,12 @@ allowed = ["top", "bottom", "double"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.crimson_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.crimson_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.warped_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.warped_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
@@ -5659,6 +5926,7 @@ allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.crimson_button]
+piston_behavior = "DESTROY"
 [minecraft.crimson_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -5669,6 +5937,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.warped_button]
+piston_behavior = "DESTROY"
 [minecraft.warped_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -5679,6 +5948,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.crimson_door]
+piston_behavior = "DESTROY"
 [minecraft.crimson_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5695,6 +5965,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.warped_door]
+piston_behavior = "DESTROY"
 [minecraft.warped_door.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5842,10 +6113,15 @@ allowed = ["0", "1", "2", "3", "4", "5"]
 default = "0"
 allowed = ["0", "1", "2", "3", "4"]
 [minecraft.potted_crimson_fungus]
+piston_behavior = "DESTROY"
 [minecraft.potted_warped_fungus]
+piston_behavior = "DESTROY"
 [minecraft.potted_crimson_roots]
+piston_behavior = "DESTROY"
 [minecraft.potted_warped_roots]
+piston_behavior = "DESTROY"
 [minecraft.lodestone]
+piston_behavior = "BLOCK"
 [minecraft.blackstone]
 [minecraft.blackstone_stairs]
 [minecraft.blackstone_stairs.properties.facing]
@@ -5951,10 +6227,12 @@ allowed = ["top", "bottom", "double"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.polished_blackstone_pressure_plate]
+piston_behavior = "DESTROY"
 [minecraft.polished_blackstone_pressure_plate.properties.powered]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.polished_blackstone_button]
+piston_behavior = "DESTROY"
 [minecraft.polished_blackstone_button.properties.face]
 default = "wall"
 allowed = ["floor", "wall", "ceiling"]
@@ -5987,6 +6265,7 @@ allowed = ["none", "low", "tall"]
 [minecraft.cracked_nether_bricks]
 [minecraft.quartz_bricks]
 [minecraft.candle]
+piston_behavior = "DESTROY"
 [minecraft.candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -5997,6 +6276,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.white_candle]
+piston_behavior = "DESTROY"
 [minecraft.white_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6007,6 +6287,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.orange_candle]
+piston_behavior = "DESTROY"
 [minecraft.orange_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6017,6 +6298,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.magenta_candle]
+piston_behavior = "DESTROY"
 [minecraft.magenta_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6027,6 +6309,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.light_blue_candle]
+piston_behavior = "DESTROY"
 [minecraft.light_blue_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6037,6 +6320,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.yellow_candle]
+piston_behavior = "DESTROY"
 [minecraft.yellow_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6047,6 +6331,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.lime_candle]
+piston_behavior = "DESTROY"
 [minecraft.lime_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6057,6 +6342,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.pink_candle]
+piston_behavior = "DESTROY"
 [minecraft.pink_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6067,6 +6353,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.gray_candle]
+piston_behavior = "DESTROY"
 [minecraft.gray_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6077,6 +6364,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.light_gray_candle]
+piston_behavior = "DESTROY"
 [minecraft.light_gray_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6087,6 +6375,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cyan_candle]
+piston_behavior = "DESTROY"
 [minecraft.cyan_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6097,6 +6386,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.purple_candle]
+piston_behavior = "DESTROY"
 [minecraft.purple_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6107,6 +6397,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.blue_candle]
+piston_behavior = "DESTROY"
 [minecraft.blue_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6117,6 +6408,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.brown_candle]
+piston_behavior = "DESTROY"
 [minecraft.brown_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6127,6 +6419,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.green_candle]
+piston_behavior = "DESTROY"
 [minecraft.green_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6137,6 +6430,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.red_candle]
+piston_behavior = "DESTROY"
 [minecraft.red_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6147,6 +6441,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.black_candle]
+piston_behavior = "DESTROY"
 [minecraft.black_candle.properties.candles]
 default = "1"
 allowed = ["1", "2", "3", "4"]
@@ -6157,76 +6452,95 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.white_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.white_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.orange_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.orange_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.magenta_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.magenta_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.light_blue_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.light_blue_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.yellow_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.yellow_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.lime_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.lime_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.pink_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.pink_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.gray_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.gray_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.light_gray_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.light_gray_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cyan_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.cyan_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.purple_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.purple_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.blue_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.blue_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.brown_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.brown_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.green_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.green_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.red_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.red_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.black_candle_cake]
+piston_behavior = "DESTROY"
 [minecraft.black_candle_cake.properties.lit]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.amethyst_block]
 [minecraft.budding_amethyst]
+piston_behavior = "DESTROY"
 [minecraft.amethyst_cluster]
+piston_behavior = "DESTROY"
 [minecraft.amethyst_cluster.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -6234,6 +6548,7 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.large_amethyst_bud]
+piston_behavior = "DESTROY"
 [minecraft.large_amethyst_bud.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -6241,6 +6556,7 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.medium_amethyst_bud]
+piston_behavior = "DESTROY"
 [minecraft.medium_amethyst_bud.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -6248,6 +6564,7 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.small_amethyst_bud]
+piston_behavior = "DESTROY"
 [minecraft.small_amethyst_bud.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -6317,6 +6634,7 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.sculk]
 [minecraft.sculk_vein]
+piston_behavior = "DESTROY"
 [minecraft.sculk_vein.properties.down]
 default = "false"
 allowed = ["true", "false"]
@@ -6541,6 +6859,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.pointed_dripstone]
+piston_behavior = "DESTROY"
 [minecraft.pointed_dripstone.properties.thickness]
 default = "tip"
 allowed = ["tip_merge", "tip", "frustum", "middle", "base"]
@@ -6552,6 +6871,7 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.dripstone_block]
 [minecraft.cave_vines]
+piston_behavior = "DESTROY"
 [minecraft.cave_vines.properties.age]
 default = "0"
 allowed = [
@@ -6586,14 +6906,20 @@ allowed = [
 default = "false"
 allowed = ["true", "false"]
 [minecraft.cave_vines_plant]
+piston_behavior = "DESTROY"
 [minecraft.cave_vines_plant.properties.berries]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.spore_blossom]
+piston_behavior = "DESTROY"
 [minecraft.azalea]
+piston_behavior = "DESTROY"
 [minecraft.flowering_azalea]
+piston_behavior = "DESTROY"
 [minecraft.moss_carpet]
+piston_behavior = "DESTROY"
 [minecraft.pink_petals]
+piston_behavior = "DESTROY"
 [minecraft.pink_petals.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -6601,7 +6927,9 @@ allowed = ["north", "south", "west", "east"]
 default = "1"
 allowed = ["1", "2", "3", "4"]
 [minecraft.moss_block]
+piston_behavior = "DESTROY"
 [minecraft.big_dripleaf]
+piston_behavior = "DESTROY"
 [minecraft.big_dripleaf.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -6612,6 +6940,7 @@ allowed = ["none", "unstable", "partial", "full"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.big_dripleaf_stem]
+piston_behavior = "DESTROY"
 [minecraft.big_dripleaf_stem.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -6619,6 +6948,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.small_dripleaf]
+piston_behavior = "DESTROY"
 [minecraft.small_dripleaf.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -6629,6 +6959,7 @@ allowed = ["upper", "lower"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.hanging_roots]
+piston_behavior = "DESTROY"
 [minecraft.hanging_roots.properties.waterlogged]
 default = "false"
 allowed = ["true", "false"]
@@ -6810,7 +7141,9 @@ allowed = ["x", "y", "z"]
 [minecraft.raw_copper_block]
 [minecraft.raw_gold_block]
 [minecraft.potted_azalea_bush]
+piston_behavior = "DESTROY"
 [minecraft.potted_flowering_azalea_bush]
+piston_behavior = "DESTROY"
 [minecraft.ochre_froglight]
 [minecraft.ochre_froglight.properties.axis]
 default = "y"
@@ -6824,8 +7157,10 @@ allowed = ["x", "y", "z"]
 default = "y"
 allowed = ["x", "y", "z"]
 [minecraft.frogspawn]
+piston_behavior = "DESTROY"
 [minecraft.reinforced_deepslate]
 [minecraft.decorated_pot]
+piston_behavior = "DESTROY"
 [minecraft.decorated_pot.properties.cracked]
 default = "false"
 allowed = ["true", "false"]

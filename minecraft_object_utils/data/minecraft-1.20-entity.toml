@@ -1,122 +1,511 @@
-# WIP: data not confirmed
-[allay]
-[area_effect_cloud]
-[armor_stand]
-[arrow]
-[axolotl]
-[bat]
-[bee]
-[blaze]
-[block_display]
-[boat]
-[camel]
-[cat]
-[cave_spider]
-[chest_boat]
-[chest_minecart]
-[chicken]
-[cod]
-[command_block_minecart]
-[cow]
-[creeper]
-[dolphin]
-[donkey]
-[dragon_fireball]
-[drowned]
-[egg]
-[elder_guardian]
-[end_crystal]
-[ender_dragon]
-[ender_pearl]
-[enderman]
-[endermite]
-[evoker_fangs]
-[evoker]
-[experience_bottle]
-[experience_orb]
-[eye_of_ender]
-[falling_block]
-[fireball]
-[firework_rocket]
-[fox]
-[frog]
-[furnace_minecart]
-[ghast]
-[giant]
-[glow_item_frame]
-[glow_squid]
-[goat]
-[guardian]
-[hoglin]
-[hopper_minecart]
-[horse]
-[husk]
-[illusioner]
-[iron_golem]
-[item_display]
-[item_frame]
-[item]
-[leash_knot]
-[lightning_bolt]
-[llama_spit]
-[llama]
-[magma_cube]
-[marker]
-[minecart]
-[mooshroom]
-[mule]
-[ocelot]
-[painting]
-[panda]
-[parrot]
-[phantom]
-[pig]
-[piglin_brute]
-[piglin]
-[pillager]
-[polar_bear]
-[potion]
-[pufferfish]
-[rabbit]
-[ravager]
-[salmon]
-[sheep]
-[shulker_bullet]
-[shulker]
-[silverfish]
-[skeleton_horse]
-[skeleton]
-[slime]
-[small_fireball]
-[sniffer]
-[snow_golem]
-[snowball]
-[spawner_minecart]
-[spectral_arrow]
-[spider]
-[squid]
-[stray]
-[strider]
-[tadpole]
-[text_display]
-[tnt_minecart]
-[tnt]
-[trader_llama]
-[trident]
-[tropical_fish]
-[turtle]
-[vex]
-[villager]
-[vindicator]
-[wandering_trader]
-[warden]
-[witch]
-[wither_skeleton]
-[wither_skull]
-[wither]
-[wolf]
-[zoglin]
-[zombie_horse]
-[zombie_villager]
-[zombie]
-[zombified_piglin]
+# Generated from Minecraft version 1.20.1
+[minecraft.allay]
+height = 0.6
+width = 0.35
+category = "CREATURE"
+[minecraft.area_effect_cloud]
+fire_immune = true
+height = 0.5
+width = 6.0
+category = "MISC"
+[minecraft.armor_stand]
+height = 1.975
+width = 0.5
+category = "MISC"
+[minecraft.arrow]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.axolotl]
+height = 0.42
+width = 0.75
+category = "AXOLOTLS"
+[minecraft.bat]
+height = 0.9
+width = 0.5
+category = "AMBIENT"
+[minecraft.bee]
+height = 0.6
+width = 0.7
+category = "CREATURE"
+[minecraft.blaze]
+fire_immune = true
+height = 1.8
+width = 0.6
+category = "MONSTER"
+[minecraft.block_display]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.boat]
+height = 0.5625
+width = 1.375
+category = "MISC"
+[minecraft.camel]
+height = 2.375
+width = 1.7
+category = "CREATURE"
+[minecraft.cat]
+height = 0.7
+width = 0.6
+category = "CREATURE"
+[minecraft.cave_spider]
+height = 0.5
+width = 0.7
+category = "MONSTER"
+[minecraft.chest_boat]
+height = 0.5625
+width = 1.375
+category = "MISC"
+[minecraft.chest_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.chicken]
+height = 0.7
+width = 0.4
+category = "CREATURE"
+[minecraft.cod]
+height = 0.3
+width = 0.5
+category = "WATER_AMBIENT"
+[minecraft.command_block_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.cow]
+height = 1.4
+width = 0.9
+category = "CREATURE"
+[minecraft.creeper]
+height = 1.7
+width = 0.6
+category = "MONSTER"
+[minecraft.dolphin]
+height = 0.6
+width = 0.9
+category = "WATER_CREATURE"
+[minecraft.donkey]
+height = 1.5
+width = 1.3964844
+category = "CREATURE"
+[minecraft.dragon_fireball]
+height = 1.0
+width = 1.0
+category = "MISC"
+[minecraft.drowned]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.egg]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.elder_guardian]
+height = 1.9975
+width = 1.9975
+category = "MONSTER"
+[minecraft.end_crystal]
+height = 2.0
+width = 2.0
+category = "MISC"
+[minecraft.ender_dragon]
+fire_immune = true
+height = 8.0
+width = 16.0
+category = "MONSTER"
+[minecraft.ender_pearl]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.enderman]
+height = 2.9
+width = 0.6
+category = "MONSTER"
+[minecraft.endermite]
+height = 0.3
+width = 0.4
+category = "MONSTER"
+[minecraft.evoker]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.evoker_fangs]
+height = 0.8
+width = 0.5
+category = "MISC"
+[minecraft.experience_bottle]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.experience_orb]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.eye_of_ender]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.falling_block]
+height = 0.98
+width = 0.98
+category = "MISC"
+[minecraft.firework_rocket]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.fox]
+height = 0.7
+width = 0.6
+category = "CREATURE"
+[minecraft.frog]
+height = 0.5
+width = 0.5
+category = "CREATURE"
+[minecraft.furnace_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.ghast]
+fire_immune = true
+height = 4.0
+width = 4.0
+category = "MONSTER"
+[minecraft.giant]
+height = 12.0
+width = 3.6
+category = "MONSTER"
+[minecraft.glow_item_frame]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.glow_squid]
+height = 0.8
+width = 0.8
+category = "UNDERGROUND_WATER_CREATURE"
+[minecraft.goat]
+height = 1.3
+width = 0.9
+category = "CREATURE"
+[minecraft.guardian]
+height = 0.85
+width = 0.85
+category = "MONSTER"
+[minecraft.hoglin]
+height = 1.4
+width = 1.3964844
+category = "MONSTER"
+[minecraft.hopper_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.horse]
+height = 1.6
+width = 1.3964844
+category = "CREATURE"
+[minecraft.husk]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.illusioner]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.interaction]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.iron_golem]
+height = 2.7
+width = 1.4
+category = "MISC"
+[minecraft.item]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.item_display]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.item_frame]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.fireball]
+height = 1.0
+width = 1.0
+category = "MISC"
+[minecraft.leash_knot]
+height = 0.5
+width = 0.375
+category = "MISC"
+[minecraft.lightning_bolt]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.llama]
+height = 1.87
+width = 0.9
+category = "CREATURE"
+[minecraft.llama_spit]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.magma_cube]
+fire_immune = true
+height = 2.04
+width = 2.04
+category = "MONSTER"
+[minecraft.marker]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.mooshroom]
+height = 1.4
+width = 0.9
+category = "CREATURE"
+[minecraft.mule]
+height = 1.6
+width = 1.3964844
+category = "CREATURE"
+[minecraft.ocelot]
+height = 0.7
+width = 0.6
+category = "CREATURE"
+[minecraft.painting]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.panda]
+height = 1.25
+width = 1.3
+category = "CREATURE"
+[minecraft.parrot]
+height = 0.9
+width = 0.5
+category = "CREATURE"
+[minecraft.phantom]
+height = 0.5
+width = 0.9
+category = "MONSTER"
+[minecraft.pig]
+height = 0.9
+width = 0.9
+category = "CREATURE"
+[minecraft.piglin]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.piglin_brute]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.pillager]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.polar_bear]
+height = 1.4
+width = 1.4
+category = "CREATURE"
+[minecraft.potion]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.pufferfish]
+height = 0.7
+width = 0.7
+category = "WATER_AMBIENT"
+[minecraft.rabbit]
+height = 0.5
+width = 0.4
+category = "CREATURE"
+[minecraft.ravager]
+height = 2.2
+width = 1.95
+category = "MONSTER"
+[minecraft.salmon]
+height = 0.4
+width = 0.7
+category = "WATER_AMBIENT"
+[minecraft.sheep]
+height = 1.3
+width = 0.9
+category = "CREATURE"
+[minecraft.shulker]
+fire_immune = true
+height = 1.0
+width = 1.0
+category = "MONSTER"
+[minecraft.shulker_bullet]
+height = 0.3125
+width = 0.3125
+category = "MISC"
+[minecraft.silverfish]
+height = 0.3
+width = 0.4
+category = "MONSTER"
+[minecraft.skeleton]
+height = 1.99
+width = 0.6
+category = "MONSTER"
+[minecraft.skeleton_horse]
+height = 1.6
+width = 1.3964844
+category = "CREATURE"
+[minecraft.slime]
+height = 2.04
+width = 2.04
+category = "MONSTER"
+[minecraft.small_fireball]
+height = 0.3125
+width = 0.3125
+category = "MISC"
+[minecraft.sniffer]
+height = 1.75
+width = 1.9
+category = "CREATURE"
+[minecraft.snow_golem]
+height = 1.9
+width = 0.7
+category = "MISC"
+[minecraft.snowball]
+height = 0.25
+width = 0.25
+category = "MISC"
+[minecraft.spawner_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.spectral_arrow]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.spider]
+height = 0.9
+width = 1.4
+category = "MONSTER"
+[minecraft.squid]
+height = 0.8
+width = 0.8
+category = "WATER_CREATURE"
+[minecraft.stray]
+height = 1.99
+width = 0.6
+category = "MONSTER"
+[minecraft.strider]
+fire_immune = true
+height = 1.7
+width = 0.9
+category = "CREATURE"
+[minecraft.tadpole]
+height = 0.3
+width = 0.4
+category = "CREATURE"
+[minecraft.text_display]
+height = 0.0
+width = 0.0
+category = "MISC"
+[minecraft.tnt]
+fire_immune = true
+height = 0.98
+width = 0.98
+category = "MISC"
+[minecraft.tnt_minecart]
+height = 0.7
+width = 0.98
+category = "MISC"
+[minecraft.trader_llama]
+height = 1.87
+width = 0.9
+category = "CREATURE"
+[minecraft.trident]
+height = 0.5
+width = 0.5
+category = "MISC"
+[minecraft.tropical_fish]
+height = 0.4
+width = 0.5
+category = "WATER_AMBIENT"
+[minecraft.turtle]
+height = 0.4
+width = 1.2
+category = "CREATURE"
+[minecraft.vex]
+fire_immune = true
+height = 0.8
+width = 0.4
+category = "MONSTER"
+[minecraft.villager]
+height = 1.95
+width = 0.6
+category = "MISC"
+[minecraft.vindicator]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.wandering_trader]
+height = 1.95
+width = 0.6
+category = "CREATURE"
+[minecraft.warden]
+fire_immune = true
+height = 2.9
+width = 0.9
+category = "MONSTER"
+[minecraft.witch]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.wither]
+fire_immune = true
+height = 3.5
+width = 0.9
+category = "MONSTER"
+[minecraft.wither_skeleton]
+fire_immune = true
+height = 2.4
+width = 0.7
+category = "MONSTER"
+[minecraft.wither_skull]
+height = 0.3125
+width = 0.3125
+category = "MISC"
+[minecraft.wolf]
+height = 0.85
+width = 0.6
+category = "CREATURE"
+[minecraft.zoglin]
+fire_immune = true
+height = 1.4
+width = 1.3964844
+category = "MONSTER"
+[minecraft.zombie]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.zombie_horse]
+height = 1.6
+width = 1.3964844
+category = "CREATURE"
+[minecraft.zombie_villager]
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.zombified_piglin]
+fire_immune = true
+height = 1.95
+width = 0.6
+category = "MONSTER"
+[minecraft.player]
+height = 1.8
+width = 0.6
+category = "MISC"
+[minecraft.fishing_bobber]
+height = 0.25
+width = 0.25
+category = "MISC"
