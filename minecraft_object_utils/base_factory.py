@@ -14,7 +14,7 @@ class BaseObjectTraits(ABC):
     id: str
 
     @abstractmethod
-    def __init__(self, id: str) -> None:
+    def __init__(self, id: str, **kwargs) -> None:
         self.id = id
 
     @staticmethod
@@ -30,7 +30,6 @@ class BaseObject(ABC):
     """Represents a minecraft object, and its characteristics, and its state."""
 
     traits: BaseObjectTraits
-    file_name_part: str
 
     @property
     def id(self) -> str:
@@ -50,7 +49,7 @@ class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
     imported: "list[str]"
     mods: "list[ModInfo]"
     registry: "dict[str,BaseObjectTraits]"
-    file_name_part: str
+    file_name_part: str  # block, item, or entity
     BaseObjType: type
     BaseObjTraitType: type
 
@@ -88,7 +87,7 @@ class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
                 if ":" not in object_id:
                     object_id = f"{namespace}:{object_id}"
                 object_traits = self.BaseObjTraitType.create_from_toml(
-                    object_id, object_data
+                    object_id, **object_data
                 )
                 self.register(object_traits)
         self.imported.append(file_path)
@@ -102,19 +101,19 @@ class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
             )
         self.registry[object_traits.id] = object_traits
 
-    def create(self, object_id: str, initial_state: "dict(str,str)" = {}) -> BObj:
+    def create(self, object_id: str, **kwargs) -> BObj:
         """Create a BaseObject derived object. Optionally specify initial state.
 
         Args:
             object_id (str): the object's id. Example: "minecraft:dirt"
-            initial_state (dict, optional): Set the object's initial state. Defaults to {}.
+            **kwargs: Use keyword arguments to set the object's initial state.
 
         Returns:
-            BaseObject: a new minecraft object
+            BaseObject: a new instance of BaseObjType
         """
         if ":" not in object_id:
             object_id = f"minecraft:{object_id}"
         if object_id in self.registry:
-            return self.BaseObjType(self.registry[object_id], initial_state)
+            return self.BaseObjType(self.registry[object_id], **kwargs)
         else:
             raise ValueError(f"{self.__class__.__name__} has no {object_id}.")

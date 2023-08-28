@@ -8,22 +8,15 @@ class ItemTraits(BaseObjectTraits):
     max_damage: int
     is_fire_resistant: bool
 
-    def __init__(
-        self, id: str, max_stack_size: str, max_damage, is_fire_resistant: bool
-    ) -> None:
-        super().__init__(id)
-        self.max_stack_size = max_stack_size
-        self.max_damage = max_damage
-        self.is_fire_resistant = is_fire_resistant
+    def __init__(self, item_id: str, **kwargs) -> None:
+        super().__init__(item_id)
+        self.max_stack_size = kwargs.get("max_stack_size", 64)
+        self.max_damage = kwargs.get("max_damage", 0)
+        self.is_fire_resistant = kwargs.get("is_fire_resistant", False)
 
     @staticmethod
-    def create_from_toml(item_id: str, item_data: dict) -> "ItemTraits":
-        return ItemTraits(
-            item_id,
-            item_data.get("max_stack_size", 64),
-            item_data.get("max_damage", 0),
-            item_data.get("is_fire_resistant", False),
-        )
+    def create_from_toml(item_id: str, **kwargs) -> "ItemTraits":
+        return ItemTraits(item_id, **kwargs)
 
 
 class ItemStack(BaseObject):
@@ -59,12 +52,10 @@ class ItemStack(BaseObject):
                 f"Damage {new_damage} is invalid. Max damage: {self.traits.max_damage}"
             )
 
-    def __init__(
-        self, item_info: ItemTraits, initial_state: "dict[str, str]" = {}
-    ) -> None:
+    def __init__(self, item_info: ItemTraits, **kwargs) -> None:
         super().__init__(item_info)
-        self.count = initial_state.get("count", 1)
-        self.damage = initial_state.get("damage", 0)
+        self.count = kwargs.get("count", 1)
+        self.damage = kwargs.get("damage", 0)
 
 
 class ItemFactory(BaseObjectFactory[ItemStack, ItemTraits]):

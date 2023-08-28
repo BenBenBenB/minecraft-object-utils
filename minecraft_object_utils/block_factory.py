@@ -12,42 +12,31 @@ class BlockProperty:
         self, id: str, default_value: str, allowed_values: "list[str]"
     ) -> None:
         self.id = id
-        self.default = default_value
-        self.allowed = allowed_values
-
-    @staticmethod
-    def create_list_from_toml(block_props: dict) -> "BlockTraits":
-        return [
-            BlockProperty(prop_name, state["default"], state["allowed"])
-            for prop_name, state in block_props.items()
-        ]
+        self.default = str(default_value).lower()
+        self.allowed = [str(v).lower() for v in allowed_values]
 
 
 class BlockTraits(BaseObjectTraits):
     """The definition of a block. Describes possible states and behavior in the game."""
 
     props: "list[BlockProperty]"
+    piston_behavior: str
 
-    def __init__(
-        self,
-        id: str,
-        piston_behavior: str,
-        props: "list[BlockProperty]" = [],
-    ) -> None:
+    def __init__(self, id: str, **kwargs) -> None:
         super().__init__(id)
-        self.props = props
-        self.piston_behavior = piston_behavior
+        self.props = kwargs.get("props", [])
+        self.piston_behavior = kwargs.get("piston_behavior", "NORMAL")
 
     @staticmethod
-    def create_from_toml(block_id: str, block_data: dict) -> "BlockTraits":
-        block_props = BlockProperty.create_list_from_toml(
-            block_data.get("properties", {})
-        )
-        return BlockTraits(
-            block_id,
-            block_data.get("piston_behavior", "NORMAL"),
-            block_props,
-        )
+    def create_from_toml(block_id: str, **kwargs: dict) -> "BlockTraits":
+        prop_dict = kwargs.get("properties", {})
+        piston_behavior = kwargs.get("piston_behavior", "NORMAL")
+
+        block_props = [
+            BlockProperty(prop_name, state["default"], state["allowed"])
+            for prop_name, state in prop_dict.items()
+        ]
+        return BlockTraits(block_id, props=block_props, piston_behavior=piston_behavior)
 
 
 class Block(BaseObject):
@@ -56,12 +45,10 @@ class Block(BaseObject):
     _state: "dict[str, str]"
     traits: BlockTraits
 
-    def __init__(
-        self, traits: BlockTraits, initial_state: "dict[str, str]" = {}
-    ) -> None:
+    def __init__(self, traits: BlockTraits, **kwargs) -> None:
         super().__init__(traits)
         self._state = {x.id: x.default for x in self.traits.props}
-        for prop, value in initial_state.items():
+        for prop, value in kwargs.items():
             self.set_state(prop, value)
 
     def set_state(self, prop_name: str, state_value: str) -> None:
@@ -81,7 +68,7 @@ class Block(BaseObject):
                 f"'{state_value}' is not a valid state. Valid values are: {block_prop.allowed}"
             )
 
-    def get_state(self, prop_name: str) -> None:
+    def get_state(self, prop_name: str) -> str:
         """Gets the state for a block property."""
         prop_name = str(prop_name).lower()
         return self._state.get(prop_name)
