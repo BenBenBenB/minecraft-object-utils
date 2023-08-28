@@ -14,53 +14,60 @@ The default constructor will reflect objects from the latest version of minecraf
 
 Basic Example: create a dirt block.
 ```python
-from minecraft_object_utils import *
+from minecraft_object_utils import MinecraftObjectFactory
 mcof = MinecraftObjectFactory()
-block1 = mcof.blocks.create("dirt") # same result as "minecraft:dirt"
+block1 = mcof.block.create("dirt")  # same result as "minecraft:dirt"
+item1 = mcof.item.create("minecraft:egg")  # same result as "egg"
+entity1 = mcof.entity.create("chicken")
 ```
 
-Example: create a dispenser, which has powered and facing states.
+Example: create blocks and set some properties.
 ```python
-mcof = MinecraftObjectFactory()
-block2 = mcof.blocks.create("dispenser")
-block2.get_state('facing')  # default is "north"
-block2.set_state('powered', True)
-block2.set_state('powered', "very")  # will error, invalid state
-block2.set_state('color', "red")  # will error, invalid property
+block2 = mcof.block.create("dispenser")
+print(block2.get_state("facing"))  # default is "north"
+block2.set_state("facing", "east")
+print(block2.get_state("facing")) 
+block2.set_state("triggered", "very")  # will error, invalid state
+block2.set_state("color", "red")  # will error, invalid property
+
+# You can also specify initial block state values with keyword arguments
+block3 = mcof.block.create("repeater", facing="south", delay=4)
 ```
 
 ### Modded Minecraft
 You can create and import toml files to represent objects from mods.
 
-Example: for Create mod v0.5.0i, make "/your/configs/dir/create-0.5.0i-blocks.toml" and import:
+Example: for Create mod v0.5.0i, make "/your/configs/dir/create-0.5.0i-block.toml" and import:
 ```python
-mods = [ 
-    ModInfo("minecraft","1.19.2"), 
-    ModInfo("create","0.5.0i", "/your/configs/dir") 
+from minecraft_object_utils import MinecraftObjectFactory, ModInfo
+mods = [
+    ModInfo("minecraft", "1.19"),
+    ModInfo("create", "0.5.0i", "/your/configs/dir"),
 ]
-mcof = MinecraftObjectFactory(mods)
-block3 = mcof.blocks.create("stone") # assumes "minecraft:stone"
-block4 = mcof.blocks.create("create:chute")
+mcof_mods = MinecraftObjectFactory(mods)
+block3 = mcof_mods.block.create("stone")  # assumes "minecraft:stone"
+block4 = mcof_mods.block.create("create:chute")
 ```
 
-You can also register block info to the factory manually. 
+You can also register info to a factory manually. 
 Example:
 ```python
-bf = BlockFactory([])
+from minecraft_object_utils import BlockProperty, BlockTraits, MinecraftObjectFactory
+cust_f = MinecraftObjectFactory([])
 bt1 = BlockTraits("yourmod:yourblock")  # block with no state
 bt2 = BlockTraits(
     "othermod:otherblock",
-    [
-        BlockProperty('awesome', False, [True, False]),
-        BlockProperty('fakename', "foo", ["foo", "bar", "baz"]),
+    props=[
+        BlockProperty("awesome", False, [True, False]),
+        BlockProperty("fakename", "foo", ["foo", "bar", "baz"]),
     ],
 )
 
-bf.register(bt1)
-bf.register(bt2)
-block1 = bf.create("yourmod:yourblock")
-block2 = bf.create("othermod:otherblock")
-block2.set_state('awesome', True)
+cust_f.block.register(bt1)
+cust_f.block.register(bt2)
+block5 = cust_f.block.create("yourmod:yourblock")
+block6 = cust_f.block.create("othermod:otherblock")
+block6.set_state("awesome", True)
 ```
 
 ### Generating toml files
