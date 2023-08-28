@@ -1,46 +1,18 @@
 import logging
 import os.path
-from abc import ABC, abstractmethod
+from abc import ABC
 from typing import Generic, TypeVar
 
 import toml
 
+from .base_object import BaseObjectTraits
+from .block import Block, BlockTraits
+from .entity import Entity, EntityTraits
+from .item import ItemStack, ItemTraits
 from .mod_info import VANILLA_JAVA_LATEST, ModInfo
 
-
-class BaseObjectTraits(ABC):
-    """The definition of a minecraft object type."""
-
-    id: str
-
-    @abstractmethod
-    def __init__(self, id: str, **kwargs) -> None:
-        self.id = id
-
-    @staticmethod
-    @abstractmethod
-    def create_from_toml(object_id: str, item_data: dict) -> "BaseObjectTraits":
-        return BaseObjectTraits(object_id)
-
-
-BObjT = TypeVar("BObjT")
-
-
-class BaseObject(ABC):
-    """Represents a minecraft object, and its characteristics, and its state."""
-
-    traits: BaseObjectTraits
-
-    @property
-    def id(self) -> str:
-        return self.traits.id
-
-    @abstractmethod
-    def __init__(self, object_info: BaseObjectTraits) -> None:
-        self.traits = object_info
-
-
-BObj = TypeVar("BObj")
+BObjT = TypeVar("BObjT", BlockTraits, EntityTraits, ItemTraits)
+BObj = TypeVar("BObj", Block, Entity, ItemStack)
 
 
 class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
@@ -48,7 +20,7 @@ class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
 
     imported: "list[str]"
     mods: "list[ModInfo]"
-    registry: "dict[str,BaseObjectTraits]"
+    registry: "dict[str,BObjT]"
     file_name_part: str  # block, item, or entity
     BaseObjType: type
     BaseObjTraitType: type

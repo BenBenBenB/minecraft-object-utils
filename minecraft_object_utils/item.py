@@ -1,4 +1,4 @@
-from .base_factory import BaseObject, BaseObjectFactory, BaseObjectTraits
+from .base_object import BaseObject, BaseObjectTraits
 
 
 class ItemTraits(BaseObjectTraits):
