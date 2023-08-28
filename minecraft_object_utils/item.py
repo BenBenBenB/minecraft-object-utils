@@ -56,11 +56,3 @@ class ItemStack(BaseObject):
         super().__init__(item_info)
         self.count = kwargs.get("count", 1)
         self.damage = kwargs.get("damage", 0)
-
-
-class ItemFactory(BaseObjectFactory[ItemStack, ItemTraits]):
-    """Registers ItemTraits and allows creation of ItemStack instances from them."""
-
-    file_name_part: str = "item"
-    BaseObjType: type = ItemStack
-    BaseObjTraitType: type = ItemTraits

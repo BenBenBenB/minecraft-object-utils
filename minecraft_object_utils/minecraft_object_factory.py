@@ -1,7 +1,32 @@
-from .block_factory import BlockFactory
-from .entity_factory import EntityFactory
-from .item_factory import ItemFactory
+from .base_factory import BaseObjectFactory
+from .block import Block, BlockTraits
+from .entity import Entity, EntityTraits
+from .item import ItemStack, ItemTraits
 from .mod_info import VANILLA_JAVA_LATEST, ModInfo
+
+
+class BlockFactory(BaseObjectFactory[Block, BlockTraits]):
+    """Registers BlockTraits and allows creation of Block instances from them."""
+
+    file_name_part: str = "block"
+    BaseObjType: type = Block
+    BaseObjTraitType: type = BlockTraits
+
+
+class EntityFactory(BaseObjectFactory[Entity, EntityTraits]):
+    """Registers EntityTraits and allows creation of Entity instances from them."""
+
+    file_name_part: str = "entity"
+    BaseObjType: type = Entity
+    BaseObjTraitType: type = EntityTraits
+
+
+class ItemFactory(BaseObjectFactory[ItemStack, ItemTraits]):
+    """Registers ItemTraits and allows creation of ItemStack instances from them."""
+
+    file_name_part: str = "item"
+    BaseObjType: type = ItemStack
+    BaseObjTraitType: type = ItemTraits
 
 
 class MinecraftObjectFactory:

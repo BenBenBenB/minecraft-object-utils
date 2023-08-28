@@ -28,11 +28,3 @@ class Entity(BaseObject):
 
     def __init__(self, entity_info: EntityTraits, **kwargs) -> None:
         super().__init__(entity_info)
-
-
-class EntityFactory(BaseObjectFactory[Entity, EntityTraits]):
-    """Registers EntityTraits and allows creation of Entity instances from them."""
-
-    file_name_part: str = "entity"
-    BaseObjType: type = Entity
-    BaseObjTraitType: type = EntityTraits

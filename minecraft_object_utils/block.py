@@ -72,11 +72,3 @@ class Block(BaseObject):
         """Gets the state for a block property."""
         prop_name = str(prop_name).lower()
         return self._state.get(prop_name)
-
-
-class BlockFactory(BaseObjectFactory[Block, BlockTraits]):
-    """Registers BlockTraits and allows creation of Block instances from them."""
-
-    file_name_part: str = "block"
-    BaseObjType: type = Block
-    BaseObjTraitType: type = BlockTraits
