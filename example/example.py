@@ -13,17 +13,17 @@ entity1 = mcof.entity.create("chicken")
 
 # Example: create a dispenser and set a block state.
 block2 = mcof.block.create("dispenser")
-print(block2.get_state("facing"))  # default is "north"
+print(block2.get_state("facing"))  # default is "north"  # noqa: T201
 block2.set_state("facing", "east")
-print(block2.get_state("facing"))
+print(block2.get_state("facing"))  # noqa: T201
 try:
     block2.set_state("triggered", "very")  # will error, invalid state
 except ValueError as error:
-    print(error)
+    print(error)  # noqa: T201
 try:
     block2.set_state("color", "red")  # will error, invalid property
 except ValueError as error:
-    print(error)
+    print(error)  # noqa: T201
 
 # You can also specify initial block state values with keyword arguments
 block3 = mcof.block.create("repeater", facing="south", delay=4)
