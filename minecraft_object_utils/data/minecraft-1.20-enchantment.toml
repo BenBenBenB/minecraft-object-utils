@@ -1,0 +1,196 @@
+# Generated from Minecraft version 1.20.1
+[minecraft.protection]
+level = 4
+category = "ARMOR"
+rarity = "COMMON"
+curse = false
+[minecraft.fire_protection]
+level = 4
+category = "ARMOR"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.feather_falling]
+level = 4
+category = "ARMOR_FEET"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.blast_protection]
+level = 4
+category = "ARMOR"
+rarity = "RARE"
+curse = false
+[minecraft.projectile_protection]
+level = 4
+category = "ARMOR"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.respiration]
+level = 3
+category = "ARMOR_HEAD"
+rarity = "RARE"
+curse = false
+[minecraft.aqua_affinity]
+level = 1
+category = "ARMOR_HEAD"
+rarity = "RARE"
+curse = false
+[minecraft.thorns]
+level = 3
+category = "ARMOR_CHEST"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.depth_strider]
+level = 3
+category = "ARMOR_FEET"
+rarity = "RARE"
+curse = false
+[minecraft.frost_walker]
+level = 2
+category = "ARMOR_FEET"
+rarity = "RARE"
+curse = false
+[minecraft.binding_curse]
+level = 1
+category = "WEARABLE"
+rarity = "VERY_RARE"
+curse = true
+[minecraft.soul_speed]
+level = 3
+category = "ARMOR_FEET"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.swift_sneak]
+level = 3
+category = "ARMOR_LEGS"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.sharpness]
+level = 5
+category = "WEAPON"
+rarity = "COMMON"
+curse = false
+[minecraft.smite]
+level = 5
+category = "WEAPON"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.bane_of_arthropods]
+level = 5
+category = "WEAPON"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.knockback]
+level = 2
+category = "WEAPON"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.fire_aspect]
+level = 2
+category = "WEAPON"
+rarity = "RARE"
+curse = false
+[minecraft.looting]
+level = 3
+category = "WEAPON"
+rarity = "RARE"
+curse = false
+[minecraft.sweeping]
+level = 3
+category = "WEAPON"
+rarity = "RARE"
+curse = false
+[minecraft.efficiency]
+level = 5
+category = "DIGGER"
+rarity = "COMMON"
+curse = false
+[minecraft.silk_touch]
+level = 1
+category = "DIGGER"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.unbreaking]
+level = 3
+category = "BREAKABLE"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.fortune]
+level = 3
+category = "DIGGER"
+rarity = "RARE"
+curse = false
+[minecraft.power]
+level = 5
+category = "BOW"
+rarity = "COMMON"
+curse = false
+[minecraft.punch]
+level = 2
+category = "BOW"
+rarity = "RARE"
+curse = false
+[minecraft.flame]
+level = 1
+category = "BOW"
+rarity = "RARE"
+curse = false
+[minecraft.infinity]
+level = 1
+category = "BOW"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.luck_of_the_sea]
+level = 3
+category = "FISHING_ROD"
+rarity = "RARE"
+curse = false
+[minecraft.lure]
+level = 3
+category = "FISHING_ROD"
+rarity = "RARE"
+curse = false
+[minecraft.loyalty]
+level = 3
+category = "TRIDENT"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.impaling]
+level = 5
+category = "TRIDENT"
+rarity = "RARE"
+curse = false
+[minecraft.riptide]
+level = 3
+category = "TRIDENT"
+rarity = "RARE"
+curse = false
+[minecraft.channeling]
+level = 1
+category = "TRIDENT"
+rarity = "VERY_RARE"
+curse = false
+[minecraft.multishot]
+level = 1
+category = "CROSSBOW"
+rarity = "RARE"
+curse = false
+[minecraft.quick_charge]
+level = 3
+category = "CROSSBOW"
+rarity = "UNCOMMON"
+curse = false
+[minecraft.piercing]
+level = 4
+category = "CROSSBOW"
+rarity = "COMMON"
+curse = false
+[minecraft.mending]
+level = 1
+category = "BREAKABLE"
+rarity = "RARE"
+curse = false
+[minecraft.vanishing_curse]
+level = 1
+category = "VANISHABLE"
+rarity = "VERY_RARE"
+curse = true

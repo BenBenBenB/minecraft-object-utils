@@ -1,0 +1,14 @@
+# Generated from Minecraft version 1.20.1
+[minecraft.protection]
+level = 4
+category = "ARMOR"
+rarity = "COMMON"
+[minecraft.mending]
+level = 1
+category = "BREAKABLE"
+rarity = "RARE"
+[minecraft.vanishing_curse]
+level = 1
+category = "VANISHABLE"
+rarity = "VERY_RARE"
+curse = true

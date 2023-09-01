@@ -1,4 +1,5 @@
 from .base_object import BaseObject, BaseObjectTraits
+from .enchantment import Enchantment
 
 
 class ItemTraits(BaseObjectTraits):
@@ -25,6 +26,7 @@ class ItemStack(BaseObject):
     traits: ItemTraits
     _count: int
     _damage: int
+    enchantments: "list[Enchantment]"
 
     @property
     def count(self) -> int:
@@ -56,6 +58,7 @@ class ItemStack(BaseObject):
         super().__init__(item_info)
         self.count = kwargs.get("count", 1)
         self.damage = kwargs.get("damage", 0)
+        self.enchantments = kwargs.get("enchantments", [])
 
     def __eq__(self, other: "ItemStack") -> bool:
         try:
