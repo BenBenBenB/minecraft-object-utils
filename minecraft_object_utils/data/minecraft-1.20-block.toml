@@ -403,6 +403,7 @@ allowed = ["true", "false"]
 [minecraft.deepslate_lapis_ore]
 [minecraft.lapis_block]
 [minecraft.dispenser]
+inventory_slots = 9
 [minecraft.dispenser.properties.facing]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -789,6 +790,7 @@ default = "false"
 allowed = ["true", "false"]
 [minecraft.bookshelf]
 [minecraft.chiseled_bookshelf]
+inventory_slots = 6
 [minecraft.chiseled_bookshelf.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -873,6 +875,7 @@ allowed = ["straight", "inner_left", "inner_right", "outer_left", "outer_right"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.chest]
+inventory_slots = 27
 [minecraft.chest.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -930,6 +933,7 @@ allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 default = "0"
 allowed = ["0", "1", "2", "3", "4", "5", "6", "7"]
 [minecraft.furnace]
+inventory_slots = 3
 [minecraft.furnace.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -1808,6 +1812,7 @@ allowed = [
     "15",
 ]
 [minecraft.jukebox]
+inventory_slots = 1
 [minecraft.jukebox.properties.has_record]
 default = "false"
 allowed = ["true", "false"]
@@ -2307,6 +2312,7 @@ default = "0"
 allowed = ["0", "1", "2", "3"]
 [minecraft.enchanting_table]
 [minecraft.brewing_stand]
+inventory_slots = 5
 [minecraft.brewing_stand.properties.has_bottle_0]
 default = "false"
 allowed = ["true", "false"]
@@ -2862,6 +2868,7 @@ piston_behavior = "BLOCK"
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.trapped_chest]
+inventory_slots = 27
 [minecraft.trapped_chest.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -2953,6 +2960,7 @@ allowed = [
 [minecraft.redstone_block]
 [minecraft.nether_quartz_ore]
 [minecraft.hopper]
+inventory_slots = 5
 [minecraft.hopper.properties.enabled]
 default = "true"
 allowed = ["true", "false"]
@@ -2996,6 +3004,7 @@ allowed = [
 default = "false"
 allowed = ["true", "false"]
 [minecraft.dropper]
+inventory_slots = 9
 [minecraft.dropper.properties.facing]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -4577,86 +4586,103 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.white_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.white_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.orange_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.orange_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.magenta_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.magenta_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.light_blue_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.light_blue_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.yellow_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.yellow_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.lime_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.lime_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.pink_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.pink_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.gray_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.gray_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.light_gray_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.light_gray_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.cyan_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.cyan_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.purple_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.purple_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.blue_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.blue_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.brown_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.brown_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.green_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.green_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.red_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.red_shulker_box.properties.facing]
 default = "up"
 allowed = ["north", "east", "south", "west", "up", "down"]
 [minecraft.black_shulker_box]
+inventory_slots = 27
 piston_behavior = "DESTROY"
 [minecraft.black_shulker_box.properties.facing]
 default = "up"
@@ -5566,6 +5592,7 @@ allowed = ["true", "false"]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.barrel]
+inventory_slots = 27
 [minecraft.barrel.properties.facing]
 default = "north"
 allowed = ["north", "east", "south", "west", "up", "down"]
@@ -5573,6 +5600,7 @@ allowed = ["north", "east", "south", "west", "up", "down"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.smoker]
+inventory_slots = 3
 [minecraft.smoker.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5580,6 +5608,7 @@ allowed = ["north", "south", "west", "east"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.blast_furnace]
+inventory_slots = 3
 [minecraft.blast_furnace.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5597,6 +5626,7 @@ allowed = ["floor", "wall", "ceiling"]
 default = "north"
 allowed = ["north", "south", "west", "east"]
 [minecraft.lectern]
+inventory_slots = 1
 [minecraft.lectern.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5639,6 +5669,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.campfire]
+inventory_slots = 4
 [minecraft.campfire.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]
@@ -5652,6 +5683,7 @@ allowed = ["true", "false"]
 default = "false"
 allowed = ["true", "false"]
 [minecraft.soul_campfire]
+inventory_slots = 4
 [minecraft.soul_campfire.properties.facing]
 default = "north"
 allowed = ["north", "south", "west", "east"]

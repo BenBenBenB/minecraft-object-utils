@@ -1,4 +1,5 @@
 from .base_object import BaseObject, BaseObjectTraits
+from .inventory import Inventory
 
 
 class BlockProperty:
@@ -21,22 +22,30 @@ class BlockTraits(BaseObjectTraits):
 
     props: "list[BlockProperty]"
     piston_behavior: str
+    inventory_slots: int
 
     def __init__(self, id: str, **kwargs) -> None:
         super().__init__(id)
         self.props = kwargs.get("props", [])
+        self.inventory_slots = kwargs.get("inventory_slots", None)
         self.piston_behavior = kwargs.get("piston_behavior", "NORMAL")
 
     @staticmethod
     def create_from_toml(block_id: str, **kwargs: dict) -> "BlockTraits":
         prop_dict = kwargs.get("properties", {})
         piston_behavior = kwargs.get("piston_behavior", "NORMAL")
+        inventory_slots = kwargs.get("inventory_slots", None)
 
         block_props = [
             BlockProperty(prop_name, state["default"], state["allowed"])
             for prop_name, state in prop_dict.items()
         ]
-        return BlockTraits(block_id, props=block_props, piston_behavior=piston_behavior)
+        return BlockTraits(
+            block_id,
+            props=block_props,
+            piston_behavior=piston_behavior,
+            inventory_slots=inventory_slots,
+        )
 
 
 class Block(BaseObject):
@@ -44,9 +53,13 @@ class Block(BaseObject):
 
     _state: "dict[str, str]"
     traits: BlockTraits
+    inventory: Inventory
 
     def __init__(self, traits: BlockTraits, **kwargs) -> None:
         super().__init__(traits)
+        if self.traits.inventory_slots is not None:
+            self.inventory = Inventory(self.traits.inventory_slots)
+
         self._state = {x.id: x.default for x in self.traits.props}
         for prop, value in kwargs.items():
             self.set_state(prop, value)

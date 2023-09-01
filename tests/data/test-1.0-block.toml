@@ -37,3 +37,14 @@ allowed = [
     "ascending_north",
     "ascending_south",
 ]
+[minecraft.chest]
+inventory_slots = 27
+[minecraft.chest.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[minecraft.chest.properties.type]
+default = "single"
+allowed = ["single", "left", "right"]
+[minecraft.chest.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]

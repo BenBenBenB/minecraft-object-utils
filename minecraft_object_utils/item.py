@@ -56,3 +56,13 @@ class ItemStack(BaseObject):
         super().__init__(item_info)
         self.count = kwargs.get("count", 1)
         self.damage = kwargs.get("damage", 0)
+
+    def __eq__(self, other: "ItemStack") -> bool:
+        try:
+            return (
+                self.id == other.id
+                and self.count == other.count
+                and self.damage == other.damage
+            )
+        except AttributeError:
+            return False
