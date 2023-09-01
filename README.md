@@ -71,4 +71,4 @@ block6.set_state("awesome", True)
 ```
 
 ### Generating toml files
-I generated the blocks file by running Minecraft out of IntelliJ. I'd like to make a fabric/forge mod that can output these files. For now, some rough code is here: [minecraft-registry-dumper](https://github.com/BenBenBenB/minecraft-registry-dumper)
+I generated the toml by running Minecraft out of IntelliJ. I'd like to make a fabric/forge mod that can output these files. For now, some rough code is here: [minecraft-registry-dumper](https://github.com/BenBenBenB/minecraft-registry-dumper)
