@@ -95,9 +95,13 @@ def test_len(test_inventory: Inventory, test_items: ItemStack) -> None:
 
 def test_pop(test_inventory: Inventory, test_items: ItemStack) -> None:
     for i in range(len(test_items)):
-        assert test_inventory.pop(i) == test_items[i]
+        if test_items[i] is None:
+            with pytest.raises(IndexError):
+                test_inventory.pop(i)
+        else:
+            assert test_inventory.pop(i) == test_items[i]
         assert test_inventory[i] is None
-    assert test_inventory.pop() is None
+    assert not any(test_inventory)
 
 
 def test_pop_invalid_slot(test_inventory: Inventory) -> None:
@@ -113,7 +117,7 @@ def test_pop_last(test_inventory: Inventory, test_items: ItemStack) -> None:
     for i in filled_slots:
         assert test_inventory.pop() == test_items[i]
         assert test_inventory[i] is None
-    assert test_inventory.pop() is None
+    assert not any(test_inventory)
 
 
 def test_remove(test_inventory: Inventory, test_items: ItemStack) -> None:

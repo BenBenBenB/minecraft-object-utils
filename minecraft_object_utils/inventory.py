@@ -1,7 +1,9 @@
+from collections.abc import MutableSequence
+
 from .item import ItemStack
 
 
-class Inventory:
+class Inventory(MutableSequence):
     """A list-like object that represents a minecraft inventory."""
 
     _inventory: "list[ItemStack]"
@@ -49,26 +51,27 @@ class Inventory:
     def pop(self, slot: int = None) -> ItemStack:
         """Remove and return item stack at slot. If no slot specified, get last non-empty slot.
 
-        Raises IndexError if inventory does not have slot.
+        Raises IndexError if inventory is empty.
+        Raises IndexError if slot does not contain item.
         """
         if slot is None:
-            slot_item = next(
+            slot = next(
                 (
-                    (slot, item_stack)
-                    for slot, item_stack in enumerate(self._inventory[::-1])
-                    if item_stack is not None
+                    len(self._inventory) - 1 - s
+                    for s, item in enumerate(self._inventory[::-1])
+                    if item is not None
                 ),
                 None,
             )
-            if slot_item is None:
-                return None
-            found_index = len(self._inventory) - 1 - slot_item[0]
-            self.__delitem__(found_index)
-            return slot_item[1]
-        else:
-            item_stack = self.get_slot(slot)
-            self.set_slot(slot, None)
-            return item_stack
+        if slot is None:
+            raise IndexError("pop from empty inventory")
+
+        item_stack = self.get_slot(slot)
+        if item_stack is None:
+            raise IndexError("pop from empty slot")
+
+        self.__delitem__(slot)
+        return item_stack
 
     def remove(self, item_stack: ItemStack) -> None:
         """Search for and remove the first equivalent item_stack in inventory."""
@@ -105,6 +108,9 @@ class Inventory:
     def sort(self, /, *args, **kwds) -> None:
         """Sort the inventory according to built-in python list sort."""
         self._inventory.sort(*args, **kwds)
+
+    def insert(self, *args) -> None:
+        raise NotImplementedError
 
     @staticmethod
     def create_from_list(items: "list[ItemStack]") -> "Inventory":
