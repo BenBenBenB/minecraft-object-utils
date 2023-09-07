@@ -5,11 +5,11 @@ from typing import Generic, TypeVar
 
 import toml
 
-from .base_object import BaseObjectTraits
-from .block import Block, BlockTraits
-from .entity import Entity, EntityTraits
-from .item import ItemStack, ItemTraits
 from .mod_info import VANILLA_JAVA_LATEST, ModInfo
+from .objects.base_object import BaseObjectTraits
+from .objects.block import Block, BlockTraits
+from .objects.entity import Entity, EntityTraits
+from .objects.item import ItemStack, ItemTraits
 
 BObjT = TypeVar("BObjT", BlockTraits, EntityTraits, ItemTraits)
 BObj = TypeVar("BObj", Block, Entity, ItemStack)

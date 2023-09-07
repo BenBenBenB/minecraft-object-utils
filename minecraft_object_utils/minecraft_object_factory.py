@@ -1,9 +1,9 @@
 from .base_factory import BaseObjectFactory
-from .block import Block, BlockTraits
-from .enchantment import Enchantment, EnchantmentTraits
-from .entity import Entity, EntityTraits
-from .item import ItemStack, ItemTraits
 from .mod_info import VANILLA_JAVA_LATEST, ModInfo
+from .objects.block import Block, BlockTraits
+from .objects.enchantment import Enchantment, EnchantmentTraits
+from .objects.entity import Entity, EntityTraits
+from .objects.item import ItemStack, ItemTraits
 
 
 class BlockFactory(BaseObjectFactory[Block, BlockTraits]):
