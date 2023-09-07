@@ -1,7 +1,7 @@
 import logging
 import os.path
 from abc import ABC
-from typing import Generic, TypeVar
+from typing import Generic, TypeVar, get_args
 
 import toml
 
@@ -22,13 +22,18 @@ class BaseObjectFactory(ABC, Generic[BObj, BObjT]):
     mods: "list[ModInfo]"
     registry: "dict[str,BObjT]"
     file_name_part: str  # block, item, or entity
-    BaseObjType: type
-    BaseObjTraitType: type
+    BaseObjType: BObj
+    BaseObjTraitType: BObjT
 
     def __init__(self, mods: "list[ModInfo]" = [VANILLA_JAVA_LATEST]) -> None:
         self.registry = {}
         self.mods = []
         self.imported = []
+
+        types = get_args(self.__orig_bases__[0])
+        self.BaseObjType = types[0]
+        self.BaseObjTraitType = types[1]
+
         for mod in mods:
             self.import_mod(mod)
 

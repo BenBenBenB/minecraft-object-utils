@@ -10,36 +10,28 @@ class BlockFactory(BaseObjectFactory[Block, BlockTraits]):
     """Registers BlockTraits and allows creation of Block instances from them."""
 
     file_name_part: str = "block"
-    BaseObjType: type = Block
-    BaseObjTraitType: type = BlockTraits
 
 
 class EnchantmentFactory(BaseObjectFactory[Enchantment, EnchantmentTraits]):
     """Registers EnchantmentTraits and allows creation of Enchantment instances from them."""
 
     file_name_part: str = "enchantment"
-    BaseObjType: type = Enchantment
-    BaseObjTraitType: type = EnchantmentTraits
 
 
 class EntityFactory(BaseObjectFactory[Entity, EntityTraits]):
     """Registers EntityTraits and allows creation of Entity instances from them."""
 
     file_name_part: str = "entity"
-    BaseObjType: type = Entity
-    BaseObjTraitType: type = EntityTraits
 
 
 class ItemFactory(BaseObjectFactory[ItemStack, ItemTraits]):
     """Registers ItemTraits and allows creation of ItemStack instances from them."""
 
     file_name_part: str = "item"
-    BaseObjType: type = ItemStack
-    BaseObjTraitType: type = ItemTraits
 
 
 class MinecraftObjectFactory:
-    """Sets up Block, Item, and Entity factories."""
+    """Sets up all object factories at once."""
 
     _mods: "list[ModInfo]"
     block: BlockFactory
