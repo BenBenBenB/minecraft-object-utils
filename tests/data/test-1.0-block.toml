@@ -48,3 +48,59 @@ allowed = ["single", "left", "right"]
 [minecraft.chest.properties.waterlogged]
 default = "false"
 allowed = ["true", "false"]
+[minecraft.skeleton_skull]
+piston_behavior = "DESTROY"
+[minecraft.skeleton_skull.properties.rotation]
+default = "0"
+allowed = [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+]
+[minecraft.oak_button]
+piston_behavior = "DESTROY"
+[minecraft.oak_button.properties.face]
+default = "wall"
+allowed = ["floor", "wall", "ceiling"]
+[minecraft.oak_button.properties.facing]
+default = "north"
+allowed = ["north", "south", "west", "east"]
+[minecraft.oak_button.properties.powered]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen]
+piston_behavior = "DESTROY"
+[minecraft.glow_lichen.properties.down]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.east]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.north]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.south]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.up]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.waterlogged]
+default = "false"
+allowed = ["true", "false"]
+[minecraft.glow_lichen.properties.west]
+default = "false"
+allowed = ["true", "false"]

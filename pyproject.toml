@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "minecraft-object-utils"
-version = "0.4.0"
+version = "0.5.0"
 description = "Create python objects that represent Minecraft blocks, items, and entities."
 authors = ["Ben Burton <benjaminburtondev@gmail.com>"]
 license = "MIT"
@@ -27,6 +27,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.8"
 toml = "^0.10.0"
+strenum = "^0.4.15"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.3.1"
