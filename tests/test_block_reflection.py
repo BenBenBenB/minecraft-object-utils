@@ -2,11 +2,7 @@ import os.path
 
 import pytest
 
-from minecraft_object_utils import (
-    Axis,
-    BlockFactory,
-    ModInfo,
-)
+from minecraft_object_utils import Axis, BlockFactory, ModInfo
 
 TEST_DIRECTORY = os.path.join(os.path.dirname(__file__), "data")
 TEST_NAMESPACE = "test"
